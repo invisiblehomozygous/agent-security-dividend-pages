@@ -9,7 +9,7 @@ GitHub Pages 第二入口。
 | --- | --- | --- | --- |
 | 私有 Sites | `https://dividend-research-dashboard.lybwzy2002.chatgpt.site` | 私有 | 现有 Sites 生产入口 |
 | GitHub Pages | `https://invisiblehomozygous.github.io/agent-security-dividend-pages/` | 公开 | 免费静态网页入口 |
-| 源码仓库 | `invisiblehomozygous/agent--security--dividend` | 私有 | 源码、测试、构建和数据快照 |
+| 源码仓库 | `invisiblehomozygous/agent-security-dividend` | 私有 | 源码、测试、构建和数据快照 |
 | 部署仓库 | `invisiblehomozygous/agent-security-dividend-pages` | 公开 | 只保存生成后的静态产物 |
 
 两个部署入口互相独立。GitHub Pages 发布不会修改
@@ -94,7 +94,7 @@ gh api --method POST \
   -F read_only=false
 
 gh secret set PAGES_DEPLOY_KEY \
-  --repo invisiblehomozygous/agent--security--dividend \
+  --repo invisiblehomozygous/agent-security-dividend \
   < "${DEPLOY_KEY_DIR}/pages-deploy"
 ```
 
