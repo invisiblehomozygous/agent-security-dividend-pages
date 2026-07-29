@@ -12,8 +12,9 @@ GitHub Pages 第二入口。
 | 源码仓库 | `invisiblehomozygous/agent-security-dividend` | 私有 | 源码、测试、构建和数据快照 |
 | 部署仓库 | `invisiblehomozygous/agent-security-dividend-pages` | 公开 | 只保存生成后的静态产物 |
 
-两个部署入口互相独立。GitHub Pages 发布不会修改
-`web/.openai/hosting.json`，也不会替换或取消私有 Sites 部署。
+两个入口的代码部署互相独立。GitHub Pages发布不会修改
+`web/.openai/hosting.json`，也不会替换或取消私有Sites部署；私有Sites运行时读取
+Pages发布的同一份`dashboard-data.json`，因此日常数据更新只需发布一次快照。
 
 ## 部署链路
 
@@ -120,17 +121,29 @@ gh api --method POST \
 - `.github/workflows/pages.yml`；
 - `docs/deployment-github-pages.md`。
 
-常规数据更新与发布：
+常规数据更新与发布只需运行：
 
 ```bash
 uv run dividend-research web export --live
-git add web/public/dashboard-data.json
-git commit -m "data: refresh dashboard snapshot"
-git push origin main
 ```
 
-工作流先构建和测试，成功后才会覆盖公开部署仓库。构建或测试失败时，线上版本保持不变。
-也可以在私有源码仓库的`Actions -> publish-public-pages -> Run workflow`手动触发。
+命令要求本地处于已与GitHub同步的`main`分支，并使用已登录的GitHub CLI。它会：
+
+1. 生成并校验`web/public/dashboard-data.json`；
+2. 通过GitHub API只提交该快照，避免提交其他本地修改；
+3. 等待`publish-public-pages`构建与测试成功；
+4. 等待公开部署仓库的Pages任务成功；
+5. 返回两个线上入口和对应提交。
+
+私有Sites页面加载时会绕过缓存读取该公开快照，因此不需要为每次行情更新重新部署
+Worker。只想生成本地快照时使用：
+
+```bash
+uv run dividend-research web export --live --no-publish
+```
+
+构建或测试失败时，线上版本保持不变。也可以在私有源码仓库的
+`Actions -> publish-public-pages -> Run workflow`手动触发。
 
 ## 本地构建与验证
 
@@ -227,14 +240,15 @@ git push origin main
 
 ### 成分股数量不是预期值
 
-Pages展示的是私有源码仓库已提交的`web/public/dashboard-data.json`，不会在浏览器中实时
-抓取成分数据。先运行`uv run dividend-research web export --live`，验证快照后提交，
-再等待自动发布。
+Pages展示的是私有源码仓库已提交的`web/public/dashboard-data.json`，不会在浏览器中
+实时抓取成分数据。运行`uv run dividend-research web export --live`后，命令会自动提交
+快照并等待发布。
 
 ### 私有 Sites 与 GitHub Pages 内容不同
 
-两者是独立发布通道。GitHub Pages跟随私有源码仓库`main`自动发布；Sites需要按Sites
-现有发布流程生成和部署新版本。新增Pages不会自动覆盖Sites。
+两者的代码仍是独立发布通道。GitHub Pages跟随私有源码仓库`main`自动发布；Sites代码
+变化仍需按Sites流程部署新版本。但日常行情数据来自同一Pages快照，执行
+`web export --live`即可让两个入口同步更新。
 
 ## 停用
 
