@@ -130,10 +130,12 @@ uv run dividend-research web export --live
 命令要求本地处于已与GitHub同步的`main`分支，并使用已登录的GitHub CLI。它会：
 
 1. 生成并校验`web/public/dashboard-data.json`；
-2. 通过GitHub API只提交该快照，避免提交其他本地修改；
-3. 等待`publish-public-pages`构建与测试成功；
-4. 等待公开部署仓库的Pages任务成功；
-5. 返回两个线上入口和对应提交。
+2. 在本地完成Pages构建和质量门禁，失败时不会提交快照；
+3. 对实时行业接口缺失的股票沿用上一成功快照分类并保留降级提示；
+4. 通过GitHub API只提交该快照，避免提交其他本地修改；
+5. 等待`publish-public-pages`构建与测试成功；
+6. 等待公开部署仓库的Pages任务成功；
+7. 返回两个线上入口和对应提交。
 
 私有Sites页面加载时会绕过缓存读取该公开快照，因此不需要为每次行情更新重新部署
 Worker。只想生成本地快照时使用：
