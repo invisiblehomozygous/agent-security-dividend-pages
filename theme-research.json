@@ -1,99 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T06:20:35.912125+00:00",
+  "generatedAt": "2026-08-03T01:46:06.581185+00:00",
   "route": "codex exec --search",
   "refreshDays": 7,
   "stocks": {
-    "601088.SH": {
-      "symbol": "601088.SH",
-      "name": "中国神华",
-      "industry": "煤炭",
-      "industrySector": "能源",
-      "primaryTheme": "煤电运化一体化与能源保供",
-      "themes": [
-        "煤炭保供",
-        "煤电运化一体化",
-        "电力需求增长",
-        "绿色低碳转型"
-      ],
-      "strength": 75.0,
-      "summary": "中国神华主营煤炭、发电、铁路、港口、航运及煤化工，煤电运化一体化是当前最直接且证据充分的题材。",
-      "industryOutlook": "2026年用电需求预计继续增长，煤炭仍承担能源安全兜底功能，但新能源替代、煤价波动和减碳约束限制行业长期增量。",
-      "themeLogic": "公司自有煤矿、运输通道和电厂形成完整产业链，可直接受益于电煤需求及能源保供；一体化调度也有助于缓冲单一环节波动，但绿色转型尚非主要利润来源。",
-      "risks": [
-        "煤炭供给宽松导致价格超预期下跌",
-        "可再生能源发电增长挤压火电利用小时",
-        "安全环保检查或矿权审批影响产量",
-        "煤电运化资产整合或扩绿降碳项目进度不及预期"
-      ],
-      "sources": [
-        {
-          "title": "中国神华能源股份有限公司2025年度报告",
-          "url": "https://www.shenhuachina.com/zgshww/dqbg/202603/86d1e5e489da4f94a1a5c885877860c9/files/a7e442c35d52455bb9fd58a97c422c1e.pdf",
-          "publishedAt": "2026-03",
-          "sourceType": "公司年报"
-        },
-        {
-          "title": "煤炭经济运行平稳向好，能源兜底保障坚实有力",
-          "url": "https://www.ncexc.cn/c/2026-06-29/502576.shtml",
-          "publishedAt": "2026-06-29",
-          "sourceType": "行业机构"
-        },
-        {
-          "title": "能源转型跨越发展，绿色低碳成效显著",
-          "url": "https://www.stats.gov.cn/sj/sjjd/202606/t20260604_1963892.html",
-          "publishedAt": "2026-06-05",
-          "sourceType": "政府部门"
-        }
-      ],
-      "generatedAt": "2026-07-29T03:58:37.901107+00:00",
-      "route": "codex exec --search"
-    },
-    "000651.SZ": {
-      "symbol": "000651.SZ",
-      "name": "格力电器",
-      "industry": "家用电器",
-      "industrySector": "可选消费",
-      "primaryTheme": "家电以旧换新",
-      "themes": [
-        "家电以旧换新",
-        "智能家居",
-        "智能装备与工业机器人",
-        "绿色能源与高效制冷"
-      ],
-      "strength": 69.0,
-      "summary": "格力电器以空调和生活电器为核心，同时布局工业机器人、数控机床、光伏及储能相关装备，家电更新政策是当前兑现度最高的题材。",
-      "industryOutlook": "2026年家电以旧换新政策延续，有利于释放更新需求，但补贴边际效应、渠道竞争和房地产相关需求偏弱仍会影响行业增速。",
-      "themeLogic": "公司空调等核心产品直接进入家电补贴适用场景，智能装备和绿色能源业务也保持增长；不过机器人、光伏等新题材的收入体量仍小于家电主业，不宜将其视为纯机器人或纯新能源标的。",
-      "risks": [
-        "补贴退出或需求提前透支",
-        "空调行业价格竞争加剧",
-        "房地产低迷抑制新增安装需求",
-        "智能装备及绿色能源业务规模化不及预期"
-      ],
-      "sources": [
-        {
-          "title": "格力电器2025年半年度报告",
-          "url": "https://www.gree.com/userfiles/3a9daa29921544a0b3e0fc240c264951/files/cms/cmsSoftware/2025/09/111.pdf",
-          "publishedAt": "2025-08",
-          "sourceType": "公司定期报告"
-        },
-        {
-          "title": "格力电器2025年上半年经营情况",
-          "url": "https://www.gree.com/Article/view/135cf0eee8c14a708828c97f86f4b74c",
-          "publishedAt": "2025-08",
-          "sourceType": "公司官网"
-        },
-        {
-          "title": "商务部等5部门关于做好2026年家电以旧换新、数码和智能产品购新补贴工作的通知",
-          "url": "https://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/gnmygl/art/2025/art_b0f88c7df21c4d7aa74d7408e84f8860.html",
-          "publishedAt": "2025-12",
-          "sourceType": "政府政策"
-        }
-      ],
-      "generatedAt": "2026-07-29T03:58:37.901107+00:00",
-      "route": "codex exec --search"
-    },
     "000001.SZ": {
       "symbol": "000001.SZ",
       "name": "平安银行",
@@ -376,6 +286,51 @@
           "url": "https://www.mot.gov.cn/xinwen/jiaotongyaowen/202602/t20260213_4200264.html",
           "publishedAt": "2026-02-13",
           "sourceType": "政府部门"
+        }
+      ],
+      "generatedAt": "2026-07-29T03:58:37.901107+00:00",
+      "route": "codex exec --search"
+    },
+    "000651.SZ": {
+      "symbol": "000651.SZ",
+      "name": "格力电器",
+      "industry": "家用电器",
+      "industrySector": "可选消费",
+      "primaryTheme": "家电以旧换新",
+      "themes": [
+        "家电以旧换新",
+        "智能家居",
+        "智能装备与工业机器人",
+        "绿色能源与高效制冷"
+      ],
+      "strength": 69.0,
+      "summary": "格力电器以空调和生活电器为核心，同时布局工业机器人、数控机床、光伏及储能相关装备，家电更新政策是当前兑现度最高的题材。",
+      "industryOutlook": "2026年家电以旧换新政策延续，有利于释放更新需求，但补贴边际效应、渠道竞争和房地产相关需求偏弱仍会影响行业增速。",
+      "themeLogic": "公司空调等核心产品直接进入家电补贴适用场景，智能装备和绿色能源业务也保持增长；不过机器人、光伏等新题材的收入体量仍小于家电主业，不宜将其视为纯机器人或纯新能源标的。",
+      "risks": [
+        "补贴退出或需求提前透支",
+        "空调行业价格竞争加剧",
+        "房地产低迷抑制新增安装需求",
+        "智能装备及绿色能源业务规模化不及预期"
+      ],
+      "sources": [
+        {
+          "title": "格力电器2025年半年度报告",
+          "url": "https://www.gree.com/userfiles/3a9daa29921544a0b3e0fc240c264951/files/cms/cmsSoftware/2025/09/111.pdf",
+          "publishedAt": "2025-08",
+          "sourceType": "公司定期报告"
+        },
+        {
+          "title": "格力电器2025年上半年经营情况",
+          "url": "https://www.gree.com/Article/view/135cf0eee8c14a708828c97f86f4b74c",
+          "publishedAt": "2025-08",
+          "sourceType": "公司官网"
+        },
+        {
+          "title": "商务部等5部门关于做好2026年家电以旧换新、数码和智能产品购新补贴工作的通知",
+          "url": "https://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/gnmygl/art/2025/art_b0f88c7df21c4d7aa74d7408e84f8860.html",
+          "publishedAt": "2025-12",
+          "sourceType": "政府政策"
         }
       ],
       "generatedAt": "2026-07-29T03:58:37.901107+00:00",
@@ -2734,46 +2689,59 @@
     },
     "600737.SH": {
       "symbol": "600737.SH",
-      "name": "中粮糖业",
+      "name": "XD中粮糖",
       "industry": "食品",
       "industrySector": "主要消费",
-      "primaryTheme": "糖业全产业链与食糖安全",
+      "primaryTheme": "食糖供需转紧",
       "themes": [
-        "糖业全产业链与食糖安全",
-        "国产糖料种植",
-        "番茄制品出口"
+        "糖业龙头",
+        "食糖供需转紧",
+        "番茄制品",
+        "央企控股"
       ],
-      "strength": 58.0,
-      "summary": "公司主营国内外食糖生产、加工、贸易及番茄制品，具备从糖料种植、制糖炼糖到贸易仓储的全产业链能力。",
-      "industryOutlook": "食糖属于刚性消费品，但行业景气高度受国内外产量、进口成本、配额和储备调控影响；全球增产预期可能压制糖价，国内糖料保障和产业集中度提升则利好规模企业。",
-      "themeLogic": "公司拥有甜菜糖、甘蔗糖、港口炼糖及国际贸易布局，是国内糖业供给保障的重要参与者，并通过中粮体系连接境内外资源；番茄酱业务受益于新疆原料和出口渠道，但其规模与催化弱于糖业主线。",
+      "strength": 73.0,
+      "summary": "公司是中粮集团控股的食糖与番茄产业平台，2025年主营收入主要来自贸易糖、自产糖和加工糖，食糖是核心题材，番茄制品构成补充业务。",
+      "industryOutlook": "2026/27年度全球食糖存在由过剩转向紧平衡或小幅短缺的预期，天气和出口限制形成阶段性催化；但国内增产、库存结余及进口供应仍将限制糖价上行空间。番茄加工行业则面临产能相对过剩和出口价格压力，近期景气度弱于糖业。",
+      "themeLogic": "公司2025年贸易糖、自产糖和加工糖收入合计约242.亿元，且自产糖产量约127.56万吨，对糖价和产业供需变化具有直接敞口。农业农村部预计2026/27年度全球食糖产需缺口约26万吨，印度出口限制及印度、泰国天气减产预期进一步强化供需转紧逻辑；不过国内2026/27年度预计食糖产量1293万吨、结余增加182万吨，题材更接近趋势清晰而非强供给短缺。公司同时拥有约19.92亿元番茄制品收入，但2025年该业务收入同比下降21.78%，当前仅属弱复苏或困境反转观察题材。",
       "risks": [
-        "全球食糖供给增加导致糖价下行",
-        "原糖采购价格与成品糖售价错配",
-        "国家储备糖投放或进口政策变化",
-        "极端天气影响糖料和番茄产量"
+        "国内糖料扩种和单产改善导致食糖产量高于预期，库存继续累积",
+        "巴西丰产或提高制糖比，使全球食糖短缺预期落空",
+        "国际糖价与国内糖价下跌，压缩自产糖及加工糖盈利空间",
+        "原糖采购价格、汇率和海运成本波动削弱加工糖利润传导效果因产能过剩、出口价格下跌或贸易限制继续承压公司境外塔利糖业存在海外经营、汇率及极端天气风险"
       ],
       "sources": [
         {
-          "title": "中粮糖业2025年年度报告",
+          "title": "中粮糖业控股股份有限公司2025年年度报告",
           "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12230428&stockid=600737",
           "publishedAt": "2026-04-28",
-          "sourceType": "公司年度报告"
+          "sourceType": "公司公告"
         },
         {
-          "title": "中粮糖业2025年半年度报告",
+          "title": "2026年6月中国农产品供需形势分析（CASDE-No.120）",
+          "url": "https://scs.moa.gov.cn/jcyj/202606/t20260611_6484941.htm",
+          "publishedAt": "2026-06-11",
+          "sourceType": "政府部门"
+        },
+        {
+          "title": "中国农产品供需形势分析（CASDE-No.119）",
+          "url": "https://scs.moa.gov.cn/jcyj/202605/P020260512689884850586.pdf",
+          "publishedAt": "2026-05-12",
+          "sourceType": "政府部门"
+        },
+        {
+          "title": "全球糖市或由过剩转向短缺",
+          "url": "https://price.mofcom.gov.cn/article/yjzx/hyzx/nyls/202607/64948.html",
+          "publishedAt": "2026-07",
+          "sourceType": "商务部商品价格信息平台"
+        },
+        {
+          "title": "中粮糖业控股股份有限公司2025年半年度报告",
           "url": "https://static.cninfo.com.cn/finalpage/2025-08-28/1224594315.PDF",
           "publishedAt": "2025-08-28",
-          "sourceType": "公司定期报告"
-        },
-        {
-          "title": "中粮糖业2026年度日常关联交易预计公告",
-          "url": "https://big5.sse.com.cn/site/cht/www.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-04-28/600737_20260428_IARE.pdf",
-          "publishedAt": "2026-04-28",
           "sourceType": "公司公告"
         }
       ],
-      "generatedAt": "2026-07-29T03:58:37.901107+00:00",
+      "generatedAt": "2026-08-03T01:46:06.581185+00:00",
       "route": "codex exec --search"
     },
     "600741.SH": {
@@ -3818,6 +3786,51 @@
           "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1258013&itemId=915",
           "publishedAt": "2026-05-15",
           "sourceType": "金融监管部门"
+        }
+      ],
+      "generatedAt": "2026-07-29T03:58:37.901107+00:00",
+      "route": "codex exec --search"
+    },
+    "601088.SH": {
+      "symbol": "601088.SH",
+      "name": "中国神华",
+      "industry": "煤炭",
+      "industrySector": "能源",
+      "primaryTheme": "煤电运化一体化与能源保供",
+      "themes": [
+        "煤炭保供",
+        "煤电运化一体化",
+        "电力需求增长",
+        "绿色低碳转型"
+      ],
+      "strength": 75.0,
+      "summary": "中国神华主营煤炭、发电、铁路、港口、航运及煤化工，煤电运化一体化是当前最直接且证据充分的题材。",
+      "industryOutlook": "2026年用电需求预计继续增长，煤炭仍承担能源安全兜底功能，但新能源替代、煤价波动和减碳约束限制行业长期增量。",
+      "themeLogic": "公司自有煤矿、运输通道和电厂形成完整产业链，可直接受益于电煤需求及能源保供；一体化调度也有助于缓冲单一环节波动，但绿色转型尚非主要利润来源。",
+      "risks": [
+        "煤炭供给宽松导致价格超预期下跌",
+        "可再生能源发电增长挤压火电利用小时",
+        "安全环保检查或矿权审批影响产量",
+        "煤电运化资产整合或扩绿降碳项目进度不及预期"
+      ],
+      "sources": [
+        {
+          "title": "中国神华能源股份有限公司2025年度报告",
+          "url": "https://www.shenhuachina.com/zgshww/dqbg/202603/86d1e5e489da4f94a1a5c885877860c9/files/a7e442c35d52455bb9fd58a97c422c1e.pdf",
+          "publishedAt": "2026-03",
+          "sourceType": "公司年报"
+        },
+        {
+          "title": "煤炭经济运行平稳向好，能源兜底保障坚实有力",
+          "url": "https://www.ncexc.cn/c/2026-06-29/502576.shtml",
+          "publishedAt": "2026-06-29",
+          "sourceType": "行业机构"
+        },
+        {
+          "title": "能源转型跨越发展，绿色低碳成效显著",
+          "url": "https://www.stats.gov.cn/sj/sjjd/202606/t20260604_1963892.html",
+          "publishedAt": "2026-06-05",
+          "sourceType": "政府部门"
         }
       ],
       "generatedAt": "2026-07-29T03:58:37.901107+00:00",
