@@ -218,6 +218,10 @@
       </article>
     </main>
     <script>
+      const LIVE_USER_STATE_URL =
+        "https://dividend-research-dashboard.lybwzy2002.chatgpt.site/api/user-state";
+      const CUSTOM_STOCKS_STORAGE_KEY = "dividend-research:custom-stocks:v1";
+      const STOCK_ANALYSES_STORAGE_KEY = "dividend-research:stock-analyses:v1";
       const params = new URLSearchParams(window.location.search);
       const symbol = params.get("symbol") || "";
       const loading = document.querySelector("#loading");
@@ -238,64 +242,178 @@
         }
       }
 
-      fetch(`../theme-research.json?refresh=${Date.now()}`, {
-        cache: "no-store",
-        headers: { accept: "application/json" },
-      })
-        .then((response) => {
+      function readStoredJson(key, fallback) {
+        try {
+          const value = JSON.parse(window.localStorage.getItem(key) || "null");
+          return value ?? fallback;
+        } catch {
+          return fallback;
+        }
+      }
+
+      function isRawThemeSourceUrl(url) {
+        return String(url || "").includes(
+          "emweb.securities.eastmoney.com/PC_HSF10/CoreConception",
+        );
+      }
+
+      function buildGeneratedReport(stock, analysis) {
+        if (!stock) return null;
+        const theme = stock.themeInfo || {};
+        const rawThemeUrl =
+          theme.sourceUrl || (isRawThemeSourceUrl(theme.url) ? theme.url : null);
+        const sources = [];
+        if (rawThemeUrl) {
+          sources.push({
+            title: `${stock.name}主营与题材资料`,
+            url: rawThemeUrl,
+            publishedAt: theme.generatedAt
+              ? new Date(theme.generatedAt).toISOString().slice(0, 10)
+              : null,
+            sourceType: "东方财富 F10",
+          });
+        }
+        if (stock.financialReport?.url) {
+          sources.push({
+            title: stock.financialReport.title || `${stock.name}最新财报`,
+            url: stock.financialReport.url,
+            publishedAt: stock.financialReport.publishedAt,
+            sourceType: stock.financialReport.source || "公司公告",
+          });
+        }
+
+        const summaryParts = [theme.businessSummary, analysis?.conclusion].filter(Boolean);
+        const outlookParts = [theme.industryOutlook, analysis?.industryTheme].filter(Boolean);
+        const logicParts = [
+          analysis?.fundamentals,
+          analysis?.latestReport,
+          analysis?.valuation,
+          analysis?.momentum,
+        ].filter(Boolean);
+        const risks = [...(stock.riskFlags || [])];
+        if (analysis?.risk && !risks.includes(analysis.risk)) risks.push(analysis.risk);
+
+        return {
+          symbol: stock.symbol,
+          name: stock.name,
+          industry: stock.industry || "待核验",
+          industrySector: stock.industrySector || "其他",
+          primaryTheme: theme.primaryTheme || "题材研究待补充",
+          themes: theme.themes?.length
+            ? theme.themes
+            : [theme.primaryTheme].filter(Boolean),
+          strength: Number.isFinite(Number(theme.score)) ? Number(theme.score) : 0,
+          summary:
+            summaryParts.join(" ") ||
+            `${stock.name}的主营与基本面资料已刷新，仍需结合最新公告持续核验。`,
+          industryOutlook:
+            outlookParts.join(" ") || "行业前景资料暂不完整，需结合公开行业数据继续跟踪。",
+          themeLogic:
+            logicParts.join(" ") || "本次分析已更新题材、财报和行情资料，暂未形成更多可验证结论。",
+          risks: risks.length ? risks : ["公开资料有限，需持续核验公告与经营变化"],
+          sources,
+          generatedAt:
+            analysis?.generatedAt || theme.generatedAt || stock.asOf || new Date().toISOString(),
+        };
+      }
+
+      function readLocalGeneratedReport() {
+        const stocks = readStoredJson(CUSTOM_STOCKS_STORAGE_KEY, []);
+        const analyses = readStoredJson(STOCK_ANALYSES_STORAGE_KEY, {});
+        const stock = Array.isArray(stocks)
+          ? stocks.find((item) => item?.symbol === symbol)
+          : null;
+        return buildGeneratedReport(stock, analyses?.[symbol]);
+      }
+
+      async function readAccountGeneratedReport() {
+        const isSitesHost = window.location.hostname.endsWith(".chatgpt.site");
+        const response = await fetch(isSitesHost ? "/api/user-state" : LIVE_USER_STATE_URL, {
+          cache: "no-store",
+          credentials: "include",
+          headers: { accept: "application/json" },
+        });
+        if (!response.ok) throw new Error(`账户报告 HTTP ${response.status}`);
+        const payload = await response.json();
+        const stock = Array.isArray(payload.customStocks)
+          ? payload.customStocks.find((item) => item?.symbol === symbol)
+          : null;
+        return buildGeneratedReport(stock, payload.detailedAnalyses?.[symbol]);
+      }
+
+      async function loadReport() {
+        if (!symbol) throw new Error("链接中缺少股票代码");
+        try {
+          const response = await fetch(`../theme-research.json?refresh=${Date.now()}`, {
+            cache: "no-store",
+            headers: { accept: "application/json" },
+          });
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
-          return response.json();
-        })
-        .then((payload) => {
-          const item = payload?.stocks?.[symbol];
-          if (!item) {
-            showError(symbol ? `未找到 ${symbol} 的题材研究` : "链接中缺少股票代码");
-            return;
-          }
-          document.title = `${item.name}题材研究｜*ST 离离原上韭`;
-          document.querySelector("#meta").textContent =
-            `${item.symbol} · ${item.industry} · ${item.industrySector}`;
-          document.querySelector("#title").textContent =
-            `${item.name}｜${item.primaryTheme}`;
-          const themes = document.querySelector("#themes");
-          for (const theme of item.themes || []) {
-            const chip = document.createElement("span");
-            chip.textContent = theme;
-            themes.append(chip);
-          }
-          const strength = document.createElement("div");
-          strength.className = "strength";
-          strength.append("题材强度");
-          const strengthValue = document.createElement("strong");
-          strengthValue.textContent = Number(item.strength).toFixed(0);
-          strength.append(strengthValue);
-          themes.append(strength);
-          document.querySelector("#summary").textContent = item.summary;
-          document.querySelector("#outlook").textContent = item.industryOutlook;
-          document.querySelector("#logic").textContent = item.themeLogic;
-          appendTextList(document.querySelector("#risks"), item.risks);
-          const sources = document.querySelector("#sources");
-          for (const source of item.sources || []) {
-            const row = document.createElement("li");
-            const link = document.createElement("a");
-            link.href = source.url;
-            link.target = "_blank";
-            link.rel = "noreferrer";
-            link.textContent = source.title;
-            row.append(link);
-            const meta = document.createElement("span");
-            meta.className = "source-meta";
-            meta.textContent = [source.sourceType, source.publishedAt]
-              .filter(Boolean)
-              .join(" · ");
-            row.append(meta);
-            sources.append(row);
-          }
-          document.querySelector("#generated").textContent =
-            `由 Codex 基于公开信息生成 · ${new Date(item.generatedAt).toLocaleString("zh-CN")} · 仅供研究参考`;
-          loading.hidden = true;
-          report.style.display = "block";
-        })
+          const payload = await response.json();
+          if (payload?.stocks?.[symbol]) return payload.stocks[symbol];
+        } catch (cause) {
+          console.warn("Unable to load the published theme research", cause);
+        }
+
+        const localReport = readLocalGeneratedReport();
+        if (localReport) return localReport;
+        try {
+          const accountReport = await readAccountGeneratedReport();
+          if (accountReport) return accountReport;
+        } catch (cause) {
+          console.warn("Unable to load the account-generated report", cause);
+        }
+        throw new Error(`未找到 ${symbol} 的分析报告，请返回市场看板重新生成`);
+      }
+
+      function renderReport(item) {
+        document.title = `${item.name}题材研究｜*ST 离离原上韭`;
+        document.querySelector("#meta").textContent =
+          `${item.symbol} · ${item.industry} · ${item.industrySector}`;
+        document.querySelector("#title").textContent =
+          `${item.name}｜${item.primaryTheme}`;
+        const themes = document.querySelector("#themes");
+        for (const theme of item.themes || []) {
+          const chip = document.createElement("span");
+          chip.textContent = theme;
+          themes.append(chip);
+        }
+        const strength = document.createElement("div");
+        strength.className = "strength";
+        strength.append("题材强度");
+        const strengthValue = document.createElement("strong");
+        strengthValue.textContent = Number(item.strength).toFixed(0);
+        strength.append(strengthValue);
+        themes.append(strength);
+        document.querySelector("#summary").textContent = item.summary;
+        document.querySelector("#outlook").textContent = item.industryOutlook;
+        document.querySelector("#logic").textContent = item.themeLogic;
+        appendTextList(document.querySelector("#risks"), item.risks);
+        const sources = document.querySelector("#sources");
+        for (const source of item.sources || []) {
+          const row = document.createElement("li");
+          const link = document.createElement("a");
+          link.href = source.url;
+          link.target = "_blank";
+          link.rel = "noreferrer";
+          link.textContent = source.title;
+          row.append(link);
+          const meta = document.createElement("span");
+          meta.className = "source-meta";
+          meta.textContent = [source.sourceType, source.publishedAt]
+            .filter(Boolean)
+            .join(" · ");
+          row.append(meta);
+          sources.append(row);
+        }
+        document.querySelector("#generated").textContent =
+          `由 Codex 基于公开信息生成 · ${new Date(item.generatedAt).toLocaleString("zh-CN")} · 仅供研究参考`;
+        loading.hidden = true;
+        report.style.display = "block";
+      }
+
+      loadReport()
+        .then(renderReport)
         .catch((cause) => showError(`题材研究读取失败：${cause.message}`));
     </script>
   </body>
