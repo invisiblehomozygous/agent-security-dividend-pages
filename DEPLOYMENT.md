@@ -21,7 +21,7 @@ Pages发布的同一份`dashboard-data.json`，因此日常数据更新只需发
 ```text
 私有源码仓库 main
         |
-        | push 修改 web/**、工作流或本文档
+        | 每次 push（包括 Sites 更新）
         v
 .github/workflows/pages.yml
         |
@@ -115,11 +115,10 @@ gh api --method POST \
 
 ## 自动发布
 
-修改`main`分支中的以下路径会触发`.github/workflows/pages.yml`：
-
-- `web/**`；
-- `.github/workflows/pages.yml`；
-- `docs/deployment-github-pages.md`。
+`main`分支的每次 push 都会触发`.github/workflows/pages.yml`。Sites 更新必须先把完成
+验证的同一份源码提交并推送到`main`，再保存和部署 Sites 版本；因此每次 GPTSite 更新
+都会自动构建并同步 GitHub 静态页，不依赖变更文件所在目录。两个入口可以通过同一个
+源码提交定位和核对。
 
 常规数据更新与发布只需运行：
 
@@ -252,9 +251,10 @@ Pages展示的是私有源码仓库已提交的`web/public/dashboard-data.json`�
 
 ### 私有 Sites 与 GitHub Pages 内容不同
 
-两者的代码仍是独立发布通道。GitHub Pages跟随私有源码仓库`main`自动发布；Sites代码
-变化仍需按Sites流程部署新版本。但日常行情数据来自同一Pages快照，执行
-`web export --live`即可让两个入口同步更新。
+两者的代码仍是独立发布通道，但统一以私有源码仓库`main`中的同一提交为准。Sites代码
+变化应先推送该提交，再按Sites流程部署新版本；`main`的每次 push 都会自动发布
+GitHub Pages。日常行情数据来自同一Pages快照，执行`web export --live`即可让两个入口
+同步更新。
 
 ## 停用
 
