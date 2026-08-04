@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T01:49:40.399484+00:00",
+  "generatedAt": "2026-08-04T03:00:57.650330+00:00",
   "route": "codex exec --search",
   "refreshDays": 7,
   "stocks": {
@@ -436,6 +436,57 @@
         }
       ],
       "generatedAt": "2026-07-29T03:58:37.901107+00:00",
+      "route": "codex exec --search"
+    },
+    "000807.SZ": {
+      "symbol": "000807.SZ",
+      "name": "云铝股份",
+      "industry": "工业金属",
+      "industrySector": "原材料",
+      "primaryTheme": "绿色铝一体化",
+      "themes": [
+        "绿色铝一体化",
+        "电解铝供给约束",
+        "新能源用铝",
+        "再生铝与循环经济"
+      ],
+      "strength": 76.0,
+      "summary": "公司主营铝土矿、氧化铝、电解铝、铝加工及铝用炭素，产业链完整，题材核心是水电资源支撑的绿色铝一体化，而非单纯铝价概念。",
+      "industryOutlook": "电解铝新增产能受能耗与产能约束，新能源汽车、电网和耐用品用铝提供需求支撑，行业供需中期偏紧；但再生铝扩张、出口环境变化及氧化铝供给增加可能削弱景气度。",
+      "themeLogic": "公司覆盖铝土矿至铝加工环节，并将绿色低碳作为核心竞争力，能够直接受益于低碳铝需求和电解铝供给约束。2025年铝商品产量增长，新能源与耐用品用铝需求延续，同时再生资源业务强化循环经济属性，因此题材趋势清晰但仍具有显著周期性。",
+      "risks": [
+        "电解铝或氧化铝价格大幅回落",
+        "云南来水不足导致限电或生产扰动",
+        "铝土矿、炭素等原料成本上升",
+        "再生铝供给扩张缓解原铝紧张格局"
+      ],
+      "sources": [
+        {
+          "title": "云铝股份2025年度环境、社会及管治报告",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12031666&stockid=000807",
+          "publishedAt": "2026-03-26",
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "云铝股份2025年年度报告",
+          "url": "https://www.fxbaogao.com/detail/5321416",
+          "publishedAt": "2026-03-26",
+          "sourceType": "公司公告转载"
+        },
+        {
+          "title": "云铝股份2025年年报点评：铝价结构性上涨推升公司盈利能力",
+          "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/company/rptid/828391155398/index.phtml",
+          "publishedAt": "2026-03-30",
+          "sourceType": "券商研报"
+        },
+        {
+          "title": "电解铝行业节能降碳专项行动计划",
+          "url": "https://www.eco.gov.cn/Uploads/ueditor/file/20240724/1721787702900004.pdf",
+          "publishedAt": "2024-07-23",
+          "sourceType": "政府政策"
+        }
+      ],
+      "generatedAt": "2026-08-04T02:55:55.211207+00:00",
       "route": "codex exec --search"
     },
     "000895.SZ": {
@@ -2641,6 +2692,57 @@
         }
       ],
       "generatedAt": "2026-07-29T03:58:37.901107+00:00",
+      "route": "codex exec --search"
+    },
+    "600690.SH": {
+      "symbol": "600690.SH",
+      "name": "海尔智家",
+      "industry": "家用电器",
+      "industrySector": "可选消费",
+      "primaryTheme": "家电以旧换新",
+      "themes": [
+        "家电以旧换新",
+        "智慧家庭与AI家电",
+        "高端家电",
+        "全球化品牌"
+      ],
+      "strength": 72.0,
+      "summary": "公司主营冰箱、洗衣机、空调、厨电、热水器等家电及智慧家庭解决方案，直接受益于2026年家电以旧换新政策，并具备智慧家庭、高端化和全球化经营题材。",
+      "industryOutlook": "国内家电已由增量普及转向存量换新，政策补贴、节能升级和全屋智能支撑结构性需求，但政策边际拉动可能减弱；海外市场仍有增长空间，同时面临关税、区域竞争和消费波动。",
+      "themeLogic": "2026年家电以旧换新政策覆盖冰箱、洗衣机、空调和厨卫电器等公司核心品类，公司披露换新业务已成为重要增量，关联直接。公司同时在全球销售全品类家电，并以智能硬件和场景方案布局智慧厨房、智慧浴室及绿色智慧建筑，能够承接高端化、智能化与全球化趋势。",
+      "risks": [
+        "以旧换新补贴力度或执行节奏弱于预期",
+        "补贴透支需求后行业销量回落",
+        "海外关税和贸易壁垒上升",
+        "国内家电竞争加剧导致价格和利润率承压"
+      ],
+      "sources": [
+        {
+          "title": "海尔智家股份有限公司2025年年度报告",
+          "url": "https://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260326/d7e721dc96a94bc4ac85794b0d818fe2.PDF",
+          "publishedAt": "2026-03-26",
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "海尔智家2025年年度报告摘要",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12024955&stockid=600690",
+          "publishedAt": "2026-03-26",
+          "sourceType": "公司公告转载"
+        },
+        {
+          "title": "商务部等5部门关于做好2026年家电以旧换新、数码和智能产品购新补贴工作的通知",
+          "url": "https://www.mofcom.gov.cn/zfxxgk/fdzdgknr/ztfl/gnmygl/art/2025/art_b0f88c7df21c4d7aa74d7408e84f8860.html",
+          "publishedAt": "2025-12-30",
+          "sourceType": "政府政策"
+        },
+        {
+          "title": "海尔智家2025环境、社会及管治报告",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12225677&stockid=600690",
+          "publishedAt": "2026-05-22",
+          "sourceType": "公司公告转载"
+        }
+      ],
+      "generatedAt": "2026-08-04T02:55:55.211207+00:00",
       "route": "codex exec --search"
     },
     "600729.SH": {
@@ -5783,6 +5885,63 @@
         }
       ],
       "generatedAt": "2026-07-29T03:58:37.901107+00:00",
+      "route": "codex exec --search"
+    },
+    "688825.SH": {
+      "symbol": "688825.SH",
+      "name": "长鑫科技",
+      "industry": "集成电路",
+      "industrySector": "信息技术",
+      "primaryTheme": "国产DRAM",
+      "themes": [
+        "国产DRAM",
+        "AI服务器存储",
+        "存储芯片涨价",
+        "半导体国产替代"
+      ],
+      "strength": 88.0,
+      "summary": "公司主营DRAM晶圆、芯片和模组，是国内实现DRAM自主研发设计并大规模商业化量产的代表企业，题材与主营业务高度重合。",
+      "industryOutlook": "AI服务器和云服务商资本开支正在拉动服务器DRAM及HBM相关需求，全球厂商将产能转向服务器和高带宽产品，使常规DRAM供给同步趋紧；2026年第三季度服务器DRAM合约价仍预计上涨，但行业强周期和快速扩产属性意味着高景气并非永久状态。",
+      "themeLogic": "招股说明书显示，公司DRAM产品覆盖服务器、台式机、笔记本等应用，2025年第四季度全球份额约7.67%，2023至2025年收入快速增长且研发投入强度较高。AI基础设施扩张带来的存储需求、全球DRAM供需偏紧及国内供应链自主化共同形成强催化，公司作为国产DRAM规模化厂商具有直接受益关系；但其先进制程和高端产品仍需持续追赶国际龙头。",
+      "risks": [
+        "DRAM价格见顶回落并进入下行周期",
+        "国际龙头扩产导致供需格局逆转",
+        "先进制程、良率或高端产品研发不及预期",
+        "设备材料限制或国际贸易管制升级"
+      ],
+      "sources": [
+        {
+          "title": "长鑫科技集团股份有限公司招股说明书",
+          "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202605/002170_20260527_23QQ.pdf",
+          "publishedAt": "2026-05-27",
+          "sourceType": "上交所发行文件"
+        },
+        {
+          "title": "长鑫科技科创板首次公开发行股票招股说明书（注册稿）",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12358280&stockid=688825",
+          "publishedAt": "2026-06-12",
+          "sourceType": "公司发行文件转载"
+        },
+        {
+          "title": "TrendForce：第三季度服务器DRAM合约价预计环比上涨13%至18%",
+          "url": "https://www.trendforce.com.tw/presscenter/news/20260709-13138.html",
+          "publishedAt": "2026-07-09",
+          "sourceType": "行业研究机构"
+        },
+        {
+          "title": "TrendForce：Agentic AI推动存储需求结构性扩张",
+          "url": "https://www.trendforce.com/presscenter/news/20260529-13068.html",
+          "publishedAt": "2026-05-29",
+          "sourceType": "行业研究机构"
+        },
+        {
+          "title": "TrendForce：AI服务器需求支撑2026年第三季度存储价格",
+          "url": "https://www.trendforce.com/research/category/Semiconductors/DRAM?page=1",
+          "publishedAt": "2026-06-30",
+          "sourceType": "行业研究机构"
+        }
+      ],
+      "generatedAt": "2026-08-04T02:55:55.211207+00:00",
       "route": "codex exec --search"
     },
     "920599.BJ": {
