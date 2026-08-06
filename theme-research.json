@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T03:14:42.997051+00:00",
+  "generatedAt": "2026-08-06T05:24:56.856907+00:00",
   "route": "codex exec --search",
   "refreshDays": 7,
   "stocks": {

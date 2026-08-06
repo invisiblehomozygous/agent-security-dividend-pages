@@ -126,16 +126,17 @@ gh api --method POST \
 uv run dividend-research web export --live
 ```
 
-该命令使用本机已登录的Codex CLI实时搜索并刷新过期题材研究，同时生成
-`dashboard-data.json`和`theme-research.json`；无需配置`OPENAI_API_KEY`。
+该命令使用本机已登录的Codex CLI实时搜索并刷新过期题材研究和财报分析，同时生成
+`dashboard-data.json`、`theme-research.json`和`financial-research.json`；无需配置
+`OPENAI_API_KEY`。
 
 命令要求本地处于已与GitHub同步的`main`分支，并使用已登录的GitHub CLI。它会：
 
-1. 生成并校验`web/public/dashboard-data.json`与
-   `web/public/theme-research.json`；
+1. 生成并校验`web/public/dashboard-data.json`、`web/public/theme-research.json`与
+   `web/public/financial-research.json`；
 2. 在本地完成Pages构建和质量门禁，失败时不会提交快照；
 3. 对实时行业接口缺失的股票沿用上一成功快照分类并保留降级提示；
-4. 通过GitHub API在同一提交中只更新两份公开数据文件，避免提交其他本地修改；
+4. 通过GitHub API在同一提交中只更新公开数据文件，避免提交其他本地修改；
 5. 等待`publish-public-pages`构建与测试成功；
 6. 等待公开部署仓库的Pages任务成功；
 7. 返回两个线上入口和对应提交。
@@ -246,8 +247,9 @@ git push origin main
 ### 成分股数量不是预期值
 
 Pages展示的是私有源码仓库已提交的`web/public/dashboard-data.json`和
-`web/public/theme-research.json`，不会在浏览器中实时抓取行情或执行AI研究。运行
-`uv run dividend-research web export --live`后，命令会自动提交两份快照并等待发布。
+`web/public/theme-research.json`、`web/public/financial-research.json`，不会在浏览器中
+实时抓取行情或执行AI研究。运行`uv run dividend-research web export --live`后，命令会
+自动提交公开快照并等待发布。
 
 ### 私有 Sites 与 GitHub Pages 内容不同
 

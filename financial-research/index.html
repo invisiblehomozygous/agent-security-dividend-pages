@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>财报分析｜*ST 离离原上韭</title>
+    <style>
+      :root {
+        color: #1d2f28;
+        background: #f3f5f1;
+        font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      a { color: #1d664a; }
+      header {
+        padding: 18px clamp(18px, 5vw, 64px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #dfe5e0;
+        background: rgba(250, 251, 248, 0.94);
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #13271f;
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .brand span {
+        width: 38px;
+        height: 38px;
+        display: grid;
+        place-items: center;
+        border-radius: 12px;
+        background: #13271f;
+        color: #f0dda5;
+        font-size: 22px;
+      }
+      header > a:last-child { font-size: 13px; text-decoration: none; }
+      main {
+        width: min(100% - 32px, 1040px);
+        margin: 0 auto;
+        padding: 48px 0 64px;
+      }
+      .loading, .error {
+        padding: 32px;
+        border-radius: 16px;
+        background: white;
+        text-align: center;
+      }
+      article { display: none; }
+      .hero {
+        padding: 28px;
+        border: 1px solid #dfe5e0;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0 16px 42px rgba(35, 62, 52, 0.07);
+      }
+      .meta { margin: 0 0 10px; color: #78867f; font-size: 13px; }
+      h1 { margin: 0; color: #13271f; font-size: clamp(28px, 5vw, 46px); }
+      .analysis-line {
+        margin: 14px 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 8px;
+      }
+      .analysis-line span {
+        padding: 7px 10px;
+        border-radius: 999px;
+        background: #e8f1eb;
+        color: #315c49;
+        font-size: 13px;
+      }
+      .analysis-line .missing { background: #f5eee0; color: #846723; }
+      .score {
+        margin-left: auto;
+        color: #8b6a21;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .score strong {
+        margin-left: 5px;
+        font-family: ui-monospace, monospace;
+        font-size: 28px;
+      }
+      .summary { margin: 22px 0 0; color: #42564d; line-height: 1.85; }
+      .grid {
+        margin-top: 18px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+      section {
+        padding: 24px;
+        border: 1px solid #dfe5e0;
+        border-radius: 16px;
+        background: white;
+      }
+      section.wide { grid-column: 1 / -1; }
+      h2 { margin: 0 0 12px; font-size: 17px; }
+      section p, li { color: #52645c; font-size: 14px; line-height: 1.8; }
+      section p { margin: 0; }
+      ul, ol { margin: 0; padding-left: 22px; }
+      .report-list { padding: 0; list-style: none; }
+      .report-list > li {
+        padding: 16px 0;
+        border-top: 1px solid #e6ebe7;
+      }
+      .report-list > li:first-child { padding-top: 0; border-top: 0; }
+      .report-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      .report-head a { font-weight: 700; text-decoration: none; }
+      .report-head a:hover { text-decoration: underline; text-underline-offset: 3px; }
+      .report-meta { flex: 0 0 auto; color: #8a958f; font-size: 12px; }
+      .findings { margin-top: 9px; }
+      .advice {
+        border-color: #d8c999;
+        background: linear-gradient(135deg, #fffdf7, #fff);
+      }
+      .notice {
+        margin-top: 18px;
+        padding: 14px 16px;
+        border-radius: 12px;
+        background: #eef2ef;
+        color: #74817b;
+        font-size: 12px;
+        line-height: 1.7;
+      }
+      footer { margin-top: 20px; color: #89958f; font-size: 12px; text-align: center; }
+      @media (max-width: 680px) {
+        main { padding-top: 28px; }
+        .hero, section { padding: 20px; }
+        .grid { grid-template-columns: 1fr; }
+        section.wide { grid-column: auto; }
+        .score { width: 100%; margin: 6px 0 0; }
+        .report-head { display: block; }
+        .report-meta { display: block; margin-top: 4px; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="../"><span>韭</span>*ST 离离原上韭</a>
+      <a href="../">返回市场看板</a>
+    </header>
+    <main>
+      <div class="loading" id="loading">正在读取最近年报、半年报与季报分析…</div>
+      <div class="error" id="error" hidden></div>
+      <article id="report">
+        <div class="hero">
+          <p class="meta" id="meta"></p>
+          <h1 id="title"></h1>
+          <div class="analysis-line" id="coverage"></div>
+          <p class="summary" id="summary"></p>
+        </div>
+        <div class="grid">
+          <section><h2>业绩趋势</h2><p id="earnings"></p></section>
+          <section><h2>盈利能力</h2><p id="profitability"></p></section>
+          <section><h2>现金流质量</h2><p id="cash-flow"></p></section>
+          <section><h2>资产负债状况</h2><p id="balance-sheet"></p></section>
+          <section class="wide"><h2>未来 1—4 个季度预期</h2><p id="outlook"></p></section>
+          <section class="wide advice"><h2>投资研究建议</h2><p id="advice"></p></section>
+          <section><h2>潜在催化</h2><ul id="catalysts"></ul></section>
+          <section><h2>主要风险</h2><ul id="risks"></ul></section>
+          <section class="wide">
+            <h2>已读取的财报与关键发现</h2>
+            <ol class="report-list" id="reports"></ol>
+          </section>
+        </div>
+        <div class="notice">
+          本页基于公司公开定期报告生成，预期分析包含不确定性；评级和建议是非个性化研究观点，
+          不考虑任何个人的资金、期限与风险承受能力，不构成买卖指令。
+        </div>
+        <footer id="generated"></footer>
+      </article>
+    </main>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const symbol = params.get("symbol") || "";
+      const loading = document.querySelector("#loading");
+      const error = document.querySelector("#error");
+      const report = document.querySelector("#report");
+      const TYPE_LABELS = {
+        annual: "年报",
+        semiannual: "半年报",
+        quarterly: "季报",
+        other: "其他报告",
+      };
+
+      function showError(message) {
+        loading.hidden = true;
+        error.hidden = false;
+        error.textContent = message;
+      }
+
+      function appendTextList(target, values) {
+        for (const value of values || []) {
+          const item = document.createElement("li");
+          item.textContent = value;
+          target.append(item);
+        }
+      }
+
+      async function loadReport() {
+        if (!symbol) throw new Error("链接中缺少股票代码");
+        const response = await fetch(`../financial-research.json?refresh=${Date.now()}`, {
+          cache: "no-store",
+          headers: { accept: "application/json" },
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        const item = payload?.stocks?.[symbol];
+        if (!item) {
+          throw new Error(`尚未生成 ${symbol} 的财报分析，请在下一次数据刷新后重试`);
+        }
+        return item;
+      }
+
+      function addCoverageChip(target, text, className = "") {
+        const chip = document.createElement("span");
+        chip.textContent = text;
+        if (className) chip.className = className;
+        target.append(chip);
+      }
+
+      function renderReport(item) {
+        document.title = `${item.name}财报分析｜*ST 离离原上韭`;
+        document.querySelector("#meta").textContent =
+          `${item.symbol} · ${item.industry} · ${item.industrySector}`;
+        document.querySelector("#title").textContent = `${item.name}｜${item.rating}`;
+        const coverage = document.querySelector("#coverage");
+        for (const type of item.coveredReportTypes || []) {
+          addCoverageChip(coverage, `已读${TYPE_LABELS[type] || type}`);
+        }
+        for (const type of item.missingReportTypes || []) {
+          addCoverageChip(coverage, `${TYPE_LABELS[type] || type}缺失`, "missing");
+        }
+        const score = document.createElement("div");
+        score.className = "score";
+        score.append("财报评分");
+        const scoreValue = document.createElement("strong");
+        scoreValue.textContent = Number(item.overallScore).toFixed(0);
+        score.append(scoreValue);
+        coverage.append(score);
+        document.querySelector("#summary").textContent = item.summary;
+        document.querySelector("#earnings").textContent = item.earningsTrend;
+        document.querySelector("#profitability").textContent = item.profitability;
+        document.querySelector("#cash-flow").textContent = item.cashFlow;
+        document.querySelector("#balance-sheet").textContent = item.balanceSheet;
+        document.querySelector("#outlook").textContent = item.outlook;
+        document.querySelector("#advice").textContent = item.investmentAdvice;
+        appendTextList(document.querySelector("#catalysts"), item.catalysts);
+        appendTextList(document.querySelector("#risks"), item.risks);
+
+        const reports = document.querySelector("#reports");
+        for (const source of item.reports || []) {
+          const row = document.createElement("li");
+          const head = document.createElement("div");
+          head.className = "report-head";
+          const link = document.createElement("a");
+          link.href = source.url;
+          link.target = "_blank";
+          link.rel = "noreferrer";
+          link.textContent = source.title;
+          head.append(link);
+          const meta = document.createElement("span");
+          meta.className = "report-meta";
+          meta.textContent = [TYPE_LABELS[source.reportType] || source.reportType, source.publishedAt]
+            .filter(Boolean)
+            .join(" · ");
+          head.append(meta);
+          row.append(head);
+          const findings = document.createElement("ul");
+          findings.className = "findings";
+          appendTextList(findings, source.keyFindings);
+          row.append(findings);
+          reports.append(row);
+        }
+        document.querySelector("#generated").textContent =
+          `由 Codex 读取公开财报后生成 · ${new Date(item.generatedAt).toLocaleString("zh-CN")} · 仅供研究参考`;
+        loading.hidden = true;
+        report.style.display = "block";
+      }
+
+      loadReport()
+        .then(renderReport)
+        .catch((cause) => showError(`财报分析读取失败：${cause.message}`));
+    </script>
+  </body>
+</html>
