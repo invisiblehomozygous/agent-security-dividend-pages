@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T07:28:02.521139+00:00",
+  "generatedAt": "2026-08-06T07:48:14.850418+00:00",
   "marketAsOf": "2026-08-06T13:24:45+08:00",
   "recommendationAsOf": null,
   "dataMode": "live_snapshot",
@@ -6192,7 +6192,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "全球智慧家电制造与家电更新消费产业链",
+        "rating": "中性",
+        "strength": 64.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=600690.SH",
+        "generatedAt": "2026-08-06T07:43:43.798526+00:00",
+        "sourceCount": 4
+      }
     },
     {
       "securityId": "a7086ded-8658-5400-97c5-21e89650e2fa",
@@ -12487,7 +12495,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "国产DRAM设计制造一体化与存储应用产业链",
+        "rating": "强",
+        "strength": 86.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=688825.SH",
+        "generatedAt": "2026-08-06T07:43:43.798526+00:00",
+        "sourceCount": 5
+      }
     },
     {
       "securityId": "88c237af-3a7c-5eb2-9063-da3fc11e9d69",
@@ -12605,7 +12621,7 @@
     "financialResearchCount": 123,
     "aiScoredCount": 123,
     "technicalCoveredCount": 123,
-    "industryChainResearchCount": 4
+    "industryChainResearchCount": 6
   },
   "sourceHealth": {
     "liveCount": 127,
@@ -12627,7 +12643,7 @@
     "expectedFinancialResearchCount": 123,
     "aiScoreCount": 123,
     "expectedAiScoreCount": 123,
-    "industryChainResearchCount": 4,
-    "expectedIndustryChainResearchCount": 4
+    "industryChainResearchCount": 6,
+    "expectedIndustryChainResearchCount": 6
   }
 }

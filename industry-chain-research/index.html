@@ -277,7 +277,7 @@
         const payload = await response.json();
         const item = payload?.stocks?.[symbol];
         if (!item) {
-          throw new Error(`尚未同步 ${symbol} 的产业链分析；当前首轮仅开放自选表中的 4 只股票`);
+          throw new Error(`尚未同步 ${symbol} 的产业链分析；当前仅开放已同步的自选股`);
         }
         return item;
       }
