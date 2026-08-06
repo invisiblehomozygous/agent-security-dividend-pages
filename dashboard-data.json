@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T07:48:14.850418+00:00",
+  "generatedAt": "2026-08-06T09:16:00.212482+00:00",
   "marketAsOf": "2026-08-06T13:24:45+08:00",
   "recommendationAsOf": null,
   "dataMode": "live_snapshot",
@@ -2329,7 +2329,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "品牌童装设计运营—柔性供应链—全渠道零售产业链",
+        "rating": "较强",
+        "strength": 68.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=002563.SZ",
+        "generatedAt": "2026-08-06T09:11:37.518635+00:00",
+        "sourceCount": 6
+      }
     },
     {
       "securityId": "ea17c8da-106a-5363-a74e-3eb329015782",
@@ -4670,7 +4678,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "中高端品牌男装—一体化制造—直营零售产业链",
+        "rating": "中性",
+        "strength": 58.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=600177.SH",
+        "generatedAt": "2026-08-06T09:11:37.518635+00:00",
+        "sourceCount": 6
+      }
     },
     {
       "securityId": "cb08596d-90ce-5386-a168-71b7e7452013",
@@ -5586,7 +5602,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "大众品牌服饰供应链整合、全渠道零售与海外门店拓展产业链",
+        "rating": "较强",
+        "strength": 68.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=600398.SH",
+        "generatedAt": "2026-08-06T09:11:37.518635+00:00",
+        "sourceCount": 6
+      }
     },
     {
       "securityId": "56a9b37f-f608-5826-a12a-0c980eef8cb0",
@@ -12621,7 +12645,7 @@
     "financialResearchCount": 123,
     "aiScoredCount": 123,
     "technicalCoveredCount": 123,
-    "industryChainResearchCount": 6
+    "industryChainResearchCount": 9
   },
   "sourceHealth": {
     "liveCount": 127,
@@ -12643,7 +12667,7 @@
     "expectedFinancialResearchCount": 123,
     "aiScoreCount": 123,
     "expectedAiScoreCount": 123,
-    "industryChainResearchCount": 6,
-    "expectedIndustryChainResearchCount": 6
+    "industryChainResearchCount": 9,
+    "expectedIndustryChainResearchCount": 9
   }
 }
