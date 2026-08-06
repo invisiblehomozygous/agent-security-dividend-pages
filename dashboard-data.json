@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T05:24:56.886933+00:00",
+  "generatedAt": "2026-08-06T07:28:02.521139+00:00",
   "marketAsOf": "2026-08-06T13:24:45+08:00",
   "recommendationAsOf": null,
   "dataMode": "live_snapshot",
@@ -1092,7 +1092,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "铝土矿—氧化铝—绿色电解铝—铝合金一体化产业链",
+        "rating": "较强",
+        "strength": 78.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000807.SZ",
+        "generatedAt": "2026-08-06T07:13:56.506600+00:00",
+        "sourceCount": 6
+      }
     },
     {
       "securityId": "323edc96-cc0f-5088-a0d1-38b9b60d518d",
@@ -1296,7 +1304,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "煤电—电解铝—铝箔材协同产业链",
+        "rating": "较强",
+        "strength": 75.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000933.SZ",
+        "generatedAt": "2026-08-06T07:13:56.506600+00:00",
+        "sourceCount": 6
+      }
     },
     {
       "securityId": "babfeba0-71f1-5b13-9e5c-2690cce8ab54",
@@ -1496,7 +1512,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "食品日化复合软包装与单一材质可回收薄膜产业链",
+        "rating": "中性",
+        "strength": 61.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=002014.SZ",
+        "generatedAt": "2026-08-06T07:13:56.506600+00:00",
+        "sourceCount": 5
+      }
     },
     {
       "securityId": "e6f32bde-b0a5-5e04-b434-0f1e7406291b",
@@ -4229,7 +4253,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "特高压及新型电网输变电装备产业链",
+        "rating": "强",
+        "strength": 85.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=600089.SH",
+        "generatedAt": "2026-08-06T07:13:56.506600+00:00",
+        "sourceCount": 7
+      }
     },
     {
       "securityId": "6d572be2-74ab-5ff8-a91a-fbe7f9d78d0e",
@@ -12572,7 +12604,8 @@
     "themeResearchCount": 123,
     "financialResearchCount": 123,
     "aiScoredCount": 123,
-    "technicalCoveredCount": 123
+    "technicalCoveredCount": 123,
+    "industryChainResearchCount": 4
   },
   "sourceHealth": {
     "liveCount": 127,
@@ -12593,6 +12626,8 @@
     "financialResearchCount": 123,
     "expectedFinancialResearchCount": 123,
     "aiScoreCount": 123,
-    "expectedAiScoreCount": 123
+    "expectedAiScoreCount": 123,
+    "industryChainResearchCount": 4,
+    "expectedIndustryChainResearchCount": 4
   }
 }

@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>产业链分析｜*ST 离离原上韭</title>
+    <style>
+      :root {
+        color: #1d2f28;
+        background: #f3f5f1;
+        font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      a { color: #1d664a; }
+      header {
+        padding: 18px clamp(18px, 5vw, 64px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #dfe5e0;
+        background: rgba(250, 251, 248, 0.94);
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        color: #13271f;
+        font-weight: 800;
+        text-decoration: none;
+      }
+      .brand span {
+        width: 38px;
+        height: 38px;
+        display: grid;
+        place-items: center;
+        border-radius: 12px;
+        background: #13271f;
+        color: #f0dda5;
+        font-size: 22px;
+      }
+      header > a:last-child { font-size: 13px; text-decoration: none; }
+      main {
+        width: min(100% - 32px, 1120px);
+        margin: 0 auto;
+        padding: 48px 0 64px;
+      }
+      .loading, .error {
+        padding: 32px;
+        border-radius: 16px;
+        background: white;
+        text-align: center;
+      }
+      article { display: none; }
+      .hero {
+        padding: 28px;
+        border: 1px solid #dfe5e0;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0 16px 42px rgba(35, 62, 52, 0.07);
+      }
+      .meta { margin: 0 0 10px; color: #78867f; font-size: 13px; }
+      h1 { margin: 0; color: #13271f; font-size: clamp(28px, 5vw, 46px); }
+      .score-line {
+        margin: 15px 0 0;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .rating {
+        padding: 7px 11px;
+        border-radius: 999px;
+        background: #e8f1eb;
+        color: #315c49;
+        font-size: 13px;
+        font-weight: 700;
+      }
+      .score { margin-left: auto; color: #8b6a21; font-size: 14px; font-weight: 700; }
+      .score strong {
+        margin-left: 5px;
+        font-family: ui-monospace, monospace;
+        font-size: 28px;
+      }
+      .summary { margin: 22px 0 0; color: #42564d; line-height: 1.85; }
+      .position {
+        margin: 18px 0 0;
+        padding: 14px 16px;
+        border-left: 3px solid #4b8068;
+        border-radius: 0 10px 10px 0;
+        background: #f1f6f2;
+        color: #3b5147;
+        font-size: 14px;
+        line-height: 1.75;
+      }
+      .position strong { display: block; margin-bottom: 3px; color: #1e4936; }
+      .chain {
+        margin-top: 18px;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 120px minmax(0, 1fr);
+        gap: 16px;
+        align-items: stretch;
+      }
+      .chain-column, .company-node, section {
+        border: 1px solid #dfe5e0;
+        border-radius: 16px;
+        background: #fff;
+      }
+      .chain-column { padding: 22px; }
+      .chain-column h2, section h2 { margin: 0 0 12px; font-size: 17px; }
+      .chain-summary { margin: 0 0 15px; color: #52645c; font-size: 13px; line-height: 1.75; }
+      .node-list { display: grid; gap: 10px; }
+      .node {
+        padding: 13px;
+        border: 1px solid #e5eae6;
+        border-radius: 11px;
+        background: #fafbf9;
+      }
+      .node-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+      .node-head strong { color: #233f33; font-size: 14px; }
+      .node-head span { color: #85671f; font-size: 12px; }
+      .node p { margin: 7px 0 0; color: #5a6b63; font-size: 12px; line-height: 1.65; }
+      .node .evidence { color: #7c8983; }
+      .company-node {
+        display: grid;
+        place-items: center;
+        align-content: center;
+        padding: 16px 10px;
+        border-color: #b9cdbf;
+        background: linear-gradient(145deg, #eff6f1, #fffdf7);
+        color: #244b39;
+        text-align: center;
+      }
+      .company-node::before, .company-node::after {
+        content: "→";
+        color: #8ca296;
+        font-size: 22px;
+      }
+      .company-node strong { margin: 8px 0 3px; font-size: 14px; }
+      .company-node span { color: #72817a; font-size: 11px; }
+      .grid {
+        margin-top: 18px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+      section { padding: 24px; }
+      section.wide { grid-column: 1 / -1; }
+      section p, li { color: #52645c; font-size: 14px; line-height: 1.8; }
+      section p { margin: 0; }
+      ul, ol { margin: 0; padding-left: 22px; }
+      .outlook { border-color: #d8c999; background: linear-gradient(135deg, #fffdf7, #fff); }
+      .sources li { margin-bottom: 11px; }
+      .sources a { font-weight: 700; text-decoration: none; }
+      .sources a:hover { text-decoration: underline; text-underline-offset: 3px; }
+      .source-meta { display: block; color: #89958f; font-size: 12px; }
+      .notice {
+        margin-top: 18px;
+        padding: 14px 16px;
+        border-radius: 12px;
+        background: #eef2ef;
+        color: #74817b;
+        font-size: 12px;
+        line-height: 1.7;
+      }
+      footer { margin-top: 20px; color: #89958f; font-size: 12px; text-align: center; }
+      @media (max-width: 760px) {
+        main { padding-top: 28px; }
+        .hero, section, .chain-column { padding: 20px; }
+        .chain, .grid { grid-template-columns: 1fr; }
+        .company-node { min-height: 96px; }
+        .company-node::before { content: "↓"; }
+        .company-node::after { content: "↓"; }
+        section.wide { grid-column: auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="../"><span>韭</span>*ST 离离原上韭</a>
+      <a href="../">返回市场看板</a>
+    </header>
+    <main>
+      <div class="loading" id="loading">正在读取上下游供需与产业链强度分析…</div>
+      <div class="error" id="error" hidden></div>
+      <article id="report">
+        <div class="hero">
+          <p class="meta" id="meta"></p>
+          <h1 id="title"></h1>
+          <div class="score-line">
+            <span class="rating" id="rating"></span>
+            <span class="score">产业链强度<strong id="score"></strong></span>
+          </div>
+          <p class="summary" id="summary"></p>
+          <div class="position"><strong>公司所处位置</strong><span id="position"></span></div>
+        </div>
+        <div class="chain">
+          <section class="chain-column">
+            <h2>上游供应</h2>
+            <p class="chain-summary" id="upstream-summary"></p>
+            <div class="node-list" id="upstream"></div>
+          </section>
+          <div class="company-node">
+            <strong id="company"></strong>
+            <span>成本、产能与议价传导</span>
+          </div>
+          <section class="chain-column">
+            <h2>下游承接 / 消费</h2>
+            <p class="chain-summary" id="downstream-summary"></p>
+            <div class="node-list" id="downstream"></div>
+          </section>
+        </div>
+        <div class="grid">
+          <section class="wide"><h2>供需传导逻辑</h2><p id="transmission"></p></section>
+          <section class="wide outlook"><h2>未来 1—4 个季度展望</h2><p id="outlook"></p></section>
+          <section><h2>关键跟踪指标</h2><ul id="indicators"></ul></section>
+          <section><h2>潜在催化</h2><ul id="catalysts"></ul></section>
+          <section><h2>主要风险</h2><ul id="risks"></ul></section>
+          <section class="sources"><h2>分析信息源</h2><ol id="sources"></ol></section>
+        </div>
+        <div class="notice">
+          本页衡量的是产业链供需、传导与景气强度，不等同于股票涨跌预测；结果基于公开资料，
+          需结合后续订单、库存、价格和公司公告持续验证，不构成个性化投资建议。
+        </div>
+        <footer id="generated"></footer>
+      </article>
+    </main>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const symbol = params.get("symbol") || "";
+      const loading = document.querySelector("#loading");
+      const error = document.querySelector("#error");
+      const report = document.querySelector("#report");
+
+      function showError(message) {
+        loading.hidden = true;
+        error.hidden = false;
+        error.textContent = message;
+      }
+
+      function appendTextList(target, values) {
+        for (const value of values || []) {
+          const item = document.createElement("li");
+          item.textContent = value;
+          target.append(item);
+        }
+      }
+
+      function appendChainNodes(target, values) {
+        for (const value of values || []) {
+          const node = document.createElement("article");
+          node.className = "node";
+          const head = document.createElement("div");
+          head.className = "node-head";
+          const segment = document.createElement("strong");
+          segment.textContent = value.segment;
+          const status = document.createElement("span");
+          status.textContent = value.status;
+          head.append(segment, status);
+          const relationship = document.createElement("p");
+          relationship.textContent = value.relationship;
+          const evidence = document.createElement("p");
+          evidence.className = "evidence";
+          evidence.textContent = `依据：${value.evidence}`;
+          node.append(head, relationship, evidence);
+          target.append(node);
+        }
+      }
+
+      async function loadReport() {
+        if (!symbol) throw new Error("链接中缺少股票代码");
+        const response = await fetch(`../industry-chain-research.json?refresh=${Date.now()}`, {
+          cache: "no-store",
+          headers: { accept: "application/json" },
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        const item = payload?.stocks?.[symbol];
+        if (!item) {
+          throw new Error(`尚未同步 ${symbol} 的产业链分析；当前首轮仅开放自选表中的 4 只股票`);
+        }
+        return item;
+      }
+
+      function renderReport(item) {
+        document.title = `${item.name}产业链分析｜*ST 离离原上韭`;
+        document.querySelector("#meta").textContent =
+          `${item.symbol} · ${item.industry} · ${item.industrySector}`;
+        document.querySelector("#title").textContent = `${item.name}｜${item.chainName}`;
+        document.querySelector("#rating").textContent = `${item.rating}产业链`;
+        document.querySelector("#score").textContent = Number(item.strength).toFixed(0);
+        document.querySelector("#summary").textContent = item.summary;
+        document.querySelector("#position").textContent = item.companyPosition;
+        document.querySelector("#company").textContent = item.name;
+        document.querySelector("#upstream-summary").textContent = item.upstreamSupply;
+        document.querySelector("#downstream-summary").textContent = item.downstreamDemand;
+        appendChainNodes(document.querySelector("#upstream"), item.upstream);
+        appendChainNodes(document.querySelector("#downstream"), item.downstream);
+        document.querySelector("#transmission").textContent = item.transmissionLogic;
+        document.querySelector("#outlook").textContent = item.outlook;
+        appendTextList(document.querySelector("#indicators"), item.keyIndicators);
+        appendTextList(document.querySelector("#catalysts"), item.catalysts);
+        appendTextList(document.querySelector("#risks"), item.risks);
+
+        const sources = document.querySelector("#sources");
+        for (const source of item.sources || []) {
+          const row = document.createElement("li");
+          const link = document.createElement("a");
+          link.href = source.url;
+          link.target = "_blank";
+          link.rel = "noreferrer";
+          link.textContent = source.title;
+          row.append(link);
+          const meta = document.createElement("span");
+          meta.className = "source-meta";
+          meta.textContent = [source.sourceType, source.publishedAt]
+            .filter(Boolean)
+            .join(" · ");
+          row.append(meta);
+          sources.append(row);
+        }
+        document.querySelector("#generated").textContent =
+          `由 Codex 基于公开产业资料生成 · ${new Date(item.generatedAt).toLocaleString("zh-CN")} · 仅供研究参考`;
+        loading.hidden = true;
+        report.style.display = "block";
+      }
+
+      loadReport()
+        .then(renderReport)
+        .catch((cause) => showError(`产业链分析读取失败：${cause.message}`));
+    </script>
+  </body>
+</html>
