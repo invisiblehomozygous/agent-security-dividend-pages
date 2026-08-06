@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T09:16:00.212482+00:00",
+  "generatedAt": "2026-08-06T10:31:45.684317+00:00",
   "marketAsOf": "2026-08-06T13:24:45+08:00",
   "recommendationAsOf": null,
   "dataMode": "live_snapshot",
@@ -738,9 +738,9 @@
       ],
       "financialAnalysis": {
         "rating": "积极关注",
-        "score": 78.0,
+        "score": 76.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/financial-research/?symbol=000651.SZ",
-        "generatedAt": "2026-08-06T04:05:49.870792+00:00",
+        "generatedAt": "2026-08-06T10:01:54.038271+00:00",
         "reportCount": 3,
         "coveredReportTypes": [
           "annual",
@@ -750,10 +750,10 @@
         "missingReportTypes": []
       },
       "themeInfo": {
-        "primaryTheme": "家电以旧换新",
-        "score": 73.0,
+        "primaryTheme": "家电以旧换新与高能效空调",
+        "score": 71.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/theme-research/?symbol=000651.SZ",
-        "generatedAt": "2026-08-06T02:16:04.839088+00:00",
+        "generatedAt": "2026-08-06T10:01:54.027860+00:00",
         "sourceCount": 4
       },
       "indices": [
@@ -763,13 +763,13 @@
       "recommended": false,
       "technicalState": "震荡",
       "researchTechnicalState": null,
-      "aiScore": 77.7,
-      "aiRank": 27,
+      "aiScore": 77.1,
+      "aiRank": 36,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
         "valuation": 90.0,
-        "themeStrength": 73.0,
+        "themeStrength": 71.0,
         "stability": 88.3,
         "momentum": 47.9,
         "scaleLiquidity": 84.1
@@ -787,7 +787,15 @@
       },
       "asOf": "2026-08-06T13:24:07.065558+08:00",
       "source": "AKShare · 腾讯免费批量快照",
-      "points": []
+      "points": [],
+      "industryChainInfo": {
+        "chainName": "家用及商用空调—核心部件自制—终端零售与工程渠道产业链",
+        "rating": "偏弱",
+        "strength": 48.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000651.SZ",
+        "generatedAt": "2026-08-06T10:01:54.449230+00:00",
+        "sourceCount": 8
+      }
     },
     {
       "securityId": "541d7792-92c2-5473-99ea-46fbd85e6230",
@@ -2823,7 +2831,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.4,
-      "aiRank": 32,
+      "aiRank": 31,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -3227,7 +3235,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.5,
-      "aiRank": 28,
+      "aiRank": 27,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -4347,7 +4355,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.2,
-      "aiRank": 36,
+      "aiRank": 35,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -6505,7 +6513,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.5,
-      "aiRank": 29,
+      "aiRank": 28,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -9256,7 +9264,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.5,
-      "aiRank": 30,
+      "aiRank": 29,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -9662,7 +9670,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.3,
-      "aiRank": 33,
+      "aiRank": 32,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -10069,7 +10077,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.3,
-      "aiRank": 34,
+      "aiRank": 33,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -10170,7 +10178,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.5,
-      "aiRank": 31,
+      "aiRank": 30,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -11090,7 +11098,7 @@
       "technicalState": "震荡",
       "researchTechnicalState": null,
       "aiScore": 77.3,
-      "aiRank": 35,
+      "aiRank": 34,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材研究可解释多因子模型 v3",
       "aiScoreBreakdown": {
@@ -12645,7 +12653,7 @@
     "financialResearchCount": 123,
     "aiScoredCount": 123,
     "technicalCoveredCount": 123,
-    "industryChainResearchCount": 9
+    "industryChainResearchCount": 10
   },
   "sourceHealth": {
     "liveCount": 127,
@@ -12667,7 +12675,7 @@
     "expectedFinancialResearchCount": 123,
     "aiScoreCount": 123,
     "expectedAiScoreCount": 123,
-    "industryChainResearchCount": 9,
-    "expectedIndustryChainResearchCount": 9
+    "industryChainResearchCount": 10,
+    "expectedIndustryChainResearchCount": 10
   }
 }
