@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T02:33:54.003395+00:00",
+  "generatedAt": "2026-08-10T03:01:32.195077+00:00",
   "route": "codex exec --search",
   "refreshDays": 7,
   "stocks": {
@@ -291,6 +291,56 @@
       "generatedAt": "2026-08-06T02:16:04.839088+00:00",
       "route": "codex exec --search"
     },
+    "000630.SZ": {
+      "symbol": "000630.SZ",
+      "name": "铜陵有色",
+      "industry": "工业金属",
+      "industrySector": "原材料",
+      "primaryTheme": "铜矿扩产与铜资源保障",
+      "themes": [
+        "铜矿扩产",
+        "铜冶炼及加工",
+        "新能源与电网用铜"
+      ],
+      "strength": 76.0,
+      "summary": "公司主营铜矿采选、冶炼和铜材加工，并综合回收黄金、白银、硫酸等产品，属于铜产业链一体化企业。",
+      "industryOutlook": "电网、新能源和算力基础设施支撑铜需求，2026年铜价维持高位，但铜精矿紧张导致加工费承压，矿山端景气优于单纯冶炼端。",
+      "themeLogic": "公司计划2026年生产自产铜精矿含铜22.76万吨和阴极铜210.8万吨，米拉多铜矿二期是矿产铜增长及提高原料自给率的主要催化；不过截至一季度，二期采矿合同仍在审核，投产节奏存在不确定性。",
+      "risks": [
+        "米拉多二期采矿合同审批或投产继续延期",
+        "厄瓜多尔政治、税收和社区关系风险",
+        "铜价因全球需求走弱而回落",
+        "铜精矿加工费长期低迷压缩冶炼利润"
+      ],
+      "sources": [
+        {
+          "title": "铜陵有色金属集团股份有限公司2025年年度报告全文",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-20/9ce9a44c-195c-4f7c-a489-22ae9fd25950.PDF",
+          "publishedAt": "2026-04-20",
+          "sourceType": "公司年报"
+        },
+        {
+          "title": "铜陵有色金属集团股份有限公司2026年第一季度报告",
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202604281821672782_1.pdf",
+          "publishedAt": "2026-04-28",
+          "sourceType": "公司季报"
+        },
+        {
+          "title": "2026年一季度有色金属行业运行情况",
+          "url": "https://wap.miit.gov.cn/jgsj/ycls/ysjs/art/2026/art_e7f7db9f5d394eb98f27d9dbde0e6592.html",
+          "publishedAt": "2026-05",
+          "sourceType": "政府部门"
+        },
+        {
+          "title": "近期铜矿砂及精矿价格走势与未来展望",
+          "url": "https://www.shadr.org.cn/wgzxzl/yjcg/gjmyzx/20260702/95132.html",
+          "publishedAt": "2026-07-02",
+          "sourceType": "政府研究机构"
+        }
+      ],
+      "generatedAt": "2026-08-10T02:44:47.442169+00:00",
+      "route": "codex exec --search"
+    },
     "000651.SZ": {
       "symbol": "000651.SZ",
       "name": "格力电器",
@@ -436,6 +486,56 @@
         }
       ],
       "generatedAt": "2026-08-06T02:16:04.839088+00:00",
+      "route": "codex exec --search"
+    },
+    "000792.SZ": {
+      "symbol": "000792.SZ",
+      "name": "盐湖股份",
+      "industry": "农用化工",
+      "industrySector": "原材料",
+      "primaryTheme": "盐湖提锂扩产",
+      "themes": [
+        "盐湖提锂扩产",
+        "钾肥保供",
+        "锂电与储能上游"
+      ],
+      "strength": 82.0,
+      "summary": "公司主营氯化钾和碳酸锂，2026年基础锂盐项目量产、五矿盐湖并表及钾锂产品量价改善形成较强现实催化。",
+      "industryOutlook": "钾肥具有粮食安全和进口替代属性，需求相对刚性；碳酸锂受新能源汽车和储能增长支撑，但新增供给释放将使行业继续呈现周期波动。",
+      "themeLogic": "公司直接控制察尔汗和一里坪盐湖资源，以钾肥生产老卤提取电池级碳酸锂。2026年上半年碳酸锂产量约4.94万吨，4万吨基础锂盐项目量产，且在产锂盐产能已达9.8万吨，产能兑现与锂电、储能需求形成直接关联；氯化钾业务则受益于农业刚需、国内资源保障及销量增长。",
+      "risks": [
+        "碳酸锂新增供给超过新能源汽车和储能需求增长，导致价格再次下跌",
+        "新建锂盐装置爬坡、收率或成本改善不及预期",
+        "氯化钾价格受国际供应、进口合同和国内库存变化影响而回落",
+        "盐湖资源开发面临淡水供应、生态环保和采矿权合规风险"
+      ],
+      "sources": [
+        {
+          "title": "盐湖股份：2025年年度报告摘要",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12046405&stockid=000792",
+          "publishedAt": null,
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "青海盐湖工业股份有限公司2026年第一季度报告",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-30/68b04674-88b0-4054-ab8a-22285a545187.PDF",
+          "publishedAt": "2026-04-30",
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "盐湖股份：2026年半年度业绩预告",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12429126&stockid=000792",
+          "publishedAt": "2026-07-03",
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "盐湖股份：投资者关系管理信息20260616",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=10001089&gather=1&id=12397625",
+          "publishedAt": "2026-06-16",
+          "sourceType": "公司调研纪要"
+        }
+      ],
+      "generatedAt": "2026-08-10T03:01:32.195077+00:00",
       "route": "codex exec --search"
     },
     "000807.SZ": {
@@ -5319,6 +5419,57 @@
       "generatedAt": "2026-08-06T02:16:04.839088+00:00",
       "route": "codex exec --search"
     },
+    "601899.SH": {
+      "symbol": "601899.SH",
+      "name": "紫金矿业",
+      "industry": "贵金属",
+      "industrySector": "原材料",
+      "primaryTheme": "铜金资源扩产",
+      "themes": [
+        "铜矿扩产",
+        "黄金与央行购金",
+        "锂资源放量",
+        "全球矿业并购"
+      ],
+      "strength": 89.0,
+      "summary": "公司以铜、金为核心，兼营锌、银、锂、钼等矿产资源的勘查、开发、冶炼和销售，是全球化、多矿种大型矿业集团。",
+      "industryOutlook": "铜受电网、新能源及算力需求支撑且矿端供给约束仍强，黄金受央行购金和地缘不确定性支撑；锂需求增长较快，但供给扩张使价格弹性和波动均较大。",
+      "themeLogic": "公司2025年矿产铜、金、锌和银产量均居国内首位，2026年计划矿产铜120万吨、矿产金105吨和当量碳酸锂12万吨；巨龙二期投产及多个金铜锂项目建设，使题材同时具备行业景气、明确产量规划和公司直接产能兑现三重支撑。",
+      "risks": [
+        "铜、金和锂价格大幅回落",
+        "海外矿山所在国政策、税收、安全及社区风险",
+        "大型项目建设或产能爬坡不及规划",
+        "持续并购带来资本开支、整合和负债压力"
+      ],
+      "sources": [
+        {
+          "title": "紫金矿业集团股份有限公司2025年年度报告摘要",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-21/1225023677.PDF",
+          "publishedAt": "2026-03-21",
+          "sourceType": "公司年报"
+        },
+        {
+          "title": "紫金矿业关于三年（2026—2028年）主要矿产品产量规划和2035年远景目标纲要的公告",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=10002337&gather=1&id=11956957",
+          "publishedAt": "2026-02",
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "2026年全球黄金市场年中展望",
+          "url": "https://china.gold.org/goldhub/research/gold-mid-year-outlook-2026",
+          "publishedAt": "2026-07",
+          "sourceType": "行业协会"
+        },
+        {
+          "title": "2026年一季度有色金属行业运行情况",
+          "url": "https://wap.miit.gov.cn/jgsj/ycls/ysjs/art/2026/art_e7f7db9f5d394eb98f27d9dbde0e6592.html",
+          "publishedAt": "2026-05",
+          "sourceType": "政府部门"
+        }
+      ],
+      "generatedAt": "2026-08-10T02:44:47.442169+00:00",
+      "route": "codex exec --search"
+    },
     "601916.SH": {
       "symbol": "601916.SH",
       "name": "浙商银行",
@@ -5713,6 +5864,63 @@
         }
       ],
       "generatedAt": "2026-08-06T02:16:04.839088+00:00",
+      "route": "codex exec --search"
+    },
+    "603259.SH": {
+      "symbol": "603259.SH",
+      "name": "药明康德",
+      "industry": "制药与生物科技服务",
+      "industrySector": "医药卫生",
+      "primaryTheme": "全球医药研发外包CRDMO",
+      "themes": [
+        "全球医药研发外包CRDMO",
+        "多肽与寡核苷酸TIDES",
+        "小分子商业化生产",
+        "美国监管风险缓和"
+      ],
+      "strength": 74.0,
+      "summary": "公司是覆盖药物发现、开发、测试和生产的一体化CRDMO平台，在手订单、小分子后期及商业化项目和TIDES需求构成清晰增长题材，但美国监管不确定性压制题材强度。",
+      "industryOutlook": "全球药企提升研发效率和控制固定成本的需求支持研发生产外包渗透，创新药投融资恢复及多肽、寡核苷酸等新分子扩张带来结构性机会；地缘监管和客户供应链去风险仍可能改变全球CXO订单流向。",
+      "themeLogic": "公司主营业务并非自营制药，而是向全球制药和生命科学客户提供研究、开发、测试及生产服务。2025年末持续经营业务在手订单580亿元，同比增长28.8%，TIDES收入同比增长96.0%；2026年一季度在手订单进一步达到597.7亿元，小分子D&M收入增长80.1%，显示CRDMO订单和商业化产能正在兑现。美国法院于2026年8月7日就1260H列名给予初步禁令，缓解即时不利后果，形成短期事件催化，但并未终结诉讼和BIOSECURE Act相关风险。",
+      "risks": [
+        "美国1260H诉讼最终败诉，或被列为受关注生物技术公司并触发业务限制",
+        "海外客户因合规和供应链去风险而转移订单",
+        "全球生物医药融资或研发支出再次走弱",
+        "TIDES及小分子产能扩张快于订单增长，导致利用率下降或价格竞争加剧"
+      ],
+      "sources": [
+        {
+          "title": "药明康德：2025年年度报告",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12011363&stockid=603259",
+          "publishedAt": null,
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "药明康德2025年年度报告摘要",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0323/2026032300982_c.pdf",
+          "publishedAt": "2026-03-23",
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "WuXi AppTec Delivers Strong Revenue and Profit Growth in Q1 2026",
+          "url": "https://www.wuxiapptec.com/news/wuxi-news/o11j18jj5dltcdtm9so5f4sk",
+          "publishedAt": "2026-04-27",
+          "sourceType": "公司业绩资料"
+        },
+        {
+          "title": "WuXi AppTec Announcement for Preliminary Injunction",
+          "url": "https://officialsite-static.wuxiapptec.com/upload/ANNOUNCEMENT_FOR_PRELIMINARY_INJUNCTION_2e0a0bc090.pdf",
+          "publishedAt": "2026-08-09",
+          "sourceType": "公司公告"
+        },
+        {
+          "title": "Department of Defense Releases Updated 1260H List That Includes WuXi AppTec – Implications under the BIOSECURE Act",
+          "url": "https://www.ropesgray.com/en/insights/alerts/2026/06/department-of-defense-releases-updated-1260h-list-that-includes-wuxi-apptec",
+          "publishedAt": "2026-06-10",
+          "sourceType": "法律研究机构"
+        }
+      ],
+      "generatedAt": "2026-08-10T03:01:32.195077+00:00",
       "route": "codex exec --search"
     },
     "603565.SH": {
