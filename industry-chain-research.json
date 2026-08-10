@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T10:01:54.449230+00:00",
+  "generatedAt": "2026-08-10T02:33:54.020447+00:00",
   "route": "codex exec --search",
   "refreshDays": 14,
   "scope": "watchlist-preview",

@@ -11,7 +11,7 @@
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "assets/page-C3ZuQ7ZW.js",
+    "file": "assets/page-o_ahXlc0.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
@@ -21,7 +21,7 @@
     ]
   },
   "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-AKCaHP0W.js",
+    "file": "assets/layout-segment-context-CpN9LdTg.js",
     "name": "layout-segment-context",
     "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
@@ -32,7 +32,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-DFtMXFT6.js",
+    "file": "assets/index-BB3a14Jp.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
