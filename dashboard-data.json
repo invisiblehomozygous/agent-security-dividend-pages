@@ -4,7 +4,7 @@
   "recommendationAsOf": null,
   "dataMode": "live_snapshot",
   "disclaimer": "指数与股票行情来自AKShare聚合的新浪、雪球和腾讯免费快照，行业来自巨潮公开分类，题材研究由Codex搜索公开资料生成；AI评分为可解释多因子排序，不替代财务深度研究，不构成投资建议。",
-  "aiScoreMethod": "???????? v4??????Codex????????????????????????????????????????????????",
+  "aiScoreMethod": "可解释多因子模型 v4：综合估值、Codex题材强度、稳定性、动量、规模流动性、财报评分与产业链强度。研究评分来自公开信息，不构成投资建议。",
   "factorWeights": [
     {
       "key": "valuation",
@@ -165,7 +165,7 @@
       "aiScore": 71.1,
       "aiRank": 30,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 82.2,
         "themeStrength": 66.0,
@@ -269,7 +269,7 @@
       "aiScore": 50.7,
       "aiRank": 119,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 33.6,
         "themeStrength": 72.0,
@@ -375,7 +375,7 @@
       "aiScore": 66.3,
       "aiRank": 69,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 60.8,
         "themeStrength": 79.0,
@@ -479,7 +479,7 @@
       "aiScore": 70.1,
       "aiRank": 41,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 60.3,
         "themeStrength": 82.0,
@@ -583,7 +583,7 @@
       "aiScore": 66.2,
       "aiRank": 71,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 43.1,
         "themeStrength": 87.0,
@@ -690,7 +690,7 @@
       "aiScore": 60.4,
       "aiRank": 105,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 56.7,
         "themeStrength": 67.0,
@@ -801,7 +801,7 @@
       "aiScore": 60.8,
       "aiRank": 104,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 38.4,
         "themeStrength": 76.0,
@@ -915,7 +915,7 @@
       "aiScore": 71.1,
       "aiRank": 31,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 74.5,
         "themeStrength": 71.0,
@@ -1019,7 +1019,7 @@
       "aiScore": 55.5,
       "aiRank": 112,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 50.3,
         "themeStrength": 61.0,
@@ -1125,7 +1125,7 @@
       "aiScore": 68.7,
       "aiRank": 50,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 65.7,
         "themeStrength": 76.0,
@@ -1234,7 +1234,7 @@
       "aiScore": 70.4,
       "aiRank": 37,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 59.9,
         "themeStrength": 82.0,
@@ -1345,7 +1345,7 @@
       "aiScore": 73.1,
       "aiRank": 9,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 67.2,
         "themeStrength": 76.0,
@@ -1451,7 +1451,7 @@
       "aiScore": 62.2,
       "aiRank": 93,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 58.2,
         "themeStrength": 66.0,
@@ -1562,7 +1562,7 @@
       "aiScore": 74.9,
       "aiRank": 2,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 72.2,
         "themeStrength": 81.0,
@@ -1666,7 +1666,7 @@
       "aiScore": 56.8,
       "aiRank": 108,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 44.1,
         "themeStrength": 68.0,
@@ -1775,7 +1775,7 @@
       "aiScore": 65.8,
       "aiRank": 72,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 59.5,
         "themeStrength": 68.0,
@@ -1879,7 +1879,7 @@
       "aiScore": 63.7,
       "aiRank": 85,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 61.3,
         "themeStrength": 69.0,
@@ -1983,7 +1983,7 @@
       "aiScore": 62.4,
       "aiRank": 90,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 59.7,
         "themeStrength": 67.0,
@@ -2088,7 +2088,7 @@
       "aiScore": 60.3,
       "aiRank": 106,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 52.9,
         "themeStrength": 62.0,
@@ -2192,7 +2192,7 @@
       "aiScore": 62.1,
       "aiRank": 94,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 58.6,
         "themeStrength": 72.0,
@@ -2296,7 +2296,7 @@
       "aiScore": 56.6,
       "aiRank": 110,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 41.5,
         "themeStrength": 72.0,
@@ -2400,7 +2400,7 @@
       "aiScore": 53.6,
       "aiRank": 117,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 44.7,
         "themeStrength": 58.0,
@@ -2504,7 +2504,7 @@
       "aiScore": 62.1,
       "aiRank": 95,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 56.9,
         "themeStrength": 77.0,
@@ -2615,7 +2615,7 @@
       "aiScore": 64.2,
       "aiRank": 81,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 57.6,
         "themeStrength": 62.0,
@@ -2719,7 +2719,7 @@
       "aiScore": 62.1,
       "aiRank": 96,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 71.0,
         "themeStrength": 70.0,
@@ -2823,7 +2823,7 @@
       "aiScore": 46.5,
       "aiRank": 121,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 25.8,
         "themeStrength": 58.0,
@@ -2929,7 +2929,7 @@
       "aiScore": 46.3,
       "aiRank": 122,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 0.0,
         "themeStrength": 76.0,
@@ -3035,7 +3035,7 @@
       "aiScore": 59.7,
       "aiRank": 107,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 45.5,
         "themeStrength": 66.0,
@@ -3139,7 +3139,7 @@
       "aiScore": 71.3,
       "aiRank": 28,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 81.8,
         "themeStrength": 68.0,
@@ -3243,7 +3243,7 @@
       "aiScore": 70.8,
       "aiRank": 35,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 81.5,
         "themeStrength": 69.0,
@@ -3347,7 +3347,7 @@
       "aiScore": 64.2,
       "aiRank": 82,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 64.5,
         "themeStrength": 64.0,
@@ -3451,7 +3451,7 @@
       "aiScore": 71.8,
       "aiRank": 23,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 77.1,
         "themeStrength": 73.0,
@@ -3555,7 +3555,7 @@
       "aiScore": 69.4,
       "aiRank": 48,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 61.2,
         "themeStrength": 86.0,
@@ -3659,7 +3659,7 @@
       "aiScore": 61.0,
       "aiRank": 100,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 59.3,
         "themeStrength": 54.0,
@@ -3763,7 +3763,7 @@
       "aiScore": 65.2,
       "aiRank": 78,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 60.4,
         "themeStrength": 67.0,
@@ -3868,7 +3868,7 @@
       "aiScore": 72.2,
       "aiRank": 19,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 85.8,
         "themeStrength": 70.0,
@@ -3973,7 +3973,7 @@
       "aiScore": 69.7,
       "aiRank": 46,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 81.7,
         "themeStrength": 61.0,
@@ -4077,7 +4077,7 @@
       "aiScore": 66.5,
       "aiRank": 65,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 56.7,
         "themeStrength": 75.0,
@@ -4182,7 +4182,7 @@
       "aiScore": 74.0,
       "aiRank": 3,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 78.0,
         "themeStrength": 73.0,
@@ -4286,7 +4286,7 @@
       "aiScore": 66.5,
       "aiRank": 66,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 68.4,
         "themeStrength": 70.0,
@@ -4390,7 +4390,7 @@
       "aiScore": 63.6,
       "aiRank": 86,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 61.8,
         "themeStrength": 69.0,
@@ -4494,7 +4494,7 @@
       "aiScore": 66.3,
       "aiRank": 70,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 75.1,
         "themeStrength": 54.0,
@@ -4603,7 +4603,7 @@
       "aiScore": 71.3,
       "aiRank": 29,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 56.8,
         "themeStrength": 88.0,
@@ -4707,7 +4707,7 @@
       "aiScore": 69.8,
       "aiRank": 45,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 68.9,
         "themeStrength": 81.0,
@@ -4811,7 +4811,7 @@
       "aiScore": 40.9,
       "aiRank": 125,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 0.0,
         "themeStrength": 64.0,
@@ -4918,7 +4918,7 @@
       "aiScore": 42.8,
       "aiRank": 124,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 0.0,
         "themeStrength": 68.0,
@@ -5031,7 +5031,7 @@
       "aiScore": 63.8,
       "aiRank": 84,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 61.5,
         "themeStrength": 58.0,
@@ -5135,7 +5135,7 @@
       "aiScore": 61.0,
       "aiRank": 101,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 52.1,
         "themeStrength": 70.0,
@@ -5241,7 +5241,7 @@
       "aiScore": 54.1,
       "aiRank": 114,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 33.4,
         "themeStrength": 72.0,
@@ -5347,7 +5347,7 @@
       "aiScore": 61.8,
       "aiRank": 97,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 66.7,
         "themeStrength": 62.0,
@@ -5451,7 +5451,7 @@
       "aiScore": 68.6,
       "aiRank": 51,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 69.6,
         "themeStrength": 74.0,
@@ -5555,7 +5555,7 @@
       "aiScore": 64.4,
       "aiRank": 79,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 61.8,
         "themeStrength": 69.0,
@@ -5659,7 +5659,7 @@
       "aiScore": 61.0,
       "aiRank": 102,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 54.0,
         "themeStrength": 73.0,
@@ -5764,7 +5764,7 @@
       "aiScore": 63.6,
       "aiRank": 87,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 58.7,
         "themeStrength": 68.0,
@@ -5868,7 +5868,7 @@
       "aiScore": 49.8,
       "aiRank": 120,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 30.0,
         "themeStrength": 67.0,
@@ -5981,7 +5981,7 @@
       "aiScore": 66.7,
       "aiRank": 63,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 62.1,
         "themeStrength": 66.0,
@@ -6086,7 +6086,7 @@
       "aiScore": 68.6,
       "aiRank": 52,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 70.2,
         "themeStrength": 72.0,
@@ -6191,7 +6191,7 @@
       "aiScore": 71.0,
       "aiRank": 33,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 82.2,
         "themeStrength": 76.0,
@@ -6295,7 +6295,7 @@
       "aiScore": 61.2,
       "aiRank": 99,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 54.3,
         "themeStrength": 58.0,
@@ -6399,7 +6399,7 @@
       "aiScore": 66.9,
       "aiRank": 60,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 61.5,
         "themeStrength": 78.0,
@@ -6503,7 +6503,7 @@
       "aiScore": 63.9,
       "aiRank": 83,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 64.8,
         "themeStrength": 62.0,
@@ -6612,7 +6612,7 @@
       "aiScore": 68.4,
       "aiRank": 53,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 67.0,
         "themeStrength": 72.0,
@@ -6716,7 +6716,7 @@
       "aiScore": 62.5,
       "aiRank": 89,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 63.7,
         "themeStrength": 72.0,
@@ -6821,7 +6821,7 @@
       "aiScore": 56.7,
       "aiRank": 109,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 42.8,
         "themeStrength": 68.0,
@@ -6927,7 +6927,7 @@
       "aiScore": 72.4,
       "aiRank": 16,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 76.4,
         "themeStrength": 76.0,
@@ -7031,7 +7031,7 @@
       "aiScore": 66.4,
       "aiRank": 67,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 56.7,
         "themeStrength": 82.0,
@@ -7135,7 +7135,7 @@
       "aiScore": 53.4,
       "aiRank": 118,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 37.6,
         "themeStrength": 68.0,
@@ -7242,7 +7242,7 @@
       "aiScore": 68.4,
       "aiRank": 54,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 70.0,
         "themeStrength": 74.0,
@@ -7346,7 +7346,7 @@
       "aiScore": 66.8,
       "aiRank": 62,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 64.1,
         "themeStrength": 75.0,
@@ -7450,7 +7450,7 @@
       "aiScore": 70.2,
       "aiRank": 40,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 74.4,
         "themeStrength": 84.0,
@@ -7554,7 +7554,7 @@
       "aiScore": 65.7,
       "aiRank": 73,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 58.4,
         "themeStrength": 78.0,
@@ -7658,7 +7658,7 @@
       "aiScore": 62.3,
       "aiRank": 91,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 70.9,
         "themeStrength": 68.0,
@@ -7762,7 +7762,7 @@
       "aiScore": 67.5,
       "aiRank": 57,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 66.5,
         "themeStrength": 71.0,
@@ -7867,7 +7867,7 @@
       "aiScore": 73.7,
       "aiRank": 4,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 79.9,
         "themeStrength": 74.0,
@@ -7972,7 +7972,7 @@
       "aiScore": 71.0,
       "aiRank": 34,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 64.4,
         "themeStrength": 79.0,
@@ -8076,7 +8076,7 @@
       "aiScore": 69.5,
       "aiRank": 47,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 59.3,
         "themeStrength": 84.0,
@@ -8180,7 +8180,7 @@
       "aiScore": 39.6,
       "aiRank": 126,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 0.0,
         "themeStrength": 52.0,
@@ -8286,7 +8286,7 @@
       "aiScore": 53.8,
       "aiRank": 115,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 38.7,
         "themeStrength": 57.0,
@@ -8392,7 +8392,7 @@
       "aiScore": 36.3,
       "aiRank": 127,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 0.0,
         "themeStrength": 49.0,
@@ -8498,7 +8498,7 @@
       "aiScore": 66.4,
       "aiRank": 68,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 62.7,
         "themeStrength": 68.0,
@@ -8602,7 +8602,7 @@
       "aiScore": 61.6,
       "aiRank": 98,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 56.3,
         "themeStrength": 66.0,
@@ -8706,7 +8706,7 @@
       "aiScore": 62.3,
       "aiRank": 92,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 57.9,
         "themeStrength": 70.0,
@@ -8811,7 +8811,7 @@
       "aiScore": 73.6,
       "aiRank": 5,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 79.0,
         "themeStrength": 73.0,
@@ -8915,7 +8915,7 @@
       "aiScore": 65.3,
       "aiRank": 77,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 63.8,
         "themeStrength": 72.0,
@@ -9020,7 +9020,7 @@
       "aiScore": 72.4,
       "aiRank": 17,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 80.3,
         "themeStrength": 75.0,
@@ -9124,7 +9124,7 @@
       "aiScore": 66.6,
       "aiRank": 64,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 55.1,
         "themeStrength": 79.0,
@@ -9228,7 +9228,7 @@
       "aiScore": 66.9,
       "aiRank": 61,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 65.3,
         "themeStrength": 74.0,
@@ -9332,7 +9332,7 @@
       "aiScore": 56.1,
       "aiRank": 111,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 39.0,
         "themeStrength": 67.0,
@@ -9438,7 +9438,7 @@
       "aiScore": 73.6,
       "aiRank": 6,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 82.4,
         "themeStrength": 72.0,
@@ -9542,7 +9542,7 @@
       "aiScore": 68.2,
       "aiRank": 55,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 57.7,
         "themeStrength": 82.0,
@@ -9649,7 +9649,7 @@
       "aiScore": 73.0,
       "aiRank": 10,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 82.0,
         "themeStrength": 74.0,
@@ -9754,7 +9754,7 @@
       "aiScore": 70.4,
       "aiRank": 38,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 76.1,
         "themeStrength": 76.0,
@@ -9858,7 +9858,7 @@
       "aiScore": 65.4,
       "aiRank": 76,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 63.4,
         "themeStrength": 70.0,
@@ -9962,7 +9962,7 @@
       "aiScore": 65.7,
       "aiRank": 74,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 59.3,
         "themeStrength": 71.0,
@@ -10067,7 +10067,7 @@
       "aiScore": 72.1,
       "aiRank": 21,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 81.3,
         "themeStrength": 73.0,
@@ -10172,7 +10172,7 @@
       "aiScore": 71.8,
       "aiRank": 24,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 74.7,
         "themeStrength": 72.0,
@@ -10269,7 +10269,7 @@
       "aiScore": 73.6,
       "aiRank": 7,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 75.9,
         "themeStrength": 77.0,
@@ -10374,7 +10374,7 @@
       "aiScore": 70.6,
       "aiRank": 36,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 78.7,
         "themeStrength": 65.0,
@@ -10478,7 +10478,7 @@
       "aiScore": 61.0,
       "aiRank": 103,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 49.6,
         "themeStrength": 79.0,
@@ -10583,7 +10583,7 @@
       "aiScore": 71.1,
       "aiRank": 32,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 75.9,
         "themeStrength": 70.0,
@@ -10687,7 +10687,7 @@
       "aiScore": 72.2,
       "aiRank": 20,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 83.8,
         "themeStrength": 66.0,
@@ -10791,7 +10791,7 @@
       "aiScore": 67.4,
       "aiRank": 58,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 65.3,
         "themeStrength": 74.0,
@@ -10898,7 +10898,7 @@
       "aiScore": 72.5,
       "aiRank": 14,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 77.2,
         "themeStrength": 75.0,
@@ -11002,7 +11002,7 @@
       "aiScore": 72.9,
       "aiRank": 11,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 78.0,
         "themeStrength": 73.0,
@@ -11106,7 +11106,7 @@
       "aiScore": 43.9,
       "aiRank": 123,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 6.4,
         "themeStrength": 68.0,
@@ -11214,7 +11214,7 @@
       "aiScore": 72.3,
       "aiRank": 18,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 82.6,
         "themeStrength": 75.0,
@@ -11318,7 +11318,7 @@
       "aiScore": 53.7,
       "aiRank": 116,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 33.4,
         "themeStrength": 65.0,
@@ -11424,7 +11424,7 @@
       "aiScore": 71.6,
       "aiRank": 25,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 76.8,
         "themeStrength": 82.0,
@@ -11528,7 +11528,7 @@
       "aiScore": 70.1,
       "aiRank": 42,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 83.1,
         "themeStrength": 68.0,
@@ -11633,7 +11633,7 @@
       "aiScore": 72.6,
       "aiRank": 13,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 78.2,
         "themeStrength": 74.0,
@@ -11738,7 +11738,7 @@
       "aiScore": 73.6,
       "aiRank": 8,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 80.6,
         "themeStrength": 76.0,
@@ -11843,7 +11843,7 @@
       "aiScore": 68.0,
       "aiRank": 56,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 63.6,
         "themeStrength": 72.0,
@@ -11952,7 +11952,7 @@
       "aiScore": 76.0,
       "aiRank": 1,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 59.9,
         "themeStrength": 89.0,
@@ -12058,7 +12058,7 @@
       "aiScore": 70.0,
       "aiRank": 43,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 79.3,
         "themeStrength": 74.0,
@@ -12162,7 +12162,7 @@
       "aiScore": 70.0,
       "aiRank": 44,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 70.8,
         "themeStrength": 73.0,
@@ -12267,7 +12267,7 @@
       "aiScore": 63.0,
       "aiRank": 88,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 61.7,
         "themeStrength": 68.0,
@@ -12372,7 +12372,7 @@
       "aiScore": 72.8,
       "aiRank": 12,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 74.5,
         "themeStrength": 76.0,
@@ -12477,7 +12477,7 @@
       "aiScore": 71.4,
       "aiRank": 27,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 77.8,
         "themeStrength": 72.0,
@@ -12582,7 +12582,7 @@
       "aiScore": 72.5,
       "aiRank": 15,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 74.7,
         "themeStrength": 78.0,
@@ -12686,7 +12686,7 @@
       "aiScore": 70.4,
       "aiRank": 39,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 86.0,
         "themeStrength": 66.0,
@@ -12791,7 +12791,7 @@
       "aiScore": 71.9,
       "aiRank": 22,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 80.1,
         "themeStrength": 68.0,
@@ -12900,7 +12900,7 @@
       "aiScore": 67.3,
       "aiRank": 59,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 51.2,
         "themeStrength": 74.0,
@@ -13006,7 +13006,7 @@
       "aiScore": 69.3,
       "aiRank": 49,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 66.9,
         "themeStrength": 78.0,
@@ -13110,7 +13110,7 @@
       "aiScore": 64.3,
       "aiRank": 80,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 59.4,
         "themeStrength": 65.0,
@@ -13214,7 +13214,7 @@
       "aiScore": 65.6,
       "aiRank": 75,
       "aiGrade": "C",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 61.7,
         "themeStrength": 73.0,
@@ -13307,7 +13307,7 @@
       "aiScore": 55.4,
       "aiRank": 113,
       "aiGrade": "D",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 5.9,
         "themeStrength": 88.0,
@@ -13414,7 +13414,7 @@
       "aiScore": 71.6,
       "aiRank": 26,
       "aiGrade": "B",
-      "aiScoreSource": "?????Codex??????????????????? v4",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
         "valuation": 71.1,
         "themeStrength": 86.0,
