@@ -1,27 +1,24 @@
-# GitHub Pages 双入口部署
+# GitHub Pages 单入口部署
 
-本文档说明如何在保留私有 Sites 地址的同时，用一个公开部署专用仓库免费提供
-GitHub Pages 第二入口。
+本文档说明如何使用公开部署专用仓库提供唯一的线上 GitHub Pages 静态入口。
 
 ## 生产地址与仓库职责
 
 | 项目 | 地址或仓库 | 可见性 | 职责 |
 | --- | --- | --- | --- |
-| 私有 Sites | `https://dividend-research-dashboard.lybwzy2002.chatgpt.site` | 私有 | 现有 Sites 生产入口 |
 | GitHub Pages | `https://invisiblehomozygous.github.io/agent-security-dividend-pages/` | 公开 | 免费静态网页入口 |
 | 源码仓库 | `invisiblehomozygous/agent-security-dividend` | 私有 | 源码、测试、构建和数据快照 |
 | 部署仓库 | `invisiblehomozygous/agent-security-dividend-pages` | 公开 | 只保存生成后的静态产物 |
 
-两个入口的代码部署互相独立。GitHub Pages发布不会修改
-`web/.openai/hosting.json`，也不会替换或取消私有Sites部署；私有Sites运行时读取
-Pages发布的同一份`dashboard-data.json`，因此日常数据更新只需发布一次快照。
+GitHub Pages是唯一线上前端。页面只读取该站点发布的静态资源和公开快照，不访问
+远端账户自选接口，也不依赖其他运行时前端。
 
 ## 部署链路
 
 ```text
 私有源码仓库 main
         |
-        | 每次 push（包括 Sites 更新）
+        | 每次 push
         v
 .github/workflows/pages.yml
         |
@@ -55,7 +52,7 @@ GitHub Pages
 - Python、TypeScript或React源码；
 - DuckDB、SQLite等数据库；
 - `.env`、API Token、SSH私钥和任何凭据；
-- `web/.openai/hosting.json`及Sites部署元数据；
+- 本地托管配置和运行时部署元数据；
 - 本地日志、报告和运行缓存。
 
 静态导出测试会按文件名拦截常见环境文件、密钥和数据库文件。任何显示在公开网页上的
@@ -115,10 +112,8 @@ gh api --method POST \
 
 ## 自动发布
 
-`main`分支的每次 push 都会触发`.github/workflows/pages.yml`。Sites 更新必须先把完成
-验证的同一份源码提交并推送到`main`，再保存和部署 Sites 版本；因此每次 GPTSite 更新
-都会自动构建并同步 GitHub 静态页，不依赖变更文件所在目录。两个入口可以通过同一个
-源码提交定位和核对。
+`main`分支的每次 push 都会触发`.github/workflows/pages.yml`，自动构建并同步 GitHub
+静态页，不依赖变更文件所在目录。每个线上版本都可以通过源码提交定位和核对。
 
 常规数据更新与发布只需运行：
 
@@ -139,10 +134,10 @@ uv run dividend-research web export --live
 4. 通过GitHub API在同一提交中只更新公开数据文件，避免提交其他本地修改；
 5. 等待`publish-public-pages`构建与测试成功；
 6. 等待公开部署仓库的Pages任务成功；
-7. 返回两个线上入口和对应提交。
+7. 返回GitHub Pages入口和对应提交。
 
-私有Sites页面加载时会绕过缓存读取该公开快照，因此不需要为每次行情更新重新部署
-Worker。只想生成本地快照时使用：
+浏览器只读取GitHub Pages上的公开静态快照，不会执行远端账户自选同步。只想生成本地
+快照时使用：
 
 ```bash
 uv run dividend-research web export --live --no-publish
@@ -251,15 +246,12 @@ Pages展示的是私有源码仓库已提交的`web/public/dashboard-data.json`�
 实时抓取行情或执行AI研究。运行`uv run dividend-research web export --live`后，命令会
 自动提交公开快照并等待发布。
 
-### 私有 Sites 与 GitHub Pages 内容不同
+### GitHub Pages 内容不是最新版本
 
-两者的代码仍是独立发布通道，但统一以私有源码仓库`main`中的同一提交为准。Sites代码
-变化应先推送该提交，再按Sites流程部署新版本；`main`的每次 push 都会自动发布
-GitHub Pages。日常行情数据来自同一Pages快照，执行`web export --live`即可让两个入口
-同步更新。
+以私有源码仓库`main`中的最新提交为准，检查`publish-public-pages`和公开部署仓库的
+Pages工作流是否均已成功。日常行情数据执行`web export --live`即可重新生成并发布。
 
 ## 停用
 
 停用GitHub Pages时，在公开部署仓库`Settings -> Pages`取消发布，并删除私有源码仓库
-中的`PAGES_DEPLOY_KEY`。如不再需要部署仓库，再单独归档或删除它。以上操作不会影响
-私有Sites地址。
+中的`PAGES_DEPLOY_KEY`。如不再需要部署仓库，再单独归档或删除它。

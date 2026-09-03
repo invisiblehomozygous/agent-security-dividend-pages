@@ -218,8 +218,6 @@
       </article>
     </main>
     <script>
-      const LIVE_USER_STATE_URL =
-        "https://dividend-research-dashboard.lybwzy2002.chatgpt.site/api/user-state";
       const CUSTOM_STOCKS_STORAGE_KEY = "dividend-research:custom-stocks:v1";
       const STOCK_ANALYSES_STORAGE_KEY = "dividend-research:stock-analyses:v1";
       const params = new URLSearchParams(window.location.search);
@@ -326,21 +324,6 @@
         return buildGeneratedReport(stock, analyses?.[symbol]);
       }
 
-      async function readAccountGeneratedReport() {
-        const isSitesHost = window.location.hostname.endsWith(".chatgpt.site");
-        const response = await fetch(isSitesHost ? "/api/user-state" : LIVE_USER_STATE_URL, {
-          cache: "no-store",
-          credentials: "include",
-          headers: { accept: "application/json" },
-        });
-        if (!response.ok) throw new Error(`账户报告 HTTP ${response.status}`);
-        const payload = await response.json();
-        const stock = Array.isArray(payload.customStocks)
-          ? payload.customStocks.find((item) => item?.symbol === symbol)
-          : null;
-        return buildGeneratedReport(stock, payload.detailedAnalyses?.[symbol]);
-      }
-
       async function loadReport() {
         if (!symbol) throw new Error("链接中缺少股票代码");
         try {
@@ -357,12 +340,6 @@
 
         const localReport = readLocalGeneratedReport();
         if (localReport) return localReport;
-        try {
-          const accountReport = await readAccountGeneratedReport();
-          if (accountReport) return accountReport;
-        } catch (cause) {
-          console.warn("Unable to load the account-generated report", cause);
-        }
         throw new Error(`未找到 ${symbol} 的分析报告，请返回市场看板重新生成`);
       }
 
