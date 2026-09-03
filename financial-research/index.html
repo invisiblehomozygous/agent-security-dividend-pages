@@ -233,24 +233,41 @@
       }
 
       function renderReport(item) {
+        const metadataOnly = item.analysisMode === "metadata_only";
         document.title = `${item.name}财报分析｜*ST 离离原上韭`;
         document.querySelector("#meta").textContent =
           `${item.symbol} · ${item.industry} · ${item.industrySector}`;
         document.querySelector("#title").textContent = `${item.name}｜${item.rating}`;
         const coverage = document.querySelector("#coverage");
         for (const type of item.coveredReportTypes || []) {
-          addCoverageChip(coverage, `已读${TYPE_LABELS[type] || type}`);
+          addCoverageChip(
+            coverage,
+            `${metadataOnly ? "已定位" : "已读"}${TYPE_LABELS[type] || type}`,
+          );
         }
         for (const type of item.missingReportTypes || []) {
           addCoverageChip(coverage, `${TYPE_LABELS[type] || type}缺失`, "missing");
         }
-        const score = document.createElement("div");
-        score.className = "score";
-        score.append("财报评分");
-        const scoreValue = document.createElement("strong");
-        scoreValue.textContent = Number(item.overallScore).toFixed(0);
-        score.append(scoreValue);
-        coverage.append(score);
+        const analysisStatus = item.analysisStatus || "unknown";
+        const statusLabel = analysisStatus === "current"
+          ? "分析已匹配当前财报"
+          : analysisStatus === "stale"
+            ? "当前财报已变化，分析待更新"
+            : analysisStatus === "fallback"
+              ? (item.analysisStatusReason || "当次财报查询失败，当前显示上一成功分析")
+            : "分析状态待核验";
+        addCoverageChip(coverage, statusLabel, analysisStatus === "current" ? "" : "missing");
+        if (metadataOnly) {
+          addCoverageChip(coverage, "未读取正文，评分暂不生效", "missing");
+        } else {
+          const score = document.createElement("div");
+          score.className = "score";
+          score.append("财报评分");
+          const scoreValue = document.createElement("strong");
+          scoreValue.textContent = Number(item.overallScore).toFixed(0);
+          score.append(scoreValue);
+          coverage.append(score);
+        }
         document.querySelector("#summary").textContent = item.summary;
         document.querySelector("#earnings").textContent = item.earningsTrend;
         document.querySelector("#profitability").textContent = item.profitability;
@@ -285,8 +302,23 @@
           row.append(findings);
           reports.append(row);
         }
+        const latestReportPublishedAt = item.latestReportPublishedAt ||
+          (item.reports || [])
+            .map((source) => source.publishedAt)
+            .filter(Boolean)
+            .sort()
+            .at(-1);
+        const latestText = latestReportPublishedAt
+          ? `最新报告发布于 ${new Date(latestReportPublishedAt).toLocaleDateString("zh-CN")}`
+          : "最新报告时间待核验";
+        const generatedText = item.generatedAt
+          ? `分析生成于 ${new Date(item.generatedAt).toLocaleString("zh-CN")}`
+          : "分析生成时间待核验";
+        const generationSource = metadataOnly
+          ? "由 Codex 根据巨潮正式报告元数据生成（未读取正文）"
+          : "由 Codex 读取公开财报正文后生成";
         document.querySelector("#generated").textContent =
-          `由 Codex 读取公开财报后生成 · ${new Date(item.generatedAt).toLocaleString("zh-CN")} · 仅供研究参考`;
+          `${generationSource} · ${latestText} · ${generatedText} · 仅供研究参考`;
         loading.hidden = true;
         report.style.display = "block";
       }
