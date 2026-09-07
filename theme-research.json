@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T08:00:26.586805+00:00",
+  "generatedAt": "2026-09-07T10:11:40.830513+00:00",
   "route": "codex exec --search",
   "refreshDays": 7,
   "stocks": {
@@ -427,6 +427,63 @@
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "601390.SH": {
+      "symbol": "601390.SH",
+      "name": "中国中铁",
+      "industry": "建筑与工程",
+      "industrySector": "工业",
+      "primaryTheme": "轨道交通与城市更新基建",
+      "themes": [
+        "轨道交通与交通强国",
+        "城市更新与地下空间建设",
+        "一带一路与海外工程",
+        "高端工程装备"
+      ],
+      "strength": 72.0,
+      "summary": "中国中铁的核心题材是轨道交通、城市更新和重大基础设施建设，公司具备工程建造、设计咨询及高端装备全产业链承接能力；政策和部分细分订单提供支撑，但总订单、铁路订单和利润下滑使其尚不构成强催化。",
+      "industryOutlook": "建筑业已由增量扩张转向存量更新，传统基建总量仍承压，但铁路投资、城市轨道交通、地下管网、老旧片区改造和绿色基础设施继续获得政策及资金支持，行业景气呈明显结构性分化。",
+      "themeLogic": "公司工程建造业务覆盖铁路、公路、市政、房建和城市轨道交通，并拥有盾构机、道岔和桥梁钢结构等装备业务。2026年上半年全国铁路固定资产投资同比增长2.1%，公司城轨和装备制造新签合同额分别增长76.2%和16.7%，城市更新规划又明确支持轨道场站、地下管网、桥梁隧道和老旧片区改造；不过公司同期新签合同总额下降9.3%，铁路和境外新签合同分别下降47.5%和43.5%，因此题材趋势清晰但催化强度受到约束。",
+      "risks": [
+        "基础设施投资继续收缩，地方财政约束导致项目开工、结算或回款延迟。",
+        "公司2026年上半年铁路新签合同额同比下降47.5%，若持续下滑将削弱交通基建题材的业绩兑现能力。",
+        "城市更新项目存在资金平衡难、投资回收期长及实际落地慢于规划的风险。",
+        "境外新签合同额同比下降43.5%，海外项目还面临地缘政治、汇率、主权信用和履约风险。"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-08-31",
+          "sourceType": "公司公告",
+          "title": "中国中铁股份有限公司2026年半年度报告",
+          "url": "https://www.crec.cn/web/articleFileDir/2026-08/31/d7db61c0b3c64e94983d876440b26d99.pdf"
+        },
+        {
+          "publishedAt": "2026-08-28",
+          "sourceType": "公司公告全文转载",
+          "title": "中国中铁：2026年半年度报告全文",
+          "url": "https://www.9fzt.com/detail/sh_601390_9_38c663838ee5229f28d80d68a26c52ae.html"
+        },
+        {
+          "publishedAt": "2026-07-31",
+          "sourceType": "公司经营数据公告",
+          "title": "中国中铁股份有限公司2026年第二季度主要经营数据公告",
+          "url": "https://www.crec.cn/web/articleFileDir/2026-08/02/ac2125131393456382d442c2d7e852cd.pdf"
+        },
+        {
+          "publishedAt": "2026-07-20",
+          "sourceType": "央企官网转载权威媒体",
+          "title": "全国铁路完成固定资产投资3632亿元",
+          "url": "http://www.china-railway.com.cn/xwzx/mtjj/rmrbhwb/rmrbhwb/202607/t20260720_158272.html"
+        },
+        {
+          "publishedAt": "2026-06-02",
+          "sourceType": "国务院规划",
+          "title": "国务院关于印发《城市更新“十五五”规划》的通知",
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202606/t20260602_1157796.shtml"
+        }
+      ],
+      "generatedAt": "2026-09-07T09:15:58.597024+00:00",
       "route": "codex exec --search"
     },
     "600000.SH": {
@@ -868,51 +925,6 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "601998.SH": {
-      "symbol": "601998.SH",
-      "name": "中信银行",
-      "industry": "商业银行",
-      "industrySector": "金融",
-      "primaryTheme": "金融“五篇大文章”",
-      "themes": [
-        "科技金融",
-        "绿色金融",
-        "普惠金融",
-        "数字金融"
-      ],
-      "strength": 68.0,
-      "summary": "中信银行主营公司银行、零售银行、金融市场及投资银行等综合商业银行业务，2025年报告显示其持续推进科技金融、绿色金融、普惠金融和数字金融，受益于金融“五篇大文章”政策，但题材弹性仍受大型银行业务同质化约束。",
-      "industryOutlook": "银行业进入息差承压、资本约束强化与结构性增长并存阶段，政策重点支持科技金融、绿色金融、普惠金融、养老金融和数字金融，具备相关客群与产品能力的银行更容易获得业务增量。",
-      "themeLogic": "公司对公客户基础和综合金融牌照使其能直接承接制造业升级、专精特新、绿色项目及数字化场景融资；年报明确披露科技、绿色、普惠和数字金融投入，政策方向与主营业务高度匹配，但规模大、业务分散使单一题材贡献度有限。",
-      "risks": [
-        "净息差持续收窄导致相关业务收益不足",
-        "地方及房地产信用风险上升",
-        "监管考核或财政贴息政策调整",
-        "科技和绿色项目不良率高于预期"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-06-16",
-          "sourceType": "公司年报",
-          "title": "2025 Annual Report",
-          "url": "https://www.citicbank.com/about/investor_1011/financialaffairs/report/2025/202604/W020260616416491396035.pdf"
-        },
-        {
-          "publishedAt": "2026-03-06",
-          "sourceType": "国务院政策",
-          "title": "国务院办公厅关于做好金融“五篇大文章”的指导意见",
-          "url": "https://www.mee.gov.cn/zcwj/gwywj/202503/t20250306_1103481.shtml"
-        },
-        {
-          "publishedAt": "2026-04-08",
-          "sourceType": "公司经营资料",
-          "title": "2025年第三季度报告",
-          "url": "https://www.citicbank.com/about/investor/financialaffairs/report/2025/202511/W020260408623829171267.pdf"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
     "002807.SZ": {
       "symbol": "002807.SZ",
       "name": "江阴银行",
@@ -952,107 +964,6 @@
           "sourceType": "财经媒体",
           "title": "深耕普惠赋能实体经济，江阴银行以金融活水浇灌地方发展沃土",
           "url": "https://www.wenshannet.com/company/185852.html"
-        },
-        {
-          "publishedAt": "2025-03-06",
-          "sourceType": "国务院政策",
-          "title": "国务院办公厅关于做好金融“五篇大文章”的指导意见",
-          "url": "https://www.mee.gov.cn/zcwj/gwywj/202503/t20250306_1103481.shtml"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
-    "601658.SH": {
-      "symbol": "601658.SH",
-      "name": "邮储银行",
-      "industry": "商业银行",
-      "industrySector": "金融",
-      "primaryTheme": "乡村振兴",
-      "themes": [
-        "普惠金融",
-        "乡村振兴",
-        "零售金融",
-        "数字金融"
-      ],
-      "strength": 79.0,
-      "summary": "邮储银行主营个人银行、公司银行、资金业务及代理金融等综合商业银行业务，依托广泛网点和县域客户基础，以普惠金融为特色并重点服务乡村振兴，政策与公司资源禀赋高度匹配。",
-      "industryOutlook": "大型零售银行受益于居民财富管理、普惠金融和乡村振兴长期政策，邮储银行网点和客户下沉优势突出，题材偏长期战略而非短期爆发。",
-      "themeLogic": "公司年报明确将普惠金融作为最大特色和突出优势，并提出打造服务乡村振兴主力军；业绩公告显示个人客户资产和零售业务规模持续扩大，网点下沉使其在涉农、小微和县域金融题材中具有直接受益关系。",
-      "risks": [
-        "零售贷款和信用卡资产质量恶化",
-        "净息差继续下降",
-        "县域业务运营成本较高",
-        "财富管理和数字化转型投入回报不足"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-03-27",
-          "sourceType": "公司年报摘要",
-          "title": "2025年年度报告摘要",
-          "url": "https://www.psbc.com/cn/gyyc/tzzgx/gsgg/aggg/202603/t20260327_408121.html"
-        },
-        {
-          "publishedAt": "2026-03-30",
-          "sourceType": "公司业绩公告",
-          "title": "邮储银行发布2025年度业绩",
-          "url": "https://www.psbc.com/cn/gyyc/ycfm/ycdt/202603/t20260330_408907.html"
-        },
-        {
-          "publishedAt": "2025-03-28",
-          "sourceType": "公司可持续发展报告",
-          "title": "可持续发展报告",
-          "url": "https://www.psbc.com/cn/gyyc/tzzgx/qyshzr/202503/t20250328_312282.html"
-        },
-        {
-          "publishedAt": "2025-03-06",
-          "sourceType": "国务院政策",
-          "title": "国务院办公厅关于做好金融“五篇大文章”的指导意见",
-          "url": "https://www.mee.gov.cn/zcwj/gwywj/202503/t20250306_1103481.shtml"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
-    "002839.SZ": {
-      "symbol": "002839.SZ",
-      "name": "张家港行",
-      "industry": "商业银行",
-      "industrySector": "金融",
-      "primaryTheme": "小微金融",
-      "themes": [
-        "小微金融",
-        "普惠金融",
-        "供应链金融"
-      ],
-      "strength": 72.0,
-      "summary": "张家港行主营公司银行、个人银行、资金业务及银行卡等县域商业银行业务，核心优势在小微客户和地方产业链服务，普惠、小微和供应链金融是与主营最直接的题材。",
-      "industryOutlook": "苏南县域银行受制造业、小微企业和外贸产业链需求支撑，普惠与供应链金融仍有增长空间，但区域集中和息差压力明显。",
-      "themeLogic": "公司年报和行业研报均将小微金融、普惠金融及区域产业链服务作为经营重点，张家港制造业和民营经济为客户来源提供场景，但题材强度受区域经济和资产质量约束。",
-      "risks": [
-        "张家港制造业和外贸周期走弱",
-        "小微客户违约率上行",
-        "区域房地产风险传导",
-        "资本补充能力不足"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-03-31",
-          "sourceType": "深交所年报",
-          "title": "江苏张家港农村商业银行股份有限公司2025年年度报告全文",
-          "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225053454.PDF"
-        },
-        {
-          "publishedAt": "2026-03-30",
-          "sourceType": "中国货币网",
-          "title": "江苏张家港农村商业银行股份有限公司2025年年度报告",
-          "url": "https://www.chinamoney.com.cn/chinese/cwbg/20260330/3307299.html"
-        },
-        {
-          "publishedAt": "2026-03-31",
-          "sourceType": "券商研报",
-          "title": "张家港行（002839.SZ）2025年报点评",
-          "url": "https://pdf.dfcfw.com/pdf/H3_AP202603311820916091_1.pdf?1774976613000.pdf"
         },
         {
           "publishedAt": "2025-03-06",
@@ -1109,6 +1020,152 @@
           "sourceType": "权威财经媒体",
           "title": "安徽建工集团股份有限公司2026年半年度报告",
           "url": "http://news.10jqka.com.cn/field/sn/20260831/59573561.shtml"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "601658.SH": {
+      "symbol": "601658.SH",
+      "name": "邮储银行",
+      "industry": "商业银行",
+      "industrySector": "金融",
+      "primaryTheme": "乡村振兴",
+      "themes": [
+        "普惠金融",
+        "乡村振兴",
+        "零售金融",
+        "数字金融"
+      ],
+      "strength": 79.0,
+      "summary": "邮储银行主营个人银行、公司银行、资金业务及代理金融等综合商业银行业务，依托广泛网点和县域客户基础，以普惠金融为特色并重点服务乡村振兴，政策与公司资源禀赋高度匹配。",
+      "industryOutlook": "大型零售银行受益于居民财富管理、普惠金融和乡村振兴长期政策，邮储银行网点和客户下沉优势突出，题材偏长期战略而非短期爆发。",
+      "themeLogic": "公司年报明确将普惠金融作为最大特色和突出优势，并提出打造服务乡村振兴主力军；业绩公告显示个人客户资产和零售业务规模持续扩大，网点下沉使其在涉农、小微和县域金融题材中具有直接受益关系。",
+      "risks": [
+        "零售贷款和信用卡资产质量恶化",
+        "净息差继续下降",
+        "县域业务运营成本较高",
+        "财富管理和数字化转型投入回报不足"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-03-27",
+          "sourceType": "公司年报摘要",
+          "title": "2025年年度报告摘要",
+          "url": "https://www.psbc.com/cn/gyyc/tzzgx/gsgg/aggg/202603/t20260327_408121.html"
+        },
+        {
+          "publishedAt": "2026-03-30",
+          "sourceType": "公司业绩公告",
+          "title": "邮储银行发布2025年度业绩",
+          "url": "https://www.psbc.com/cn/gyyc/ycfm/ycdt/202603/t20260330_408907.html"
+        },
+        {
+          "publishedAt": "2025-03-28",
+          "sourceType": "公司可持续发展报告",
+          "title": "可持续发展报告",
+          "url": "https://www.psbc.com/cn/gyyc/tzzgx/qyshzr/202503/t20250328_312282.html"
+        },
+        {
+          "publishedAt": "2025-03-06",
+          "sourceType": "国务院政策",
+          "title": "国务院办公厅关于做好金融“五篇大文章”的指导意见",
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202503/t20250306_1103481.shtml"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "601998.SH": {
+      "symbol": "601998.SH",
+      "name": "中信银行",
+      "industry": "商业银行",
+      "industrySector": "金融",
+      "primaryTheme": "金融“五篇大文章”",
+      "themes": [
+        "科技金融",
+        "绿色金融",
+        "普惠金融",
+        "数字金融"
+      ],
+      "strength": 68.0,
+      "summary": "中信银行主营公司银行、零售银行、金融市场及投资银行等综合商业银行业务，2025年报告显示其持续推进科技金融、绿色金融、普惠金融和数字金融，受益于金融“五篇大文章”政策，但题材弹性仍受大型银行业务同质化约束。",
+      "industryOutlook": "银行业进入息差承压、资本约束强化与结构性增长并存阶段，政策重点支持科技金融、绿色金融、普惠金融、养老金融和数字金融，具备相关客群与产品能力的银行更容易获得业务增量。",
+      "themeLogic": "公司对公客户基础和综合金融牌照使其能直接承接制造业升级、专精特新、绿色项目及数字化场景融资；年报明确披露科技、绿色、普惠和数字金融投入，政策方向与主营业务高度匹配，但规模大、业务分散使单一题材贡献度有限。",
+      "risks": [
+        "净息差持续收窄导致相关业务收益不足",
+        "地方及房地产信用风险上升",
+        "监管考核或财政贴息政策调整",
+        "科技和绿色项目不良率高于预期"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-06-16",
+          "sourceType": "公司年报",
+          "title": "2025 Annual Report",
+          "url": "https://www.citicbank.com/about/investor_1011/financialaffairs/report/2025/202604/W020260616416491396035.pdf"
+        },
+        {
+          "publishedAt": "2026-03-06",
+          "sourceType": "国务院政策",
+          "title": "国务院办公厅关于做好金融“五篇大文章”的指导意见",
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202503/t20250306_1103481.shtml"
+        },
+        {
+          "publishedAt": "2026-04-08",
+          "sourceType": "公司经营资料",
+          "title": "2025年第三季度报告",
+          "url": "https://www.citicbank.com/about/investor/financialaffairs/report/2025/202511/W020260408623829171267.pdf"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "002839.SZ": {
+      "symbol": "002839.SZ",
+      "name": "张家港行",
+      "industry": "商业银行",
+      "industrySector": "金融",
+      "primaryTheme": "小微金融",
+      "themes": [
+        "小微金融",
+        "普惠金融",
+        "供应链金融"
+      ],
+      "strength": 72.0,
+      "summary": "张家港行主营公司银行、个人银行、资金业务及银行卡等县域商业银行业务，核心优势在小微客户和地方产业链服务，普惠、小微和供应链金融是与主营最直接的题材。",
+      "industryOutlook": "苏南县域银行受制造业、小微企业和外贸产业链需求支撑，普惠与供应链金融仍有增长空间，但区域集中和息差压力明显。",
+      "themeLogic": "公司年报和行业研报均将小微金融、普惠金融及区域产业链服务作为经营重点，张家港制造业和民营经济为客户来源提供场景，但题材强度受区域经济和资产质量约束。",
+      "risks": [
+        "张家港制造业和外贸周期走弱",
+        "小微客户违约率上行",
+        "区域房地产风险传导",
+        "资本补充能力不足"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-03-31",
+          "sourceType": "深交所年报",
+          "title": "江苏张家港农村商业银行股份有限公司2025年年度报告全文",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225053454.PDF"
+        },
+        {
+          "publishedAt": "2026-03-30",
+          "sourceType": "中国货币网",
+          "title": "江苏张家港农村商业银行股份有限公司2025年年度报告",
+          "url": "https://www.chinamoney.com.cn/chinese/cwbg/20260330/3307299.html"
+        },
+        {
+          "publishedAt": "2026-03-31",
+          "sourceType": "券商研报",
+          "title": "张家港行（002839.SZ）2025年报点评",
+          "url": "https://pdf.dfcfw.com/pdf/H3_AP202603311820916091_1.pdf?1774976613000.pdf"
+        },
+        {
+          "publishedAt": "2025-03-06",
+          "sourceType": "国务院政策",
+          "title": "国务院办公厅关于做好金融“五篇大文章”的指导意见",
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202503/t20250306_1103481.shtml"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -1362,57 +1419,6 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "601665.SH": {
-      "symbol": "601665.SH",
-      "name": "齐鲁银行",
-      "industry": "商业银行",
-      "industrySector": "金融",
-      "primaryTheme": "山东科技金融",
-      "themes": [
-        "山东科技金融",
-        "普惠小微金融",
-        "先进制造业金融",
-        "乡村振兴金融"
-      ],
-      "strength": 73.0,
-      "summary": "齐鲁银行主营公司银行、个人银行和资金业务，核心市场位于山东，科技金融和普惠金融已有较快资产增长，能够直接受益于山东制造业升级和中小企业融资需求。",
-      "industryOutlook": "山东制造业门类齐全、民营和小微企业数量较多，科技创新、工业升级和乡村振兴可持续产生融资需求；城商行仍面对区域集中、净息差低位以及同业争夺优质资产等约束，行业机会主要来自结构调整而非全面扩张。",
-      "themeLogic": "2026年上半年公司科技贷款余额655.46亿元，较上年末增长25.86%，普惠贷款余额779.37亿元，并依托山东本地客户和网点服务制造业、民营小微及县域经济；科技贷款的高增长使公司与山东产业升级题材形成较直接联系。",
-      "risks": [
-        "山东区域制造业或民营企业景气回落，可能影响贷款需求和资产质量。",
-        "科技贷款快速增长可能带来客户识别、估值和风险定价压力。",
-        "普惠贷款竞争和政策让利可能压缩新增业务收益率。",
-        "业务区域集中度较高，地方房地产和融资平台风险不易通过跨区域经营分散。"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-08-28",
-          "sourceType": "公司官网",
-          "title": "齐鲁银行股份有限公司2026年半年度报告",
-          "url": "https://www.qlbchina.com/qlbchina/2026-08/28/article_2026082818261366768.html"
-        },
-        {
-          "publishedAt": "2026-08-28",
-          "sourceType": "公司官网",
-          "title": "齐鲁银行股份有限公司2026年半年度报告摘要",
-          "url": "https://www.qlbchina.com/qlbchina/2026-08/28/article_2026082818264282430.html"
-        },
-        {
-          "publishedAt": "2026-07-15",
-          "sourceType": "专业研究机构",
-          "title": "2026年中国银行业调查报告",
-          "url": "https://assets.kpmg.com/content/dam/kpmgsites/cn/pdf/zh/2026/07/china-banking-industry-survey-report-2026.pdf.coredownload.inline.pdf"
-        },
-        {
-          "publishedAt": "2026-08-14",
-          "sourceType": "监管部门",
-          "title": "2026年二季度银行业保险业主要监管指标数据情况",
-          "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1268038&itemId=915"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
     "600741.SH": {
       "symbol": "600741.SH",
       "name": "华域汽车",
@@ -1459,6 +1465,57 @@
           "sourceType": "产业政策解读",
           "title": "商务部消费促进司负责人解读《2026年汽车以旧换新补贴实施细则》",
           "url": "https://www.mofcom.gov.cn/zcjd/gnmy/art/2026/art_e901b6586de14a1c9ac8b2c50641424e.html"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "601665.SH": {
+      "symbol": "601665.SH",
+      "name": "齐鲁银行",
+      "industry": "商业银行",
+      "industrySector": "金融",
+      "primaryTheme": "山东科技金融",
+      "themes": [
+        "山东科技金融",
+        "普惠小微金融",
+        "先进制造业金融",
+        "乡村振兴金融"
+      ],
+      "strength": 73.0,
+      "summary": "齐鲁银行主营公司银行、个人银行和资金业务，核心市场位于山东，科技金融和普惠金融已有较快资产增长，能够直接受益于山东制造业升级和中小企业融资需求。",
+      "industryOutlook": "山东制造业门类齐全、民营和小微企业数量较多，科技创新、工业升级和乡村振兴可持续产生融资需求；城商行仍面对区域集中、净息差低位以及同业争夺优质资产等约束，行业机会主要来自结构调整而非全面扩张。",
+      "themeLogic": "2026年上半年公司科技贷款余额655.46亿元，较上年末增长25.86%，普惠贷款余额779.37亿元，并依托山东本地客户和网点服务制造业、民营小微及县域经济；科技贷款的高增长使公司与山东产业升级题材形成较直接联系。",
+      "risks": [
+        "山东区域制造业或民营企业景气回落，可能影响贷款需求和资产质量。",
+        "科技贷款快速增长可能带来客户识别、估值和风险定价压力。",
+        "普惠贷款竞争和政策让利可能压缩新增业务收益率。",
+        "业务区域集中度较高，地方房地产和融资平台风险不易通过跨区域经营分散。"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-08-28",
+          "sourceType": "公司官网",
+          "title": "齐鲁银行股份有限公司2026年半年度报告",
+          "url": "https://www.qlbchina.com/qlbchina/2026-08/28/article_2026082818261366768.html"
+        },
+        {
+          "publishedAt": "2026-08-28",
+          "sourceType": "公司官网",
+          "title": "齐鲁银行股份有限公司2026年半年度报告摘要",
+          "url": "https://www.qlbchina.com/qlbchina/2026-08/28/article_2026082818264282430.html"
+        },
+        {
+          "publishedAt": "2026-07-15",
+          "sourceType": "专业研究机构",
+          "title": "2026年中国银行业调查报告",
+          "url": "https://assets.kpmg.com/content/dam/kpmgsites/cn/pdf/zh/2026/07/china-banking-industry-survey-report-2026.pdf.coredownload.inline.pdf"
+        },
+        {
+          "publishedAt": "2026-08-14",
+          "sourceType": "监管部门",
+          "title": "2026年二季度银行业保险业主要监管指标数据情况",
+          "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1268038&itemId=915"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -1566,57 +1623,6 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "002966.SZ": {
-      "symbol": "002966.SZ",
-      "name": "苏州银行",
-      "industry": "商业银行",
-      "industrySector": "金融",
-      "primaryTheme": "长三角科技金融",
-      "themes": [
-        "长三角科技金融",
-        "先进制造业金融",
-        "普惠小微金融",
-        "数字金融"
-      ],
-      "strength": 74.0,
-      "summary": "苏州银行主营公司银行、个人银行、资金业务及其他金融服务，经营定位为立足苏州、深耕江苏、融入长三角，科技金融、制造业金融和普惠小微与当地产业结构直接匹配。",
-      "industryOutlook": "长三角先进制造业和科技产业集群为银行科技金融、供应链金融及小微金融提供较好需求基础，苏州民营经济活跃也有利于区域银行获客；但区域银行同业竞争激烈，低息差环境下优质企业贷款定价压力突出。",
-      "themeLogic": "苏州及江苏拥有先进制造业、专精特新和科技企业集群，公司通过本地网点、政银合作和产业链客户积累承接科技、制造业及小微融资需求；2026年中报继续强调融入长三角和区域产业转型，因此区域产业景气能够较直接地传导至贷款与综合金融业务。",
-      "risks": [
-        "苏州及江苏制造业出口若受外部需求或贸易摩擦冲击，企业信贷质量和融资需求可能转弱。",
-        "科技企业轻资产、盈利波动大的特征可能增加授信和贷后管理难度。",
-        "国有大行及股份行争夺长三角优质客户，可能压低贷款收益率。",
-        "房地产和地方融资平台风险可能对区域资产质量形成扰动。"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-08-26",
-          "sourceType": "公司官网",
-          "title": "苏州银行：2026年半年度报告",
-          "url": "https://www.suzhoubank.com/suzhoubank/2026-08/26/article_2026082619231632387.shtml"
-        },
-        {
-          "publishedAt": "2026-08-28",
-          "sourceType": "权威媒体",
-          "title": "苏州银行2026年中报出炉：规模稳进风控稳健，盈利提质勾勒高质量发展新图景",
-          "url": "https://m.thepaper.cn/newsDetail_forward_33965449"
-        },
-        {
-          "publishedAt": "2026-08-14",
-          "sourceType": "监管部门",
-          "title": "2026年二季度银行业保险业主要监管指标数据情况",
-          "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1268038&itemId=915"
-        },
-        {
-          "publishedAt": "2025-03-06",
-          "sourceType": "政府文件",
-          "title": "国务院办公厅关于做好金融“五篇大文章”的指导意见",
-          "url": "https://www.mee.gov.cn/zcwj/gwywj/202503/t20250306_1103481.shtml"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
     "601988.SH": {
       "symbol": "601988.SH",
       "name": "中国银行",
@@ -1663,6 +1669,57 @@
           "sourceType": "公司公告",
           "title": "中国银行2025年度可持续发展报告",
           "url": "https://www.boc.cn/en/investor/ir2/202603/t20260330_25657384.html"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "002966.SZ": {
+      "symbol": "002966.SZ",
+      "name": "苏州银行",
+      "industry": "商业银行",
+      "industrySector": "金融",
+      "primaryTheme": "长三角科技金融",
+      "themes": [
+        "长三角科技金融",
+        "先进制造业金融",
+        "普惠小微金融",
+        "数字金融"
+      ],
+      "strength": 74.0,
+      "summary": "苏州银行主营公司银行、个人银行、资金业务及其他金融服务，经营定位为立足苏州、深耕江苏、融入长三角，科技金融、制造业金融和普惠小微与当地产业结构直接匹配。",
+      "industryOutlook": "长三角先进制造业和科技产业集群为银行科技金融、供应链金融及小微金融提供较好需求基础，苏州民营经济活跃也有利于区域银行获客；但区域银行同业竞争激烈，低息差环境下优质企业贷款定价压力突出。",
+      "themeLogic": "苏州及江苏拥有先进制造业、专精特新和科技企业集群，公司通过本地网点、政银合作和产业链客户积累承接科技、制造业及小微融资需求；2026年中报继续强调融入长三角和区域产业转型，因此区域产业景气能够较直接地传导至贷款与综合金融业务。",
+      "risks": [
+        "苏州及江苏制造业出口若受外部需求或贸易摩擦冲击，企业信贷质量和融资需求可能转弱。",
+        "科技企业轻资产、盈利波动大的特征可能增加授信和贷后管理难度。",
+        "国有大行及股份行争夺长三角优质客户，可能压低贷款收益率。",
+        "房地产和地方融资平台风险可能对区域资产质量形成扰动。"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-08-26",
+          "sourceType": "公司官网",
+          "title": "苏州银行：2026年半年度报告",
+          "url": "https://www.suzhoubank.com/suzhoubank/2026-08/26/article_2026082619231632387.shtml"
+        },
+        {
+          "publishedAt": "2026-08-28",
+          "sourceType": "权威媒体",
+          "title": "苏州银行2026年中报出炉：规模稳进风控稳健，盈利提质勾勒高质量发展新图景",
+          "url": "https://m.thepaper.cn/newsDetail_forward_33965449"
+        },
+        {
+          "publishedAt": "2026-08-14",
+          "sourceType": "监管部门",
+          "title": "2026年二季度银行业保险业主要监管指标数据情况",
+          "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1268038&itemId=915"
+        },
+        {
+          "publishedAt": "2025-03-06",
+          "sourceType": "政府文件",
+          "title": "国务院办公厅关于做好金融“五篇大文章”的指导意见",
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202503/t20250306_1103481.shtml"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -2869,50 +2926,6 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "600177.SH": {
-      "symbol": "600177.SH",
-      "name": "雅戈尔",
-      "industry": "纺织服装",
-      "industrySector": "可选消费",
-      "primaryTheme": "品牌服装与消费升级",
-      "themes": [
-        "品牌服装",
-        "消费升级",
-        "纺织服装国产品牌"
-      ],
-      "strength": 46.0,
-      "summary": "雅戈尔核心主业是品牌服装，另有地产开发和投资业务；2025年时尚主业仍有规模但利润明显承压，品牌消费升级逻辑存在但催化偏弱。",
-      "industryOutlook": "纺织服装行业处于品牌分化和消费复苏验证期，龙头品牌通过产品升级、渠道优化和库存管理提升份额；地产拖累和消费分层仍然明显。",
-      "themeLogic": "年报明确公司以品牌服装为核心，时尚板块收入约74亿元；但媒体披露时尚主业利润大幅下降，地产亏损，说明题材相关性直接但景气和兑现度有限。",
-      "risks": [
-        "居民可选消费恢复不及预期",
-        "品牌服装折扣加深、库存和渠道效率恶化",
-        "地产开发业务继续亏损并占用资源",
-        "投资收益波动掩盖时尚主业经营变化"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-04-27",
-          "sourceType": "公司年度报告",
-          "title": "雅戈尔时尚股份有限公司2025年年度报告",
-          "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225220816.PDF"
-        },
-        {
-          "publishedAt": "2026-04-28",
-          "sourceType": "权威财经媒体",
-          "title": "“服装界伯克希尔”雅戈尔的2025年：投资业务净赚超24亿元",
-          "url": "https://www.nbd.com.cn/articles/2026-04-28/4365295.html"
-        },
-        {
-          "publishedAt": "2026-05-08",
-          "sourceType": "财经媒体",
-          "title": "雅戈尔去年营收净利润双降，时尚主业增收不增利",
-          "url": "https://wap.eastmoney.com/a/202605083731480891.html"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
     "600803.SH": {
       "symbol": "600803.SH",
       "name": "新奥股份",
@@ -2952,6 +2965,50 @@
           "sourceType": "评级机构报告",
           "title": "新奥天然气股份有限公司2026年度跟踪评级报告",
           "url": "https://www.chinamoney.org.cn/dqs/cm-s-notice-query/fileDownLoad.do?contentId=3305432&priority=0&mode=save"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "600177.SH": {
+      "symbol": "600177.SH",
+      "name": "雅戈尔",
+      "industry": "纺织服装",
+      "industrySector": "可选消费",
+      "primaryTheme": "品牌服装与消费升级",
+      "themes": [
+        "品牌服装",
+        "消费升级",
+        "纺织服装国产品牌"
+      ],
+      "strength": 46.0,
+      "summary": "雅戈尔核心主业是品牌服装，另有地产开发和投资业务；2025年时尚主业仍有规模但利润明显承压，品牌消费升级逻辑存在但催化偏弱。",
+      "industryOutlook": "纺织服装行业处于品牌分化和消费复苏验证期，龙头品牌通过产品升级、渠道优化和库存管理提升份额；地产拖累和消费分层仍然明显。",
+      "themeLogic": "年报明确公司以品牌服装为核心，时尚板块收入约74亿元；但媒体披露时尚主业利润大幅下降，地产亏损，说明题材相关性直接但景气和兑现度有限。",
+      "risks": [
+        "居民可选消费恢复不及预期",
+        "品牌服装折扣加深、库存和渠道效率恶化",
+        "地产开发业务继续亏损并占用资源",
+        "投资收益波动掩盖时尚主业经营变化"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-04-27",
+          "sourceType": "公司年度报告",
+          "title": "雅戈尔时尚股份有限公司2025年年度报告",
+          "url": "http://static.cninfo.com.cn/finalpage/2026-04-28/1225220816.PDF"
+        },
+        {
+          "publishedAt": "2026-04-28",
+          "sourceType": "权威财经媒体",
+          "title": "“服装界伯克希尔”雅戈尔的2025年：投资业务净赚超24亿元",
+          "url": "https://www.nbd.com.cn/articles/2026-04-28/4365295.html"
+        },
+        {
+          "publishedAt": "2026-05-08",
+          "sourceType": "财经媒体",
+          "title": "雅戈尔去年营收净利润双降，时尚主业增收不增利",
+          "url": "https://wap.eastmoney.com/a/202605083731480891.html"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -3103,50 +3160,6 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "601216.SH": {
-      "symbol": "601216.SH",
-      "name": "君正集团",
-      "industry": "化学原料",
-      "industrySector": "原材料",
-      "primaryTheme": "氯碱化工一体化",
-      "themes": [
-        "氯碱化工",
-        "PVC产业链",
-        "能源化工一体化"
-      ],
-      "strength": 63.0,
-      "summary": "君正集团主营能源化工和化工物流，核心产品覆盖PVC、烧碱等氯碱化工链条，具备煤电化一体化和低成本区域优势，但行业价格周期使题材强度处于中性。",
-      "industryOutlook": "氯碱化工处于周期与供需平衡反复阶段，PVC、烧碱价格和电石、煤炭成本决定盈利；能源化工一体化和低成本区域产能具有相对优势，算力等新业务仍处培育期。",
-      "themeLogic": "年报将公司主营划分为能源化工和化工物流，公开资料显示氯碱化工利润和行业排名较突出；公司同时提出围绕算力服务培育新增长点，但尚未形成主要收入。",
-      "risks": [
-        "PVC、烧碱价格持续低迷",
-        "电石、煤炭和电力成本上升",
-        "行业新增产能导致供给过剩",
-        "算力等培育业务投入大且商业化慢"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-04-26",
-          "sourceType": "公司年度报告",
-          "title": "内蒙古君正能源化工集团股份有限公司2025年年度报告",
-          "url": "https://static.cninfo.com.cn/finalpage/2026-04-27/1225188357.PDF"
-        },
-        {
-          "publishedAt": "2026-04-28",
-          "sourceType": "权威财经媒体",
-          "title": "君正集团的前世今生：营收252.38亿行业第二，净利润33.52亿领先",
-          "url": "https://finance.sina.com.cn/stock/aiassist/agqsjs/2026-04-28/doc-inhwaicy8362473.shtml"
-        },
-        {
-          "publishedAt": "2026-08-26",
-          "sourceType": "公司半年度报告",
-          "title": "内蒙古君正能源化工集团股份有限公司2026年半年度报告",
-          "url": "https://www.junzhenggroup.com/uploads/jzjt/notice/1642/file/c63a2199432937c9a16ca7a4b4f8bcf9.pdf"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
     "000792.SZ": {
       "symbol": "000792.SZ",
       "name": "盐湖股份",
@@ -3202,6 +3215,50 @@
         }
       ],
       "generatedAt": "2026-09-07T08:00:26.586805+00:00",
+      "route": "codex exec --search"
+    },
+    "601216.SH": {
+      "symbol": "601216.SH",
+      "name": "君正集团",
+      "industry": "化学原料",
+      "industrySector": "原材料",
+      "primaryTheme": "氯碱化工一体化",
+      "themes": [
+        "氯碱化工",
+        "PVC产业链",
+        "能源化工一体化"
+      ],
+      "strength": 63.0,
+      "summary": "君正集团主营能源化工和化工物流，核心产品覆盖PVC、烧碱等氯碱化工链条，具备煤电化一体化和低成本区域优势，但行业价格周期使题材强度处于中性。",
+      "industryOutlook": "氯碱化工处于周期与供需平衡反复阶段，PVC、烧碱价格和电石、煤炭成本决定盈利；能源化工一体化和低成本区域产能具有相对优势，算力等新业务仍处培育期。",
+      "themeLogic": "年报将公司主营划分为能源化工和化工物流，公开资料显示氯碱化工利润和行业排名较突出；公司同时提出围绕算力服务培育新增长点，但尚未形成主要收入。",
+      "risks": [
+        "PVC、烧碱价格持续低迷",
+        "电石、煤炭和电力成本上升",
+        "行业新增产能导致供给过剩",
+        "算力等培育业务投入大且商业化慢"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-04-26",
+          "sourceType": "公司年度报告",
+          "title": "内蒙古君正能源化工集团股份有限公司2025年年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-27/1225188357.PDF"
+        },
+        {
+          "publishedAt": "2026-04-28",
+          "sourceType": "权威财经媒体",
+          "title": "君正集团的前世今生：营收252.38亿行业第二，净利润33.52亿领先",
+          "url": "https://finance.sina.com.cn/stock/aiassist/agqsjs/2026-04-28/doc-inhwaicy8362473.shtml"
+        },
+        {
+          "publishedAt": "2026-08-26",
+          "sourceType": "公司半年度报告",
+          "title": "内蒙古君正能源化工集团股份有限公司2026年半年度报告",
+          "url": "https://www.junzhenggroup.com/uploads/jzjt/notice/1642/file/c63a2199432937c9a16ca7a4b4f8bcf9.pdf"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
     "002572.SZ": {
@@ -3305,6 +3362,57 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
+    "603565.SH": {
+      "symbol": "603565.SH",
+      "name": "中谷物流",
+      "industry": "运输业",
+      "industrySector": "工业",
+      "primaryTheme": "集装箱多式联运",
+      "themes": [
+        "集装箱多式联运",
+        "内贸航运",
+        "物流降本增效",
+        "国际航线拓展"
+      ],
+      "strength": 68.0,
+      "summary": "公司主营以集装箱为载体的内贸海运及多式联运服务，并通过购船、物流基地和国际航线延伸网络；政策方向清晰，但2026年上半年收入仅小幅增长，短期催化强度有限。",
+      "industryOutlook": "降低全社会物流成本和发展多式联运是十五五时期明确方向，集装箱化、一单制和一箱制有助于推动大宗及制造业货物由公路向水运、铁路转移。内贸集运需求与国内工业和消费活动相关，行业还会受到船舶供给、运价和燃油成本的周期性影响。",
+      "themeLogic": "公司拥有内贸集装箱船队、集装箱资源和港口物流网络，可直接受益于公转水、散改集以及多式联运渗透率提升；募投项目拟购置多艘集装箱船并用于国内外网络扩张，强化公司与题材的直接性。十五五规划支持一单制、一箱制和多式联运，但货运需求与运价尚未呈现强周期上行，因此评分处于趋势清晰区间。",
+      "risks": [
+        "国内工业品和消费品货运需求下降，集装箱运量及运价承压。",
+        "新船集中交付造成运力供给增加，行业竞争加剧。",
+        "燃油价格上升且附加费传导不足，航运成本提高。",
+        "国际航线拓展、物流基地建设或新购船舶投放进度不及预期。"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-08-26",
+          "sourceType": "公司定期报告",
+          "title": "上海中谷物流股份有限公司2026年半年度报告",
+          "url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260826/82967044f1a84b62bf8d278a38b23292.PDF"
+        },
+        {
+          "publishedAt": "2026-08-15",
+          "sourceType": "公司融资审核文件",
+          "title": "关于上海中谷物流股份有限公司向不特定对象发行可转换公司债券的审核问询回复",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603565&id=12494985"
+        },
+        {
+          "publishedAt": "2026-08-26",
+          "sourceType": "财经媒体",
+          "title": "中谷物流2026年半年度营业收入54.57亿元",
+          "url": "https://static.weeklyonstock.com/26/0826/ABB2618130418581.html"
+        },
+        {
+          "publishedAt": "2026-03-17",
+          "sourceType": "国家规划",
+          "title": "中华人民共和国国民经济和社会发展第十五个五年规划纲要",
+          "url": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjfzgh/202603/U020260317369114704096.pdf"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
     "600585.SH": {
       "symbol": "600585.SH",
       "name": "海螺水泥",
@@ -3389,57 +3497,6 @@
           "sourceType": "券商研究报告",
           "title": "中国耐用消费品：国家发改委和财政部发布2025年加力扩围消费品以旧换新政策点评",
           "url": "https://pdf.dfcfw.com/pdf/H3_AP202501101641880976_1.pdf"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
-    "603565.SH": {
-      "symbol": "603565.SH",
-      "name": "中谷物流",
-      "industry": "运输业",
-      "industrySector": "工业",
-      "primaryTheme": "集装箱多式联运",
-      "themes": [
-        "集装箱多式联运",
-        "内贸航运",
-        "物流降本增效",
-        "国际航线拓展"
-      ],
-      "strength": 68.0,
-      "summary": "公司主营以集装箱为载体的内贸海运及多式联运服务，并通过购船、物流基地和国际航线延伸网络；政策方向清晰，但2026年上半年收入仅小幅增长，短期催化强度有限。",
-      "industryOutlook": "降低全社会物流成本和发展多式联运是十五五时期明确方向，集装箱化、一单制和一箱制有助于推动大宗及制造业货物由公路向水运、铁路转移。内贸集运需求与国内工业和消费活动相关，行业还会受到船舶供给、运价和燃油成本的周期性影响。",
-      "themeLogic": "公司拥有内贸集装箱船队、集装箱资源和港口物流网络，可直接受益于公转水、散改集以及多式联运渗透率提升；募投项目拟购置多艘集装箱船并用于国内外网络扩张，强化公司与题材的直接性。十五五规划支持一单制、一箱制和多式联运，但货运需求与运价尚未呈现强周期上行，因此评分处于趋势清晰区间。",
-      "risks": [
-        "国内工业品和消费品货运需求下降，集装箱运量及运价承压。",
-        "新船集中交付造成运力供给增加，行业竞争加剧。",
-        "燃油价格上升且附加费传导不足，航运成本提高。",
-        "国际航线拓展、物流基地建设或新购船舶投放进度不及预期。"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-08-26",
-          "sourceType": "公司定期报告",
-          "title": "上海中谷物流股份有限公司2026年半年度报告",
-          "url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260826/82967044f1a84b62bf8d278a38b23292.PDF"
-        },
-        {
-          "publishedAt": "2026-08-15",
-          "sourceType": "公司融资审核文件",
-          "title": "关于上海中谷物流股份有限公司向不特定对象发行可转换公司债券的审核问询回复",
-          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603565&id=12494985"
-        },
-        {
-          "publishedAt": "2026-08-26",
-          "sourceType": "财经媒体",
-          "title": "中谷物流2026年半年度营业收入54.57亿元",
-          "url": "https://static.weeklyonstock.com/26/0826/ABB2618130418581.html"
-        },
-        {
-          "publishedAt": "2026-03-17",
-          "sourceType": "国家规划",
-          "title": "中华人民共和国国民经济和社会发展第十五个五年规划纲要",
-          "url": "https://www.ndrc.gov.cn/fggz/fzzlgh/gjfzgh/202603/U020260317369114704096.pdf"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -4046,6 +4103,51 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
+    "601168.SH": {
+      "symbol": "601168.SH",
+      "name": "西部矿业",
+      "industry": "工业金属",
+      "industrySector": "原材料",
+      "primaryTheme": "铜铅锌资源与能源金属",
+      "themes": [
+        "铜资源",
+        "铅锌资源",
+        "能源转型金属",
+        "矿产资源安全"
+      ],
+      "strength": 79.0,
+      "summary": "公司主营铜、铅、锌等有色金属矿产资源开发、冶炼和贸易，拥有矿山资源和产能基础，直接受益于铜需求增长、电网及新能源投资和供给约束，题材强度较高但价格周期明显。",
+      "industryOutlook": "铜、铅锌等工业金属受能源转型、电网投资和新能源制造需求支撑，中长期供给端资本开支不足；短期价格受全球经济、美元和库存周期影响显著。",
+      "themeLogic": "公司年报显示其核心业务集中于铜、铅锌等有色金属资源开发和冶炼，资源端权益与产量是产业逻辑的直接载体。能源转型、电网建设和新能源设备提升铜需求，全球矿山供给扩张受制于勘探周期和资本开支，形成中长期供需支撑；但公司盈利对金属价格和产量兑现高度敏感。",
+      "risks": [
+        "全球经济放缓导致金属需求下降",
+        "铜铅锌价格回落",
+        "矿山品位下降或产量不达预期",
+        "环保、安全及资源税政策趋严"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-03-25",
+          "sourceType": "公司年度报告摘要",
+          "title": "西部矿业股份有限公司2025年年度报告摘要",
+          "url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260325/3ad9331e52754ac8a6f65e5db6b3df7c.PDF"
+        },
+        {
+          "publishedAt": "2026-03-25",
+          "sourceType": "公司年度报告",
+          "title": "西部矿业：2025年年度报告",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601168&id=12017335"
+        },
+        {
+          "publishedAt": "2026-06-06",
+          "sourceType": "行业信息",
+          "title": "自然资源部：全国矿产资源规划与矿业行业信息",
+          "url": "https://www.mnr.gov.cn/"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
     "002154.SZ": {
       "symbol": "002154.SZ",
       "name": "报 喜 鸟",
@@ -4092,6 +4194,51 @@
           "sourceType": "公司公告平台",
           "title": "报喜鸟2025年年度报告",
           "url": "https://data.eastmoney.com/notices/detail/002154/AN202604241821565857,JUU2JThBJUE1JUU1JTk2JTlDJUU5JUI4JTlG.html"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "600273.SH": {
+      "symbol": "600273.SH",
+      "name": "嘉化能源",
+      "industry": "化学制品",
+      "industrySector": "原材料",
+      "primaryTheme": "氯碱化工与园区循环经济",
+      "themes": [
+        "氯碱化工",
+        "精细化工",
+        "热电联产",
+        "循环经济"
+      ],
+      "strength": 61.0,
+      "summary": "嘉化能源主营氯碱、脂肪醇、磺化医药、热电等化工和公用工程业务，园区一体化及循环经济是主要题材支撑。",
+      "industryOutlook": "氯碱、脂肪醇及精细化工需求与地产、日化和制造业周期相关；园区一体化、热电联产和循环经济有助于提升成本竞争力。",
+      "themeLogic": "公司在嘉兴化工园区形成氯碱、热电和精细化工协同，蒸汽和副产物综合利用增强成本与环保优势；题材受化工周期和产品价格影响较大，当前更偏产业链一体化和循环经济的中性逻辑。",
+      "risks": [
+        "化工品价格下跌和供给过剩",
+        "煤炭、电力等能源成本上升",
+        "环保和安全监管趋严",
+        "下游地产及制造业需求疲弱"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-03-27",
+          "sourceType": "公司年度报告摘要",
+          "title": "嘉化能源：2025年年度报告摘要",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600273&id=12073845"
+        },
+        {
+          "publishedAt": "2025-08-06",
+          "sourceType": "公司半年度报告",
+          "title": "浙江嘉化能源化工股份有限公司2025年半年度报告",
+          "url": "http://static.cninfo.com.cn/finalpage/2025-08-06/1224400691.PDF"
+        },
+        {
+          "publishedAt": "2026-04-12",
+          "sourceType": "研究报告",
+          "title": "嘉化能源（600273.SH）",
+          "url": "https://pdf.dfcfw.com/pdf/H3_AP202604121821140234_1.pdf?1776006304000.pdf"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -4148,51 +4295,6 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "601168.SH": {
-      "symbol": "601168.SH",
-      "name": "西部矿业",
-      "industry": "工业金属",
-      "industrySector": "原材料",
-      "primaryTheme": "铜铅锌资源与能源金属",
-      "themes": [
-        "铜资源",
-        "铅锌资源",
-        "能源转型金属",
-        "矿产资源安全"
-      ],
-      "strength": 79.0,
-      "summary": "公司主营铜、铅、锌等有色金属矿产资源开发、冶炼和贸易，拥有矿山资源和产能基础，直接受益于铜需求增长、电网及新能源投资和供给约束，题材强度较高但价格周期明显。",
-      "industryOutlook": "铜、铅锌等工业金属受能源转型、电网投资和新能源制造需求支撑，中长期供给端资本开支不足；短期价格受全球经济、美元和库存周期影响显著。",
-      "themeLogic": "公司年报显示其核心业务集中于铜、铅锌等有色金属资源开发和冶炼，资源端权益与产量是产业逻辑的直接载体。能源转型、电网建设和新能源设备提升铜需求，全球矿山供给扩张受制于勘探周期和资本开支，形成中长期供需支撑；但公司盈利对金属价格和产量兑现高度敏感。",
-      "risks": [
-        "全球经济放缓导致金属需求下降",
-        "铜铅锌价格回落",
-        "矿山品位下降或产量不达预期",
-        "环保、安全及资源税政策趋严"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-03-25",
-          "sourceType": "公司年度报告摘要",
-          "title": "西部矿业股份有限公司2025年年度报告摘要",
-          "url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260325/3ad9331e52754ac8a6f65e5db6b3df7c.PDF"
-        },
-        {
-          "publishedAt": "2026-03-25",
-          "sourceType": "公司年度报告",
-          "title": "西部矿业：2025年年度报告",
-          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=601168&id=12017335"
-        },
-        {
-          "publishedAt": "2026-06-06",
-          "sourceType": "行业信息",
-          "title": "自然资源部：全国矿产资源规划与矿业行业信息",
-          "url": "https://www.mnr.gov.cn/"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
     "000895.SZ": {
       "symbol": "000895.SZ",
       "name": "双汇发展",
@@ -4232,6 +4334,50 @@
           "sourceType": "权威财经媒体",
           "title": "双汇发展2025年净利润增长2.32%",
           "url": "https://m.cnstock.com/commonDetail/655731"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "002563.SZ": {
+      "symbol": "002563.SZ",
+      "name": "森马服饰",
+      "industry": "纺织服装",
+      "industrySector": "可选消费",
+      "primaryTheme": "童装品牌与消费升级",
+      "themes": [
+        "童装",
+        "品牌消费",
+        "消费升级"
+      ],
+      "strength": 66.0,
+      "summary": "森马服饰主营森马品牌休闲服饰和巴拉巴拉品牌儿童服饰，童装是收入和竞争力核心，受益于品牌消费和儿童服饰集中度提升。",
+      "industryOutlook": "童装和大众休闲服饰需求趋向品牌化、品质化和线上线下一体化；人口结构变化、消费分化及渠道库存是行业主要变量。",
+      "themeLogic": "公司拥有成熟童装品牌、渠道和供应链，2025年儿童服饰收入占比继续提升，直接对应童装消费升级题材；但行业受出生人口、消费景气和渠道库存影响，逻辑属于趋势清晰而非强政策催化。",
+      "risks": [
+        "出生人口下降和童装需求增速放缓",
+        "终端消费疲弱导致库存和折扣增加",
+        "电商平台流量成本上升",
+        "品牌同质化和加盟商经营压力"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-03-31",
+          "sourceType": "公司年度报告",
+          "title": "浙江森马服饰股份有限公司2025年年度报告全文",
+          "url": "http://static.cninfo.com.cn/finalpage/2026-03-31/1225053655.PDF"
+        },
+        {
+          "publishedAt": "2026-03-31",
+          "sourceType": "公司年度报告摘要",
+          "title": "浙江森马服饰股份有限公司2025年年度报告摘要",
+          "url": "http://static.cninfo.com.cn/finalpage/2026-03-31/1225053654.PDF"
+        },
+        {
+          "publishedAt": "2025-04-08",
+          "sourceType": "权威财经媒体",
+          "title": "童装立大功森马服饰营收利润双增长",
+          "url": "http://www.news.cn/fashion/20250408/ffa3b855744c41728c8b52b7c15614dc/c.html"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -4277,95 +4423,6 @@
           "sourceType": "权威财经媒体",
           "title": "中国石化2025年营收2.78万亿元新能源业务加速布局",
           "url": "http://www.news.cn/finance/20260325/fd0b509bae524c9abeab6d5775240b4e/c.html"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
-    "600273.SH": {
-      "symbol": "600273.SH",
-      "name": "嘉化能源",
-      "industry": "化学制品",
-      "industrySector": "原材料",
-      "primaryTheme": "氯碱化工与园区循环经济",
-      "themes": [
-        "氯碱化工",
-        "精细化工",
-        "热电联产",
-        "循环经济"
-      ],
-      "strength": 61.0,
-      "summary": "嘉化能源主营氯碱、脂肪醇、磺化医药、热电等化工和公用工程业务，园区一体化及循环经济是主要题材支撑。",
-      "industryOutlook": "氯碱、脂肪醇及精细化工需求与地产、日化和制造业周期相关；园区一体化、热电联产和循环经济有助于提升成本竞争力。",
-      "themeLogic": "公司在嘉兴化工园区形成氯碱、热电和精细化工协同，蒸汽和副产物综合利用增强成本与环保优势；题材受化工周期和产品价格影响较大，当前更偏产业链一体化和循环经济的中性逻辑。",
-      "risks": [
-        "化工品价格下跌和供给过剩",
-        "煤炭、电力等能源成本上升",
-        "环保和安全监管趋严",
-        "下游地产及制造业需求疲弱"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-03-27",
-          "sourceType": "公司年度报告摘要",
-          "title": "嘉化能源：2025年年度报告摘要",
-          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600273&id=12073845"
-        },
-        {
-          "publishedAt": "2025-08-06",
-          "sourceType": "公司半年度报告",
-          "title": "浙江嘉化能源化工股份有限公司2025年半年度报告",
-          "url": "http://static.cninfo.com.cn/finalpage/2025-08-06/1224400691.PDF"
-        },
-        {
-          "publishedAt": "2026-04-12",
-          "sourceType": "研究报告",
-          "title": "嘉化能源（600273.SH）",
-          "url": "https://pdf.dfcfw.com/pdf/H3_AP202604121821140234_1.pdf?1776006304000.pdf"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
-    "002563.SZ": {
-      "symbol": "002563.SZ",
-      "name": "森马服饰",
-      "industry": "纺织服装",
-      "industrySector": "可选消费",
-      "primaryTheme": "童装品牌与消费升级",
-      "themes": [
-        "童装",
-        "品牌消费",
-        "消费升级"
-      ],
-      "strength": 66.0,
-      "summary": "森马服饰主营森马品牌休闲服饰和巴拉巴拉品牌儿童服饰，童装是收入和竞争力核心，受益于品牌消费和儿童服饰集中度提升。",
-      "industryOutlook": "童装和大众休闲服饰需求趋向品牌化、品质化和线上线下一体化；人口结构变化、消费分化及渠道库存是行业主要变量。",
-      "themeLogic": "公司拥有成熟童装品牌、渠道和供应链，2025年儿童服饰收入占比继续提升，直接对应童装消费升级题材；但行业受出生人口、消费景气和渠道库存影响，逻辑属于趋势清晰而非强政策催化。",
-      "risks": [
-        "出生人口下降和童装需求增速放缓",
-        "终端消费疲弱导致库存和折扣增加",
-        "电商平台流量成本上升",
-        "品牌同质化和加盟商经营压力"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-03-31",
-          "sourceType": "公司年度报告",
-          "title": "浙江森马服饰股份有限公司2025年年度报告全文",
-          "url": "http://static.cninfo.com.cn/finalpage/2026-03-31/1225053655.PDF"
-        },
-        {
-          "publishedAt": "2026-03-31",
-          "sourceType": "公司年度报告摘要",
-          "title": "浙江森马服饰股份有限公司2025年年度报告摘要",
-          "url": "http://static.cninfo.com.cn/finalpage/2026-03-31/1225053654.PDF"
-        },
-        {
-          "publishedAt": "2025-04-08",
-          "sourceType": "权威财经媒体",
-          "title": "童装立大功森马服饰营收利润双增长",
-          "url": "http://www.news.cn/fashion/20250408/ffa3b855744c41728c8b52b7c15614dc/c.html"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -4458,6 +4515,68 @@
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "603259.SH": {
+      "symbol": "603259.SH",
+      "name": "药明康德",
+      "industry": "制药与生物科技服务",
+      "industrySector": "医药卫生",
+      "primaryTheme": "CRDMO/CXO医药研发与生产外包",
+      "themes": [
+        "CRDMO/CXO医药研发与生产外包",
+        "创新药全生命周期研发服务与全球化",
+        "多肽/寡核苷酸（TIDES）药物CRDMO"
+      ],
+      "strength": 89.0,
+      "summary": "药明康德主营一体化、端到端的新药研发和生产服务，核心采用CRDMO模式，覆盖化学药、生物学、临床前测试及临床试验等环节，并服务全球30多个国家的合作伙伴。2026年上半年持续经营业务收入同比增长48.0%，在手订单664.3亿元、同比增长25.2%，公司将全年收入指引上调至585亿至605亿元，显示CRDMO需求和公司订单转化处于强势阶段。",
+      "industryOutlook": "全球创新药研发投入、复杂分子药物研发和研发外包渗透率提升，叠加中国全链条支持创新药政策，CRDMO与TIDES服务需求中长期仍有增长；但行业受融资周期、客户项目成败、价格竞争和跨境监管影响较大。",
+      "themeLogic": "核心题材CRDMO/CXO强度90：公司官方披露其通过一体化、端到端CRDMO平台服务全球医药及生命科学客户，2026年上半年持续经营业务收入同比增长48.0%，在手订单664.3亿元、同比增长25.2%，并上调全年收入指引，业务与医药研发生产外包题材直接相关且有订单和业绩验证。创新药全生命周期研发服务与全球化题材强度82：公司在亚洲、欧洲和北美设有运营基地，承载来自30多个国家合作伙伴的研发项目；国家医保局披露2018年至2024年我国1类创新药获批数量明显上升，并出台研发支持、医保准入、临床使用和商业健康保险等16项措施，国务院《国民健康“十五五”规划》进一步提出全链条支持创新药及核酸药物等研发应用，行业需求和政策方向与公司服务模式相契合。多肽/寡核苷酸TIDES药物CRDMO题材强度84：公司官方资料显示WuXi TIDES为寡核苷酸、多肽及相关化学偶联药物提供覆盖药物发现、CMC研究到商业化的一站式服务，多肽固相合成釜总体积提升至32000升，2023年支持约50个多肽项目并交付超过15吨多肽原料药及中间体；2026年半年报披露TIDES业务保持快速增长，体现复杂分子药物外包需求对公司的直接拉动。",
+      "risks": [
+        "美国国防部将公司列入Section 1260H清单及后续BIOSECURE Act等跨境监管措施，可能限制部分美国政府资助项目、客户合作或引发客户供应链迁移，全球业务布局存在地缘政治不确定性。",
+        "生物科技融资收缩、客户临床试验失败或项目延期，可能导致研发外包订单取消、推迟确认或在手订单转化率下降。",
+        "全球CRDMO行业扩产和同质化竞争可能带来产能利用率下降、服务价格下行及毛利率承压。",
+        "新药研发、临床试验、药品生产和质量体系监管要求严格，若发生质量、合规、知识产权或数据安全事件，可能导致客户流失、项目暂停及声誉损失。"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-08-03",
+          "sourceType": "公司官方新闻稿",
+          "title": "药明康德2026年上半年业绩强劲并全面上调全年指引，得益于多个客户产品的更大成功及CRDMO模式",
+          "url": "https://www.wuxiapptec.cn/news/wuxi-news/wuxi-apptec-crdmo-model-delivers-strong-results"
+        },
+        {
+          "publishedAt": "2026-08-04",
+          "sourceType": "上市公司定期报告（新浪财经公告镜像）",
+          "title": "药明康德：2026年半年度报告",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603259&id=12475210"
+        },
+        {
+          "publishedAt": "2024-01-08",
+          "sourceType": "公司官方新闻稿",
+          "title": "药明康德多肽产能实现3倍增长，泰兴原料药生产基地迎来正式投运",
+          "url": "https://www.wuxiapptec.cn/zh-cn/news/wuxi-news/5531"
+        },
+        {
+          "publishedAt": "2025-07-01",
+          "sourceType": "国家部委政策发布会实录",
+          "title": "国家医保局“支持创新药高质量发展的若干措施”新闻发布会实录",
+          "url": "https://www.nhsa.gov.cn/art/2025/7/1/art_14_17065.html"
+        },
+        {
+          "publishedAt": "2026-07-14",
+          "sourceType": "国务院政策文件",
+          "title": "国务院关于印发《国民健康“十五五”规划》的通知",
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202607/t20260714_1161753.shtml"
+        },
+        {
+          "publishedAt": "2026-06-09",
+          "sourceType": "公司官方声明",
+          "title": "An Open Letter to Customers",
+          "url": "https://www.wuxiapptec.com/news/wuxi-news/an-open-letter-to-customers"
+        }
+      ],
+      "generatedAt": "2026-09-07T06:55:04.035178+00:00",
       "route": "codex exec --search"
     },
     "002267.SZ": {
@@ -4556,113 +4675,6 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "603259.SH": {
-      "symbol": "603259.SH",
-      "name": "药明康德",
-      "industry": "制药与生物科技服务",
-      "industrySector": "医药卫生",
-      "primaryTheme": "CRDMO/CXO医药研发与生产外包",
-      "themes": [
-        "CRDMO/CXO医药研发与生产外包",
-        "创新药全生命周期研发服务与全球化",
-        "多肽/寡核苷酸（TIDES）药物CRDMO"
-      ],
-      "strength": 89.0,
-      "summary": "药明康德主营一体化、端到端的新药研发和生产服务，核心采用CRDMO模式，覆盖化学药、生物学、临床前测试及临床试验等环节，并服务全球30多个国家的合作伙伴。2026年上半年持续经营业务收入同比增长48.0%，在手订单664.3亿元、同比增长25.2%，公司将全年收入指引上调至585亿至605亿元，显示CRDMO需求和公司订单转化处于强势阶段。",
-      "industryOutlook": "全球创新药研发投入、复杂分子药物研发和研发外包渗透率提升，叠加中国全链条支持创新药政策，CRDMO与TIDES服务需求中长期仍有增长；但行业受融资周期、客户项目成败、价格竞争和跨境监管影响较大。",
-      "themeLogic": "核心题材CRDMO/CXO强度90：公司官方披露其通过一体化、端到端CRDMO平台服务全球医药及生命科学客户，2026年上半年持续经营业务收入同比增长48.0%，在手订单664.3亿元、同比增长25.2%，并上调全年收入指引，业务与医药研发生产外包题材直接相关且有订单和业绩验证。创新药全生命周期研发服务与全球化题材强度82：公司在亚洲、欧洲和北美设有运营基地，承载来自30多个国家合作伙伴的研发项目；国家医保局披露2018年至2024年我国1类创新药获批数量明显上升，并出台研发支持、医保准入、临床使用和商业健康保险等16项措施，国务院《国民健康“十五五”规划》进一步提出全链条支持创新药及核酸药物等研发应用，行业需求和政策方向与公司服务模式相契合。多肽/寡核苷酸TIDES药物CRDMO题材强度84：公司官方资料显示WuXi TIDES为寡核苷酸、多肽及相关化学偶联药物提供覆盖药物发现、CMC研究到商业化的一站式服务，多肽固相合成釜总体积提升至32000升，2023年支持约50个多肽项目并交付超过15吨多肽原料药及中间体；2026年半年报披露TIDES业务保持快速增长，体现复杂分子药物外包需求对公司的直接拉动。",
-      "risks": [
-        "美国国防部将公司列入Section 1260H清单及后续BIOSECURE Act等跨境监管措施，可能限制部分美国政府资助项目、客户合作或引发客户供应链迁移，全球业务布局存在地缘政治不确定性。",
-        "生物科技融资收缩、客户临床试验失败或项目延期，可能导致研发外包订单取消、推迟确认或在手订单转化率下降。",
-        "全球CRDMO行业扩产和同质化竞争可能带来产能利用率下降、服务价格下行及毛利率承压。",
-        "新药研发、临床试验、药品生产和质量体系监管要求严格，若发生质量、合规、知识产权或数据安全事件，可能导致客户流失、项目暂停及声誉损失。"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-08-03",
-          "sourceType": "公司官方新闻稿",
-          "title": "药明康德2026年上半年业绩强劲并全面上调全年指引，得益于多个客户产品的更大成功及CRDMO模式",
-          "url": "https://www.wuxiapptec.cn/news/wuxi-news/wuxi-apptec-crdmo-model-delivers-strong-results"
-        },
-        {
-          "publishedAt": "2026-08-04",
-          "sourceType": "上市公司定期报告（新浪财经公告镜像）",
-          "title": "药明康德：2026年半年度报告",
-          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=603259&id=12475210"
-        },
-        {
-          "publishedAt": "2024-01-08",
-          "sourceType": "公司官方新闻稿",
-          "title": "药明康德多肽产能实现3倍增长，泰兴原料药生产基地迎来正式投运",
-          "url": "https://www.wuxiapptec.cn/zh-cn/news/wuxi-news/5531"
-        },
-        {
-          "publishedAt": "2025-07-01",
-          "sourceType": "国家部委政策发布会实录",
-          "title": "国家医保局“支持创新药高质量发展的若干措施”新闻发布会实录",
-          "url": "https://www.nhsa.gov.cn/art/2025/7/1/art_14_17065.html"
-        },
-        {
-          "publishedAt": "2026-07-14",
-          "sourceType": "国务院政策文件",
-          "title": "国务院关于印发《国民健康“十五五”规划》的通知",
-          "url": "https://www.mee.gov.cn/zcwj/gwywj/202607/t20260714_1161753.shtml"
-        },
-        {
-          "publishedAt": "2026-06-09",
-          "sourceType": "公司官方声明",
-          "title": "An Open Letter to Customers",
-          "url": "https://www.wuxiapptec.com/news/wuxi-news/an-open-letter-to-customers"
-        }
-      ],
-      "generatedAt": "2026-09-07T06:55:04.035178+00:00",
-      "route": "codex exec --search"
-    },
-    "600900.SH": {
-      "symbol": "600900.SH",
-      "name": "长江电力",
-      "industry": "电力及电网",
-      "industrySector": "公用事业",
-      "primaryTheme": "大型水电与抽水蓄能",
-      "themes": [
-        "水电",
-        "抽水蓄能",
-        "清洁能源",
-        "新型电力系统"
-      ],
-      "strength": 84.0,
-      "summary": "长江电力主营大型水电站开发运营，并持续布局抽水蓄能和新能源调节业务，直接受益于清洁能源和新型电力系统建设。",
-      "industryOutlook": "大型水电具有低碳、长寿命和稳定现金流特征；电力市场化、抽水蓄能和新能源消纳提升调节性电源价值。",
-      "themeLogic": "公司拥有三峡、葛洲坝及金沙江等大型水电资产，水电提供低碳基荷和调峰能力；抽水蓄能项目及电力市场建设强化其调节电源属性，政策和电网消纳需求对题材形成较强催化。",
-      "risks": [
-        "来水偏枯导致发电量下降",
-        "电价市场化带来平均电价波动",
-        "重大水电及抽蓄项目投资超支",
-        "生态环保及移民安置约束"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-04-30",
-          "sourceType": "公司年度报告",
-          "title": "中国长江电力股份有限公司2025年年度报告",
-          "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225262036.PDF"
-        },
-        {
-          "publishedAt": "2025-08-30",
-          "sourceType": "公司半年度报告",
-          "title": "中国长江电力股份有限公司2025年半年度报告",
-          "url": "https://static.cninfo.com.cn/finalpage/2025-08-30/1224627986.PDF"
-        },
-        {
-          "publishedAt": null,
-          "sourceType": "能源行业媒体",
-          "title": "长江电力拟投110亿建抽水蓄能电站",
-          "url": "https://www.ccedia.com/electricity_detail/c-_detailId=1815271542941892608.html"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
     "000429.SZ": {
       "symbol": "000429.SZ",
       "name": "粤高速Ａ",
@@ -4753,6 +4765,51 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
+    "600900.SH": {
+      "symbol": "600900.SH",
+      "name": "长江电力",
+      "industry": "电力及电网",
+      "industrySector": "公用事业",
+      "primaryTheme": "大型水电与抽水蓄能",
+      "themes": [
+        "水电",
+        "抽水蓄能",
+        "清洁能源",
+        "新型电力系统"
+      ],
+      "strength": 84.0,
+      "summary": "长江电力主营大型水电站开发运营，并持续布局抽水蓄能和新能源调节业务，直接受益于清洁能源和新型电力系统建设。",
+      "industryOutlook": "大型水电具有低碳、长寿命和稳定现金流特征；电力市场化、抽水蓄能和新能源消纳提升调节性电源价值。",
+      "themeLogic": "公司拥有三峡、葛洲坝及金沙江等大型水电资产，水电提供低碳基荷和调峰能力；抽水蓄能项目及电力市场建设强化其调节电源属性，政策和电网消纳需求对题材形成较强催化。",
+      "risks": [
+        "来水偏枯导致发电量下降",
+        "电价市场化带来平均电价波动",
+        "重大水电及抽蓄项目投资超支",
+        "生态环保及移民安置约束"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-04-30",
+          "sourceType": "公司年度报告",
+          "title": "中国长江电力股份有限公司2025年年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225262036.PDF"
+        },
+        {
+          "publishedAt": "2025-08-30",
+          "sourceType": "公司半年度报告",
+          "title": "中国长江电力股份有限公司2025年半年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-30/1224627986.PDF"
+        },
+        {
+          "publishedAt": null,
+          "sourceType": "能源行业媒体",
+          "title": "长江电力拟投110亿建抽水蓄能电站",
+          "url": "https://www.ccedia.com/electricity_detail/c-_detailId=1815271542941892608.html"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
     "600863.SH": {
       "symbol": "600863.SH",
       "name": "华能蒙电",
@@ -4837,6 +4894,50 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
+    "603706.SH": {
+      "symbol": "603706.SH",
+      "name": "东方环宇",
+      "industry": "燃气",
+      "industrySector": "公用事业",
+      "primaryTheme": "城市燃气与天然气基础设施",
+      "themes": [
+        "城市燃气",
+        "天然气基础设施",
+        "燃气安全改造"
+      ],
+      "strength": 68.0,
+      "summary": "公司主营城市燃气输配、销售及燃气设施建设运营，属于区域公用事业；天然气价格机制完善和燃气安全改造提供稳定催化，但成长性受区域需求与顺价能力限制。",
+      "industryOutlook": "天然气城市燃气需求总体稳定，增量来自城镇化、工业燃料替代、分布式能源和燃气安全改造；行业受气源采购成本、终端顺价机制及区域经济增速影响明显。",
+      "themeLogic": "东方环宇的核心资产是城市燃气管网、门站和终端客户，题材应聚焦城市燃气、天然气基础设施和安全改造，不宜泛化为油气勘探或氢能公司。",
+      "risks": [
+        "上游气源价格上涨而终端顺价不充分",
+        "区域人口和工商业用气需求下滑",
+        "燃气安全事故导致监管和资本开支上升",
+        "供气特许经营区域竞争或政策调整"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-04-30",
+          "sourceType": "公司年报",
+          "title": "东方环宇2025年年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1226154210.PDF"
+        },
+        {
+          "publishedAt": "2024-06-19",
+          "sourceType": "政府部门",
+          "title": "国家发展改革委关于建立健全天然气上下游价格联动机制的指导意见",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202406/content_6957070.htm"
+        },
+        {
+          "publishedAt": "2025-11-21",
+          "sourceType": "行业协会",
+          "title": "中国城市燃气协会年度行业发展报告",
+          "url": "https://www.chinagas.org.cn/News/Detail/202511211530.html"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
     "600750.SH": {
       "symbol": "600750.SH",
       "name": "华润江中",
@@ -4877,50 +4978,6 @@
           "sourceType": "公司信息披露资料",
           "title": "华润江中（600750）操盘必读",
           "url": "https://emweb.securities.eastmoney.com/pc_hsf10/pages/index.html?type=web&code=SH600750&color=b"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
-    "603706.SH": {
-      "symbol": "603706.SH",
-      "name": "东方环宇",
-      "industry": "燃气",
-      "industrySector": "公用事业",
-      "primaryTheme": "城市燃气与天然气基础设施",
-      "themes": [
-        "城市燃气",
-        "天然气基础设施",
-        "燃气安全改造"
-      ],
-      "strength": 68.0,
-      "summary": "公司主营城市燃气输配、销售及燃气设施建设运营，属于区域公用事业；天然气价格机制完善和燃气安全改造提供稳定催化，但成长性受区域需求与顺价能力限制。",
-      "industryOutlook": "天然气城市燃气需求总体稳定，增量来自城镇化、工业燃料替代、分布式能源和燃气安全改造；行业受气源采购成本、终端顺价机制及区域经济增速影响明显。",
-      "themeLogic": "东方环宇的核心资产是城市燃气管网、门站和终端客户，题材应聚焦城市燃气、天然气基础设施和安全改造，不宜泛化为油气勘探或氢能公司。",
-      "risks": [
-        "上游气源价格上涨而终端顺价不充分",
-        "区域人口和工商业用气需求下滑",
-        "燃气安全事故导致监管和资本开支上升",
-        "供气特许经营区域竞争或政策调整"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-04-30",
-          "sourceType": "公司年报",
-          "title": "东方环宇2025年年度报告",
-          "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1226154210.PDF"
-        },
-        {
-          "publishedAt": "2024-06-19",
-          "sourceType": "政府部门",
-          "title": "国家发展改革委关于建立健全天然气上下游价格联动机制的指导意见",
-          "url": "https://www.gov.cn/zhengce/zhengceku/202406/content_6957070.htm"
-        },
-        {
-          "publishedAt": "2025-11-21",
-          "sourceType": "行业协会",
-          "title": "中国城市燃气协会年度行业发展报告",
-          "url": "https://www.chinagas.org.cn/News/Detail/202511211530.html"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -5149,6 +5206,51 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
+    "600188.SH": {
+      "symbol": "600188.SH",
+      "name": "兖矿能源",
+      "industry": "煤炭",
+      "industrySector": "能源",
+      "primaryTheme": "煤炭能源安全与国际化煤化工",
+      "themes": [
+        "能源安全与煤炭保供",
+        "国际煤炭资源",
+        "煤化工一体化",
+        "智能矿山"
+      ],
+      "strength": 70.0,
+      "summary": "兖矿能源煤炭业务覆盖中国及海外资源基地，并延伸至煤化工、甲醇等产业，具备资源规模、国际化和一体化优势；能源安全与煤化工改善构成趋势性题材，但煤价周期仍是核心变量。",
+      "industryOutlook": "煤炭仍是中国电力和工业原料的重要组成，国际化布局、长协销售和煤化工可提供业务缓冲；行业盈利受煤价、运费、汇率及海外资源国政策影响，周期波动仍大。",
+      "themeLogic": "公司年报披露煤炭业务分布于山东、山西、陕西、甘肃、内蒙古及海外地区，煤炭为绝对核心并配套甲醇等化工业务；券商点评指出煤化工利润增长，因此能源安全、国际煤炭和煤化工协同与主营直接相关。",
+      "risks": [
+        "国内外煤价同步回落，导致煤炭业务利润下降。",
+        "海外矿山所在国税费、劳资、环保或地缘政策变化。",
+        "铁路运力、港口和航运成本上涨削弱资源优势。",
+        "煤化工产品价格回落或装置检修影响非煤业务贡献。"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-03-27",
+          "sourceType": "公司年度报告摘要",
+          "title": "兖矿能源集团股份有限公司2025年年度报告摘要",
+          "url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260327/b66621cb872e4be8a8bf974fb7751204.PDF"
+        },
+        {
+          "publishedAt": "2026-03-28",
+          "sourceType": "公司年度报告转载",
+          "title": "公司公告_兖矿能源：2025年年度报告全文",
+          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600188&id=12034328"
+        },
+        {
+          "publishedAt": "2026-04-21",
+          "sourceType": "券商研究报告",
+          "title": "兖矿能源2025年年报点评：煤炭业务承压但煤化工利润增长",
+          "url": "https://stock.finance.sina.com.cn/stock/view/paper.php?symbol=sh000001&reportid=830120781720"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
     "000630.SZ": {
       "symbol": "000630.SZ",
       "name": "铜陵有色",
@@ -5245,46 +5347,45 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "600188.SH": {
-      "symbol": "600188.SH",
-      "name": "兖矿能源",
+    "601001.SH": {
+      "symbol": "601001.SH",
+      "name": "晋控煤业",
       "industry": "煤炭",
       "industrySector": "能源",
-      "primaryTheme": "煤炭能源安全与国际化煤化工",
+      "primaryTheme": "动力煤保供与高股息资源",
       "themes": [
-        "能源安全与煤炭保供",
-        "国际煤炭资源",
-        "煤化工一体化",
-        "智能矿山"
+        "动力煤",
+        "能源安全",
+        "煤炭保供"
       ],
-      "strength": 70.0,
-      "summary": "兖矿能源煤炭业务覆盖中国及海外资源基地，并延伸至煤化工、甲醇等产业，具备资源规模、国际化和一体化优势；能源安全与煤化工改善构成趋势性题材，但煤价周期仍是核心变量。",
-      "industryOutlook": "煤炭仍是中国电力和工业原料的重要组成，国际化布局、长协销售和煤化工可提供业务缓冲；行业盈利受煤价、运费、汇率及海外资源国政策影响，周期波动仍大。",
-      "themeLogic": "公司年报披露煤炭业务分布于山东、山西、陕西、甘肃、内蒙古及海外地区，煤炭为绝对核心并配套甲醇等化工业务；券商点评指出煤化工利润增长，因此能源安全、国际煤炭和煤化工协同与主营直接相关。",
+      "strength": 63.0,
+      "summary": "晋控煤业主营动力煤开采和销售，直接受益于煤炭保供、优质产能和长协机制；但行业需求已进入成熟期，题材强度主要来自资源安全与现金流属性而非高成长。",
+      "industryOutlook": "煤炭在电力、钢铁和化工领域仍承担基础能源与原料功能，行业进入产能约束、保供稳价和低碳转型并行阶段；盈利高度受煤价、长协比例和火电需求影响。",
+      "themeLogic": "公司拥有大型动力煤矿井和铁路外运体系，业务与动力煤保供、能源安全题材高度直接；新能源转型会削弱长期需求，因此评分处于中性偏趋势区间。",
       "risks": [
-        "国内外煤价同步回落，导致煤炭业务利润下降。",
-        "海外矿山所在国税费、劳资、环保或地缘政策变化。",
-        "铁路运力、港口和航运成本上涨削弱资源优势。",
-        "煤化工产品价格回落或装置检修影响非煤业务贡献。"
+        "煤炭价格下行或长协价格下调",
+        "新能源替代和火电利用小时下降",
+        "安全环保监管导致产量释放受限",
+        "矿井事故、资本开支和资源税政策变化"
       ],
       "sources": [
         {
-          "publishedAt": "2026-03-27",
-          "sourceType": "公司年度报告摘要",
-          "title": "兖矿能源集团股份有限公司2025年年度报告摘要",
-          "url": "http://dataclouds.cninfo.com.cn/shgonggao/hsomarket/2026/20260327/b66621cb872e4be8a8bf974fb7751204.PDF"
+          "publishedAt": "2026-04-30",
+          "sourceType": "公司年报",
+          "title": "晋控煤业2025年年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1226154372.PDF"
         },
         {
-          "publishedAt": "2026-03-28",
-          "sourceType": "公司年度报告转载",
-          "title": "公司公告_兖矿能源：2025年年度报告全文",
-          "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?stockid=600188&id=12034328"
+          "publishedAt": "2024-12-05",
+          "sourceType": "政府部门",
+          "title": "国家能源局关于做好2025年煤炭安全稳定供应工作的通知",
+          "url": "https://www.nea.gov.cn/2024-12/05/c_1310785382.htm"
         },
         {
-          "publishedAt": "2026-04-21",
-          "sourceType": "券商研究报告",
-          "title": "兖矿能源2025年年报点评：煤炭业务承压但煤化工利润增长",
-          "url": "https://stock.finance.sina.com.cn/stock/view/paper.php?symbol=sh000001&reportid=830120781720"
+          "publishedAt": "2025-10-16",
+          "sourceType": "行业协会",
+          "title": "中国煤炭工业协会煤炭经济运行年度分析",
+          "url": "https://www.coalchina.org.cn/page/162/2025-10-16/19235.html"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -5375,50 +5476,6 @@
           "sourceType": "行业媒体",
           "title": "中国天然气市场年度运行与供需展望",
           "url": "https://www.china5e.com/news/news-1187452-1.html"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
-    "601001.SH": {
-      "symbol": "601001.SH",
-      "name": "晋控煤业",
-      "industry": "煤炭",
-      "industrySector": "能源",
-      "primaryTheme": "动力煤保供与高股息资源",
-      "themes": [
-        "动力煤",
-        "能源安全",
-        "煤炭保供"
-      ],
-      "strength": 63.0,
-      "summary": "晋控煤业主营动力煤开采和销售，直接受益于煤炭保供、优质产能和长协机制；但行业需求已进入成熟期，题材强度主要来自资源安全与现金流属性而非高成长。",
-      "industryOutlook": "煤炭在电力、钢铁和化工领域仍承担基础能源与原料功能，行业进入产能约束、保供稳价和低碳转型并行阶段；盈利高度受煤价、长协比例和火电需求影响。",
-      "themeLogic": "公司拥有大型动力煤矿井和铁路外运体系，业务与动力煤保供、能源安全题材高度直接；新能源转型会削弱长期需求，因此评分处于中性偏趋势区间。",
-      "risks": [
-        "煤炭价格下行或长协价格下调",
-        "新能源替代和火电利用小时下降",
-        "安全环保监管导致产量释放受限",
-        "矿井事故、资本开支和资源税政策变化"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-04-30",
-          "sourceType": "公司年报",
-          "title": "晋控煤业2025年年度报告",
-          "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1226154372.PDF"
-        },
-        {
-          "publishedAt": "2024-12-05",
-          "sourceType": "政府部门",
-          "title": "国家能源局关于做好2025年煤炭安全稳定供应工作的通知",
-          "url": "https://www.nea.gov.cn/2024-12/05/c_1310785382.htm"
-        },
-        {
-          "publishedAt": "2025-10-16",
-          "sourceType": "行业协会",
-          "title": "中国煤炭工业协会煤炭经济运行年度分析",
-          "url": "https://www.coalchina.org.cn/page/162/2025-10-16/19235.html"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -5571,57 +5628,6 @@
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
       "route": "codex exec --search"
     },
-    "600985.SH": {
-      "symbol": "600985.SH",
-      "name": "淮北矿业",
-      "industry": "煤炭",
-      "industrySector": "能源",
-      "primaryTheme": "稀缺炼焦煤与煤焦化一体化",
-      "themes": [
-        "炼焦煤",
-        "煤焦化一体化",
-        "煤电一体化",
-        "新增煤矿产能"
-      ],
-      "strength": 65.0,
-      "summary": "公司主营炼焦精煤、动力煤，并向焦炭、甲醇等煤化工及煤电业务延伸，炼焦煤与钢铁产业链相关性高；陶忽图煤矿等增量项目提供中期产能逻辑，但2025年煤炭业务曾受到量价下滑影响。",
-      "industryOutlook": "2026年煤炭行业总体供需平衡，焦煤需求仍取决于钢铁和焦化开工率，房地产链偏弱限制总量弹性，但国内优质主焦煤资源稀缺和安全生产约束能够支撑其相对价值。现代煤化工和煤电项目具备产业链协同空间，但产品价格和项目投产节奏的不确定性较高。",
-      "themeLogic": "公司优质炼焦煤能够直接受益于焦煤供给约束和钢焦产业链补库，煤炭、焦化、甲醇及电力的一体化布局可在部分周期阶段形成协同。2026年的主要催化来自产量修复和新增矿井推进，而不是煤炭全行业出现显著短缺，因此评分处于趋势清晰区间下沿。",
-      "risks": [
-        "钢铁和焦化企业减产，炼焦煤需求及长协价格低于预期。",
-        "煤矿安全、地质条件或工作面接续影响商品煤产量。",
-        "煤化工产品供过于求，甲醇、焦炭等产品价差收窄。",
-        "陶忽图煤矿等新增项目建设、审批或达产进度延后。"
-      ],
-      "sources": [
-        {
-          "publishedAt": "2026-03-27",
-          "sourceType": "公司年报",
-          "title": "淮北矿业控股股份有限公司2025年年度报告",
-          "url": "https://stockmc.xueqiu.com/202603/600985_20260328_VGJO.pdf"
-        },
-        {
-          "publishedAt": "2026-01-23",
-          "sourceType": "公司公告",
-          "title": "淮北矿业控股股份有限公司2025年度主要运营数据公告",
-          "url": "https://stockmc.xueqiu.com/202601/600985_20260124_527S.pdf"
-        },
-        {
-          "publishedAt": "2026-03-31",
-          "sourceType": "券商研报页面",
-          "title": "淮北矿业2025年年报点评：煤电化共振，成长性充足",
-          "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/lastest/rptid/828268225426/index.phtml"
-        },
-        {
-          "publishedAt": "2026-04-29",
-          "sourceType": "权威媒体",
-          "title": "报告预计：2026年煤炭市场供需呈现总体平衡态势",
-          "url": "https://finance.people.com.cn/n1/2026/0429/c1004-40711194.html"
-        }
-      ],
-      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
-      "route": "codex exec --search"
-    },
     "601101.SH": {
       "symbol": "601101.SH",
       "name": "昊华能源",
@@ -5668,6 +5674,57 @@
           "sourceType": "权威媒体",
           "title": "全年煤炭市场供需预计总体平衡，供给保持较高水平",
           "url": "https://www2.xinhuanet.com/fortune/20260503/db48fcc990ed4f5381868d6d7758c3ae/c.html"
+        }
+      ],
+      "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "600985.SH": {
+      "symbol": "600985.SH",
+      "name": "淮北矿业",
+      "industry": "煤炭",
+      "industrySector": "能源",
+      "primaryTheme": "稀缺炼焦煤与煤焦化一体化",
+      "themes": [
+        "炼焦煤",
+        "煤焦化一体化",
+        "煤电一体化",
+        "新增煤矿产能"
+      ],
+      "strength": 65.0,
+      "summary": "公司主营炼焦精煤、动力煤，并向焦炭、甲醇等煤化工及煤电业务延伸，炼焦煤与钢铁产业链相关性高；陶忽图煤矿等增量项目提供中期产能逻辑，但2025年煤炭业务曾受到量价下滑影响。",
+      "industryOutlook": "2026年煤炭行业总体供需平衡，焦煤需求仍取决于钢铁和焦化开工率，房地产链偏弱限制总量弹性，但国内优质主焦煤资源稀缺和安全生产约束能够支撑其相对价值。现代煤化工和煤电项目具备产业链协同空间，但产品价格和项目投产节奏的不确定性较高。",
+      "themeLogic": "公司优质炼焦煤能够直接受益于焦煤供给约束和钢焦产业链补库，煤炭、焦化、甲醇及电力的一体化布局可在部分周期阶段形成协同。2026年的主要催化来自产量修复和新增矿井推进，而不是煤炭全行业出现显著短缺，因此评分处于趋势清晰区间下沿。",
+      "risks": [
+        "钢铁和焦化企业减产，炼焦煤需求及长协价格低于预期。",
+        "煤矿安全、地质条件或工作面接续影响商品煤产量。",
+        "煤化工产品供过于求，甲醇、焦炭等产品价差收窄。",
+        "陶忽图煤矿等新增项目建设、审批或达产进度延后。"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-03-27",
+          "sourceType": "公司年报",
+          "title": "淮北矿业控股股份有限公司2025年年度报告",
+          "url": "https://stockmc.xueqiu.com/202603/600985_20260328_VGJO.pdf"
+        },
+        {
+          "publishedAt": "2026-01-23",
+          "sourceType": "公司公告",
+          "title": "淮北矿业控股股份有限公司2025年度主要运营数据公告",
+          "url": "https://stockmc.xueqiu.com/202601/600985_20260124_527S.pdf"
+        },
+        {
+          "publishedAt": "2026-03-31",
+          "sourceType": "券商研报页面",
+          "title": "淮北矿业2025年年报点评：煤电化共振，成长性充足",
+          "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/lastest/rptid/828268225426/index.phtml"
+        },
+        {
+          "publishedAt": "2026-04-29",
+          "sourceType": "权威媒体",
+          "title": "报告预计：2026年煤炭市场供需呈现总体平衡态势",
+          "url": "https://finance.people.com.cn/n1/2026/0429/c1004-40711194.html"
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
@@ -6427,6 +6484,63 @@
         }
       ],
       "generatedAt": "2026-09-07T00:59:30.936750+00:00",
+      "route": "codex exec --search"
+    },
+    "002084.SZ": {
+      "symbol": "002084.SZ",
+      "name": "海鸥住工",
+      "industry": "建筑产品",
+      "industrySector": "工业",
+      "primaryTheme": "智能卫浴与存量厨卫焕新",
+      "themes": [
+        "智能卫浴与智能家居",
+        "城市更新与厨卫焕新",
+        "银发经济与适老化改造",
+        "RCEP与一带一路出海"
+      ],
+      "strength": 54.0,
+      "summary": "海鸥住工与智能卫浴、厨卫焕新、适老化家居及RCEP出海存在真实业务关联，且2026年政策继续支持智能家居和适老化产品，但相关业务规模较小或正在下滑，当前题材强度总体中性。",
+      "industryOutlook": "卫浴及家居行业仍受新房需求疲弱和产能过剩影响，增长动力正转向存量房厨卫焕新、城市更新、适老化改造和智能产品升级；政策需求具有结构性支撑，但价格竞争、渠道重构和国际贸易壁垒使行业总体仅呈弱复苏。",
+      "themeLogic": "公司主营卫浴五金、瓷砖及装配式厨卫部品，并布局智能恒温淋浴、智能龙头、卫浴控制模组、智能门户和安防工程。2026年上半年五金龙头、瓷砖和智能家居收入分别占营业收入65.25%、21.59%和7.72%，境外收入占72.18%；消费品以旧换新政策允许地方使用支持资金补贴智能家居及适老化家居，城市更新规划又明确推广装配式装修和适老化改造，形成直接需求逻辑。然而公司同期智能家居收入下降14.04%、国内收入下降31.10%，整装卫浴收入同比下降100%，说明政策题材尚未充分转化为经营增长。",
+      "risks": [
+        "房地产和居民家装消费恢复弱于预期，存量厨卫改造需求释放速度可能不足。",
+        "2026年智能家居及适老化家居补贴由地方自主确定品类和标准，公司产品不一定在所有地区获得补贴。",
+        "公司2026年上半年营业收入下降11.09%，智能家居收入下降14.04%，整装卫浴收入同比下降100%，题材存在商业化兑现不足风险。",
+        "境外收入占比超过七成，关税、反倾销、碳边境调节机制、汇率和地缘政治变化可能压缩订单及利润。上市公司半年报已披露主要外销市场面临贸易壁垒升级。"
+      ],
+      "sources": [
+        {
+          "publishedAt": "2026-08-25",
+          "sourceType": "公司公告",
+          "title": "广州海鸥住宅工业股份有限公司2026年半年度报告摘要",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225494788.PDF"
+        },
+        {
+          "publishedAt": "2026-08-25",
+          "sourceType": "公司公告全文转载",
+          "title": "海鸥住工：2026年半年度报告",
+          "url": "https://stock.stockstar.com/notice/SN2026082500000071.shtml"
+        },
+        {
+          "publishedAt": "2025-12-30",
+          "sourceType": "国务院部门政策",
+          "title": "商务部等7部门关于提质增效实施2026年消费品以旧换新政策的通知",
+          "url": "https://www.gov.cn/zhengce/zhengceku/202512/content_7053397.htm"
+        },
+        {
+          "publishedAt": "2026-06-02",
+          "sourceType": "国务院规划",
+          "title": "国务院关于印发《城市更新“十五五”规划》的通知",
+          "url": "https://www.mee.gov.cn/zcwj/gwywj/202606/t20260602_1157796.shtml"
+        },
+        {
+          "publishedAt": "2025-08-25",
+          "sourceType": "部委产业政策",
+          "title": "六部门关于印发《建材行业稳增长工作方案（2025—2026年）》的通知",
+          "url": "https://wap.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2025/art_c73c2f6a0f20465aa92c360daa08619b.html"
+        }
+      ],
+      "generatedAt": "2026-09-07T09:15:58.597024+00:00",
       "route": "codex exec --search"
     },
     "600997.SH": {

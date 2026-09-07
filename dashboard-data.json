@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07T08:42:40.557409+00:00",
-  "marketAsOf": "2026-09-07T16:41:33.301772+08:00",
+  "generatedAt": "2026-09-07T10:40:39.160984+00:00",
+  "marketAsOf": "2026-09-07T18:39:48.248734+08:00",
   "dataMode": "live_snapshot",
   "disclaimer": "指数与股票行情来自AKShare聚合的新浪、雪球和腾讯免费快照，行业来自巨潮公开分类，题材研究由Codex搜索公开资料生成；AI评分为可解释多因子排序，不替代财务深度研究，不构成投资建议。",
   "aiScoreMethod": "可解释多因子模型 v4：综合估值、Codex题材强度、稳定性、动量、规模流动性、财报评分与产业链强度。研究评分来自公开信息，不构成投资建议。",
@@ -50,7 +50,7 @@
       "points": [],
       "status": "LIVE",
       "source": "AKShare · 新浪免费快照",
-      "asOf": "2026-09-07T16:41:33.301772+08:00"
+      "asOf": "2026-09-07T18:39:48.248734+08:00"
     },
     {
       "code": "399006.SZ",
@@ -60,7 +60,7 @@
       "points": [],
       "status": "LIVE",
       "source": "AKShare · 新浪免费快照",
-      "asOf": "2026-09-07T16:41:33.301772+08:00"
+      "asOf": "2026-09-07T18:39:48.248734+08:00"
     },
     {
       "code": "H30269",
@@ -190,7 +190,7 @@
         "day20": -3.81,
         "day60": -4.66
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -300,7 +300,7 @@
         "day20": -6.17,
         "day60": 16.19
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -412,7 +412,7 @@
         "day20": -1.43,
         "day60": -1.32
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -518,7 +518,7 @@
         "day20": 6.04,
         "day60": 2.78
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -624,7 +624,7 @@
         "day20": 5.7,
         "day60": 4.35
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -729,7 +729,7 @@
         "day20": -1.58,
         "day60": -3.01
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -835,7 +835,7 @@
         "day20": 7.18,
         "day60": 1.31
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -941,7 +941,7 @@
         "day20": 5.55,
         "day60": 7.13
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1047,7 +1047,7 @@
         "day20": 2.88,
         "day60": 4.23
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1150,7 +1150,7 @@
         "day20": -0.65,
         "day60": -0.22
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1256,7 +1256,117 @@
         "day20": 5.42,
         "day60": 0.15
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
+      "source": "AKShare · 腾讯免费批量快照",
+      "points": []
+    },
+    {
+      "securityId": "ee46c2d2-147b-532b-9eb7-a71f98ebbabc",
+      "symbol": "601390.SH",
+      "name": "中国中铁",
+      "price": 4.35,
+      "changePct": -0.91,
+      "marketCap": 106710999999.99998,
+      "peTtm": 5.41,
+      "industry": "建筑与工程",
+      "industrySector": "工业",
+      "industrySource": "AKShare · 巨潮中证行业分类标准",
+      "financialReport": {
+        "title": "中国中铁2026年半年度报告全文",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531653.PDF",
+        "publishedAt": "2026-08-29T00:00:00+08:00",
+        "source": "巨潮资讯",
+        "direct": true,
+        "reportType": "semiannual"
+      },
+      "financialReports": [
+        {
+          "title": "中国中铁2026年半年度报告全文",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-29/1225531653.PDF",
+          "publishedAt": "2026-08-29T00:00:00+08:00",
+          "source": "巨潮资讯",
+          "direct": true,
+          "reportType": "semiannual"
+        },
+        {
+          "title": "中国中铁2026年第一季度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225262240.PDF",
+          "publishedAt": "2026-04-30T00:00:00+08:00",
+          "source": "巨潮资讯",
+          "direct": true,
+          "reportType": "quarterly"
+        },
+        {
+          "title": "中国中铁2025年年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-03-31/1225056528.PDF",
+          "publishedAt": "2026-03-31T00:00:00+08:00",
+          "source": "巨潮资讯",
+          "direct": true,
+          "reportType": "annual"
+        }
+      ],
+      "financialReportStatus": "current",
+      "financialReportStatusReason": null,
+      "financialAnalysis": {
+        "rating": "中性观察",
+        "score": 66.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/financial-research/?symbol=601390.SH",
+        "generatedAt": "2026-09-07T09:29:31.647658+00:00",
+        "reportCount": 3,
+        "coveredReportTypes": [
+          "annual",
+          "quarterly",
+          "semiannual"
+        ],
+        "missingReportTypes": [],
+        "isCurrent": true,
+        "status": "current",
+        "statusReason": null,
+        "latestReportPublishedAt": "2026-08-29T00:00:00+08:00",
+        "analysisMode": "full_text"
+      },
+      "themeInfo": {
+        "primaryTheme": "轨道交通与城市更新基建",
+        "score": 72.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/theme-research/?symbol=601390.SH",
+        "generatedAt": "2026-09-07T09:15:58.597024+00:00",
+        "sourceCount": 5
+      },
+      "industryChainInfo": {
+        "chainName": "铁路及城市轨道交通工程建设—高端装备—基础设施投资链",
+        "rating": "较强",
+        "strength": 68.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=601390.SH",
+        "generatedAt": "2026-09-07T10:11:40.847476+00:00",
+        "sourceCount": 6
+      },
+      "indices": [],
+      "technicalState": "震荡",
+      "aiScore": 73.3,
+      "aiRank": 12,
+      "aiGrade": "B",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
+      "aiScoreBreakdown": {
+        "valuation": 81.4,
+        "themeStrength": 72.0,
+        "stability": 91.5,
+        "momentum": 47.4,
+        "scaleLiquidity": 84.3,
+        "financialScore": 66.0,
+        "industryChainStrength": 68.0
+      },
+      "dataCompleteness": 100.0,
+      "riskLevel": "低",
+      "riskFlags": [],
+      "turnoverRate": 0.47,
+      "volumeRatio": 1.06,
+      "amplitude": 1.59,
+      "periodReturns": {
+        "day5": -0.68,
+        "day20": -3.76,
+        "day60": -2.99
+      },
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1338,7 +1448,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 73.1,
-      "aiRank": 12,
+      "aiRank": 13,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -1361,7 +1471,7 @@
         "day20": 3.63,
         "day60": 4.09
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1443,7 +1553,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 73.1,
-      "aiRank": 13,
+      "aiRank": 14,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -1466,7 +1576,7 @@
         "day20": 4.77,
         "day60": 2.21
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1549,7 +1659,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 73.1,
-      "aiRank": 14,
+      "aiRank": 15,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -1572,7 +1682,7 @@
         "day20": 3.5,
         "day60": 0.73
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1655,7 +1765,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 72.8,
-      "aiRank": 15,
+      "aiRank": 16,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -1678,7 +1788,7 @@
         "day20": 8.95,
         "day60": 9.78
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1760,7 +1870,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 72.8,
-      "aiRank": 16,
+      "aiRank": 17,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -1783,7 +1893,7 @@
         "day20": 8.35,
         "day60": 4.61
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1866,7 +1976,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 72.8,
-      "aiRank": 17,
+      "aiRank": 18,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -1889,7 +1999,7 @@
         "day20": 0.82,
         "day60": -5.06
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -1972,7 +2082,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 72.7,
-      "aiRank": 18,
+      "aiRank": 19,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -1995,7 +2105,7 @@
         "day20": 8.67,
         "day60": 5.58
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2078,7 +2188,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 72.7,
-      "aiRank": 19,
+      "aiRank": 20,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2101,7 +2211,7 @@
         "day20": 5.73,
         "day60": 2.03
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2183,7 +2293,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 72.4,
-      "aiRank": 20,
+      "aiRank": 21,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2206,7 +2316,7 @@
         "day20": 12.98,
         "day60": 11.52
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2289,7 +2399,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 72.4,
-      "aiRank": 21,
+      "aiRank": 22,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2312,7 +2422,7 @@
         "day20": 7.89,
         "day60": 2.35
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2394,7 +2504,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 72.3,
-      "aiRank": 22,
+      "aiRank": 23,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2417,7 +2527,7 @@
         "day20": 7.54,
         "day60": 10.86
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2500,7 +2610,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 72.3,
-      "aiRank": 23,
+      "aiRank": 24,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2523,7 +2633,7 @@
         "day20": 5.84,
         "day60": 2.44
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2606,7 +2716,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 72.1,
-      "aiRank": 24,
+      "aiRank": 25,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2629,7 +2739,7 @@
         "day20": 6.09,
         "day60": 4.99
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2716,7 +2826,7 @@
       "indices": [],
       "technicalState": "震荡",
       "aiScore": 72.1,
-      "aiRank": 25,
+      "aiRank": 26,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2739,7 +2849,7 @@
         "day20": -4.71,
         "day60": 54.49
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2826,7 +2936,7 @@
       "indices": [],
       "technicalState": "下跌",
       "aiScore": 71.9,
-      "aiRank": 26,
+      "aiRank": 27,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2849,7 +2959,7 @@
         "day20": -10.92,
         "day60": -17.1
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -2932,7 +3042,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 71.8,
-      "aiRank": 27,
+      "aiRank": 28,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -2955,7 +3065,7 @@
         "day20": 10.65,
         "day60": 4.33
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3038,7 +3148,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 71.5,
-      "aiRank": 28,
+      "aiRank": 29,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3061,7 +3171,7 @@
         "day20": 16.22,
         "day60": 13.8
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3144,7 +3254,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 71.4,
-      "aiRank": 29,
+      "aiRank": 30,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3167,7 +3277,7 @@
         "day20": 4.18,
         "day60": -2.22
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3250,7 +3360,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 71.2,
-      "aiRank": 30,
+      "aiRank": 31,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3273,7 +3383,7 @@
         "day20": -4.19,
         "day60": -3.29
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3356,7 +3466,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 71.0,
-      "aiRank": 31,
+      "aiRank": 32,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3379,7 +3489,7 @@
         "day20": 1.98,
         "day60": 0.64
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3462,7 +3572,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 70.9,
-      "aiRank": 32,
+      "aiRank": 33,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3485,7 +3595,7 @@
         "day20": -4.76,
         "day60": -2.44
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3567,7 +3677,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 70.9,
-      "aiRank": 33,
+      "aiRank": 34,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3590,7 +3700,7 @@
         "day20": -3.69,
         "day60": -1.66
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3672,7 +3782,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 70.8,
-      "aiRank": 34,
+      "aiRank": 35,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3695,7 +3805,7 @@
         "day20": -1.15,
         "day60": 0.23
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3778,7 +3888,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 70.8,
-      "aiRank": 35,
+      "aiRank": 36,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3801,7 +3911,7 @@
         "day20": 2.27,
         "day60": 1.28
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3884,7 +3994,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 70.8,
-      "aiRank": 36,
+      "aiRank": 37,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -3907,7 +4017,7 @@
         "day20": 1.57,
         "day60": 8.79
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -3989,7 +4099,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 70.5,
-      "aiRank": 37,
+      "aiRank": 38,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4012,7 +4122,7 @@
         "day20": 0.66,
         "day60": 2.5
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4099,7 +4209,7 @@
       "indices": [],
       "technicalState": "下跌",
       "aiScore": 70.1,
-      "aiRank": 38,
+      "aiRank": 39,
       "aiGrade": "B",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4122,7 +4232,7 @@
         "day20": -11.78,
         "day60": -16.45
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4205,7 +4315,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 69.9,
-      "aiRank": 39,
+      "aiRank": 40,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4228,7 +4338,7 @@
         "day20": -7.54,
         "day60": -6.3
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4310,7 +4420,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 69.9,
-      "aiRank": 40,
+      "aiRank": 41,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4333,7 +4443,7 @@
         "day20": -1.77,
         "day60": -4.65
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4416,7 +4526,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 69.7,
-      "aiRank": 41,
+      "aiRank": 42,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4439,7 +4549,7 @@
         "day20": -1.11,
         "day60": -1.36
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4521,7 +4631,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 69.6,
-      "aiRank": 42,
+      "aiRank": 43,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4544,7 +4654,7 @@
         "day20": 1.03,
         "day60": -0.31
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4626,7 +4736,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 69.5,
-      "aiRank": 43,
+      "aiRank": 44,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4649,7 +4759,7 @@
         "day20": 2.3,
         "day60": 13.23
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4731,7 +4841,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 69.4,
-      "aiRank": 44,
+      "aiRank": 45,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4754,7 +4864,7 @@
         "day20": 9.23,
         "day60": 18.49
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4836,7 +4946,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 69.3,
-      "aiRank": 45,
+      "aiRank": 46,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4859,7 +4969,7 @@
         "day20": 8.14,
         "day60": 8.65
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -4941,7 +5051,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 69.0,
-      "aiRank": 46,
+      "aiRank": 47,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -4964,7 +5074,7 @@
         "day20": -10.61,
         "day60": -13.31
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5046,7 +5156,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 68.9,
-      "aiRank": 47,
+      "aiRank": 48,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5069,7 +5179,7 @@
         "day20": 2.07,
         "day60": 3.76
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5151,7 +5261,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 68.8,
-      "aiRank": 48,
+      "aiRank": 49,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5174,7 +5284,7 @@
         "day20": 1.14,
         "day60": 8.5
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5264,7 +5374,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 68.7,
-      "aiRank": 49,
+      "aiRank": 50,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5287,7 +5397,7 @@
         "day20": 0.59,
         "day60": 6.49
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5369,7 +5479,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 68.7,
-      "aiRank": 50,
+      "aiRank": 51,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5392,7 +5502,7 @@
         "day20": -3.59,
         "day60": -4.55
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5472,7 +5582,7 @@
       "indices": [],
       "technicalState": "震荡",
       "aiScore": 68.6,
-      "aiRank": 51,
+      "aiRank": 52,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5495,7 +5605,7 @@
         "day20": -0.71,
         "day60": 1.31
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5577,7 +5687,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 68.4,
-      "aiRank": 52,
+      "aiRank": 53,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5600,7 +5710,7 @@
         "day20": 0.18,
         "day60": 0.93
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5687,7 +5797,7 @@
       "indices": [],
       "technicalState": "震荡",
       "aiScore": 68.3,
-      "aiRank": 53,
+      "aiRank": 54,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5710,7 +5820,7 @@
         "day20": -7.11,
         "day60": -11.82
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5792,7 +5902,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 68.3,
-      "aiRank": 54,
+      "aiRank": 55,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5815,7 +5925,7 @@
         "day20": -9.0,
         "day60": 25.79
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -5897,7 +6007,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 68.0,
-      "aiRank": 55,
+      "aiRank": 56,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -5920,7 +6030,7 @@
         "day20": -6.45,
         "day60": -2.57
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6007,7 +6117,7 @@
       "indices": [],
       "technicalState": "震荡",
       "aiScore": 68.0,
-      "aiRank": 56,
+      "aiRank": 57,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6030,7 +6140,7 @@
         "day20": 1.09,
         "day60": 6.68
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6112,7 +6222,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.9,
-      "aiRank": 57,
+      "aiRank": 58,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6135,7 +6245,7 @@
         "day20": -1.31,
         "day60": -4.75
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6218,7 +6328,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.7,
-      "aiRank": 58,
+      "aiRank": 59,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6241,7 +6351,7 @@
         "day20": -2.34,
         "day60": -9.9
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6323,7 +6433,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.5,
-      "aiRank": 59,
+      "aiRank": 60,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6346,7 +6456,7 @@
         "day20": 2.76,
         "day60": 2.76
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6428,7 +6538,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.4,
-      "aiRank": 60,
+      "aiRank": 61,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6451,7 +6561,7 @@
         "day20": -0.65,
         "day60": 6.0
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6540,7 +6650,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.4,
-      "aiRank": 61,
+      "aiRank": 62,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6563,7 +6673,7 @@
         "day20": -3.76,
         "day60": -1.34
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6645,7 +6755,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.4,
-      "aiRank": 62,
+      "aiRank": 63,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6668,7 +6778,7 @@
         "day20": -1.94,
         "day60": 7.57
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6750,7 +6860,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 67.3,
-      "aiRank": 63,
+      "aiRank": 64,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6773,7 +6883,7 @@
         "day20": 6.9,
         "day60": -7.56
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6855,7 +6965,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.3,
-      "aiRank": 64,
+      "aiRank": 65,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6878,7 +6988,7 @@
         "day20": 4.88,
         "day60": 11.23
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -6960,7 +7070,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.1,
-      "aiRank": 65,
+      "aiRank": 66,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -6983,7 +7093,7 @@
         "day20": 17.6,
         "day60": 23.29
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7072,7 +7182,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 67.0,
-      "aiRank": 66,
+      "aiRank": 67,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7095,7 +7205,7 @@
         "day20": -4.31,
         "day60": 7.45
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7177,7 +7287,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 66.9,
-      "aiRank": 67,
+      "aiRank": 68,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7200,7 +7310,7 @@
         "day20": -1.34,
         "day60": -1.54
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7282,7 +7392,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 66.7,
-      "aiRank": 68,
+      "aiRank": 69,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7305,7 +7415,7 @@
         "day20": -1.48,
         "day60": -3.72
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7387,7 +7497,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 66.6,
-      "aiRank": 69,
+      "aiRank": 70,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7410,7 +7520,7 @@
         "day20": -2.48,
         "day60": -0.29
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7490,7 +7600,7 @@
       "indices": [],
       "technicalState": "震荡",
       "aiScore": 66.5,
-      "aiRank": 70,
+      "aiRank": 71,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7513,7 +7623,7 @@
         "day20": 1.07,
         "day60": 4.25
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7596,7 +7706,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 66.4,
-      "aiRank": 71,
+      "aiRank": 72,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7619,7 +7729,7 @@
         "day20": -4.9,
         "day60": -3.78
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7701,7 +7811,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 66.3,
-      "aiRank": 72,
+      "aiRank": 73,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7724,7 +7834,7 @@
         "day20": 5.73,
         "day60": 6.33
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7811,7 +7921,7 @@
       "indices": [],
       "technicalState": "下跌",
       "aiScore": 66.2,
-      "aiRank": 73,
+      "aiRank": 74,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7834,7 +7944,7 @@
         "day20": -7.54,
         "day60": -10.14
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -7916,7 +8026,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 66.0,
-      "aiRank": 74,
+      "aiRank": 75,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -7939,7 +8049,7 @@
         "day20": -8.29,
         "day60": -7.13
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8026,7 +8136,7 @@
       "indices": [],
       "technicalState": "上升",
       "aiScore": 65.9,
-      "aiRank": 75,
+      "aiRank": 76,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8049,7 +8159,7 @@
         "day20": 5.5,
         "day60": 6.77
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8131,7 +8241,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 65.8,
-      "aiRank": 76,
+      "aiRank": 77,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8154,7 +8264,7 @@
         "day20": -16.07,
         "day60": -5.66
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8236,7 +8346,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 65.8,
-      "aiRank": 77,
+      "aiRank": 78,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8259,7 +8369,7 @@
         "day20": -1.8,
         "day60": 17.46
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8342,7 +8452,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 65.6,
-      "aiRank": 78,
+      "aiRank": 79,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8365,7 +8475,7 @@
         "day20": -4.77,
         "day60": -5.47
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8447,7 +8557,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 65.4,
-      "aiRank": 79,
+      "aiRank": 80,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8470,7 +8580,7 @@
         "day20": 9.57,
         "day60": 10.71
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8550,7 +8660,7 @@
       "indices": [],
       "technicalState": "震荡",
       "aiScore": 65.1,
-      "aiRank": 80,
+      "aiRank": 81,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8573,7 +8683,7 @@
         "day20": -2.54,
         "day60": -2.27
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8645,7 +8755,7 @@
       "indices": [],
       "technicalState": "高波动",
       "aiScore": 65.1,
-      "aiRank": 81,
+      "aiRank": 82,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8671,7 +8781,7 @@
         "day20": 13.98,
         "day60": 575.17
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8753,7 +8863,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 64.9,
-      "aiRank": 82,
+      "aiRank": 83,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8776,7 +8886,7 @@
         "day20": 3.16,
         "day60": 2.17
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8858,7 +8968,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 64.8,
-      "aiRank": 83,
+      "aiRank": 84,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8881,7 +8991,7 @@
         "day20": -12.74,
         "day60": -34.43
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -8963,7 +9073,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 64.8,
-      "aiRank": 84,
+      "aiRank": 85,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -8986,7 +9096,7 @@
         "day20": -0.58,
         "day60": 1.46
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9068,7 +9178,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 64.8,
-      "aiRank": 85,
+      "aiRank": 86,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9091,7 +9201,7 @@
         "day20": 0.16,
         "day60": 3.27
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9173,7 +9283,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 64.6,
-      "aiRank": 86,
+      "aiRank": 87,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9196,7 +9306,7 @@
         "day20": -6.6,
         "day60": -1.94
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9278,7 +9388,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 64.4,
-      "aiRank": 87,
+      "aiRank": 88,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9301,7 +9411,7 @@
         "day20": -4.07,
         "day60": -8.71
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9384,7 +9494,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 64.2,
-      "aiRank": 88,
+      "aiRank": 89,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9407,7 +9517,7 @@
         "day20": -2.57,
         "day60": 3.98
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9489,7 +9599,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 63.9,
-      "aiRank": 89,
+      "aiRank": 90,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9512,7 +9622,7 @@
         "day20": -9.05,
         "day60": -12.96
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9594,7 +9704,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.8,
-      "aiRank": 90,
+      "aiRank": 91,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9617,7 +9727,7 @@
         "day20": -3.81,
         "day60": -0.7
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9699,7 +9809,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.8,
-      "aiRank": 91,
+      "aiRank": 92,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9722,7 +9832,7 @@
         "day20": -1.27,
         "day60": -12.26
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9804,7 +9914,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.7,
-      "aiRank": 92,
+      "aiRank": 93,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9827,7 +9937,7 @@
         "day20": 1.73,
         "day60": 6.77
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -9909,7 +10019,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.5,
-      "aiRank": 93,
+      "aiRank": 94,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -9932,7 +10042,7 @@
         "day20": 4.14,
         "day60": -2.05
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10014,7 +10124,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.4,
-      "aiRank": 94,
+      "aiRank": 95,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10037,7 +10147,7 @@
         "day20": -0.06,
         "day60": -1.49
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10119,7 +10229,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.4,
-      "aiRank": 95,
+      "aiRank": 96,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10142,7 +10252,7 @@
         "day20": 0.21,
         "day60": -2.6
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10224,7 +10334,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.4,
-      "aiRank": 96,
+      "aiRank": 97,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10247,7 +10357,7 @@
         "day20": 0.26,
         "day60": -2.34
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10329,7 +10439,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.2,
-      "aiRank": 97,
+      "aiRank": 98,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10352,7 +10462,7 @@
         "day20": 2.81,
         "day60": 1.6
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10434,7 +10544,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.2,
-      "aiRank": 98,
+      "aiRank": 99,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10457,7 +10567,7 @@
         "day20": 1.13,
         "day60": 4.84
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10539,7 +10649,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 63.1,
-      "aiRank": 99,
+      "aiRank": 100,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10562,7 +10672,7 @@
         "day20": -2.56,
         "day60": 0.35
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10651,7 +10761,7 @@
       ],
       "technicalState": "上升",
       "aiScore": 62.6,
-      "aiRank": 100,
+      "aiRank": 101,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10674,7 +10784,7 @@
         "day20": 6.5,
         "day60": 9.05
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10756,7 +10866,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 62.1,
-      "aiRank": 101,
+      "aiRank": 102,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10781,7 +10891,7 @@
         "day20": 8.18,
         "day60": 4.77
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10863,7 +10973,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 62.0,
-      "aiRank": 102,
+      "aiRank": 103,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10886,7 +10996,7 @@
         "day20": 2.8,
         "day60": 5.0
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -10968,7 +11078,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 61.7,
-      "aiRank": 103,
+      "aiRank": 104,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -10991,7 +11101,7 @@
         "day20": 0.0,
         "day60": -1.17
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11074,7 +11184,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 61.5,
-      "aiRank": 104,
+      "aiRank": 105,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11097,7 +11207,7 @@
         "day20": -0.68,
         "day60": -0.57
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11179,7 +11289,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 61.4,
-      "aiRank": 105,
+      "aiRank": 106,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11202,7 +11312,7 @@
         "day20": -5.14,
         "day60": 3.05
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11284,7 +11394,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 61.3,
-      "aiRank": 106,
+      "aiRank": 107,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11307,7 +11417,7 @@
         "day20": -9.16,
         "day60": -4.48
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11389,7 +11499,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 61.2,
-      "aiRank": 107,
+      "aiRank": 108,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11412,7 +11522,7 @@
         "day20": -4.59,
         "day60": -8.17
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11494,7 +11604,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 61.1,
-      "aiRank": 108,
+      "aiRank": 109,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11517,7 +11627,7 @@
         "day20": 15.72,
         "day60": 2.49
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11599,7 +11709,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 60.5,
-      "aiRank": 109,
+      "aiRank": 110,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11622,7 +11732,7 @@
         "day20": -16.94,
         "day60": -7.41
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11704,7 +11814,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 60.3,
-      "aiRank": 110,
+      "aiRank": 111,
       "aiGrade": "C",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11730,7 +11840,7 @@
         "day20": -6.06,
         "day60": -3.6
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11812,7 +11922,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 59.7,
-      "aiRank": 111,
+      "aiRank": 112,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11835,7 +11945,7 @@
         "day20": -9.0,
         "day60": -19.16
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -11917,7 +12027,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 58.8,
-      "aiRank": 112,
+      "aiRank": 113,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -11940,7 +12050,7 @@
         "day20": -3.46,
         "day60": -4.02
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12022,7 +12132,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 58.5,
-      "aiRank": 113,
+      "aiRank": 114,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12045,7 +12155,7 @@
         "day20": 0.19,
         "day60": 2.95
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12127,7 +12237,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 57.8,
-      "aiRank": 114,
+      "aiRank": 115,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12150,7 +12260,7 @@
         "day20": -0.15,
         "day60": 6.53
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12232,7 +12342,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 57.6,
-      "aiRank": 115,
+      "aiRank": 116,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12255,7 +12365,7 @@
         "day20": -0.83,
         "day60": 0.6
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12338,7 +12448,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 57.5,
-      "aiRank": 116,
+      "aiRank": 117,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12361,7 +12471,7 @@
         "day20": -2.47,
         "day60": -6.19
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12444,7 +12554,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 57.2,
-      "aiRank": 117,
+      "aiRank": 118,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12471,7 +12581,7 @@
         "day20": 18.27,
         "day60": 26.8
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12553,7 +12663,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 57.0,
-      "aiRank": 118,
+      "aiRank": 119,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12576,7 +12686,7 @@
         "day20": -4.45,
         "day60": -7.13
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12658,7 +12768,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 56.0,
-      "aiRank": 119,
+      "aiRank": 120,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12681,7 +12791,7 @@
         "day20": -2.22,
         "day60": -10.18
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12763,7 +12873,7 @@
       ],
       "technicalState": "高波动",
       "aiScore": 55.3,
-      "aiRank": 120,
+      "aiRank": 121,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12786,7 +12896,7 @@
         "day20": -1.78,
         "day60": -10.48
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12868,7 +12978,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 53.8,
-      "aiRank": 121,
+      "aiRank": 122,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12891,7 +13001,7 @@
         "day20": 0.35,
         "day60": 5.66
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -12973,7 +13083,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 53.6,
-      "aiRank": 122,
+      "aiRank": 123,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -12998,7 +13108,7 @@
         "day20": 3.7,
         "day60": -1.69
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13080,7 +13190,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 51.6,
-      "aiRank": 123,
+      "aiRank": 124,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13105,7 +13215,7 @@
         "day20": 9.73,
         "day60": -12.4
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13187,7 +13297,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 50.5,
-      "aiRank": 124,
+      "aiRank": 125,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13212,7 +13322,7 @@
         "day20": 0.21,
         "day60": -12.7
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13294,7 +13404,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 50.1,
-      "aiRank": 125,
+      "aiRank": 126,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13319,7 +13429,7 @@
         "day20": -5.92,
         "day60": 1.5
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13401,7 +13511,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 49.9,
-      "aiRank": 126,
+      "aiRank": 127,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13426,7 +13536,7 @@
         "day20": -1.93,
         "day60": 0.55
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13508,7 +13618,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 45.9,
-      "aiRank": 127,
+      "aiRank": 128,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13533,7 +13643,7 @@
         "day20": 3.32,
         "day60": 9.7
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13615,7 +13725,7 @@
       ],
       "technicalState": "下跌",
       "aiScore": 45.4,
-      "aiRank": 128,
+      "aiRank": 129,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13640,7 +13750,7 @@
         "day20": -12.89,
         "day60": -3.92
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13722,7 +13832,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 45.4,
-      "aiRank": 129,
+      "aiRank": 130,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13747,7 +13857,7 @@
         "day20": -3.45,
         "day60": 0.0
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13829,7 +13939,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 43.7,
-      "aiRank": 130,
+      "aiRank": 131,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13854,7 +13964,7 @@
         "day20": -4.14,
         "day60": -7.74
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -13936,7 +14046,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 42.0,
-      "aiRank": 131,
+      "aiRank": 132,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -13961,7 +14071,121 @@
         "day20": 1.43,
         "day60": -0.67
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
+      "source": "AKShare · 腾讯免费批量快照",
+      "points": []
+    },
+    {
+      "securityId": "2ef2ff79-b85c-58c8-bcc8-af395a0eb243",
+      "symbol": "002084.SZ",
+      "name": "海鸥住工",
+      "price": 7.25,
+      "changePct": 2.11,
+      "marketCap": 4684000000.0,
+      "peTtm": -35.48,
+      "industry": "建筑产品",
+      "industrySector": "工业",
+      "industrySource": "AKShare · 巨潮中证行业分类标准",
+      "financialReport": {
+        "title": "2026年半年度报告",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225494789.PDF",
+        "publishedAt": "2026-08-25T00:00:00+08:00",
+        "source": "巨潮资讯",
+        "direct": true,
+        "reportType": "semiannual"
+      },
+      "financialReports": [
+        {
+          "title": "2026年半年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-08-25/1225494789.PDF",
+          "publishedAt": "2026-08-25T00:00:00+08:00",
+          "source": "巨潮资讯",
+          "direct": true,
+          "reportType": "semiannual"
+        },
+        {
+          "title": "2026年一季度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-29/1225226450.PDF",
+          "publishedAt": "2026-04-29T00:00:00+08:00",
+          "source": "巨潮资讯",
+          "direct": true,
+          "reportType": "quarterly"
+        },
+        {
+          "title": "2025年年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225132133.PDF",
+          "publishedAt": "2026-04-21T00:00:00+08:00",
+          "source": "巨潮资讯",
+          "direct": true,
+          "reportType": "annual"
+        }
+      ],
+      "financialReportStatus": "current",
+      "financialReportStatusReason": null,
+      "financialAnalysis": {
+        "rating": "规避",
+        "score": 34.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/financial-research/?symbol=002084.SZ",
+        "generatedAt": "2026-09-07T09:29:31.647658+00:00",
+        "reportCount": 3,
+        "coveredReportTypes": [
+          "annual",
+          "quarterly",
+          "semiannual"
+        ],
+        "missingReportTypes": [],
+        "isCurrent": true,
+        "status": "current",
+        "statusReason": null,
+        "latestReportPublishedAt": "2026-08-25T00:00:00+08:00",
+        "analysisMode": "full_text"
+      },
+      "themeInfo": {
+        "primaryTheme": "智能卫浴与存量厨卫焕新",
+        "score": 54.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/theme-research/?symbol=002084.SZ",
+        "generatedAt": "2026-09-07T09:15:58.597024+00:00",
+        "sourceCount": 5
+      },
+      "industryChainInfo": {
+        "chainName": "智能卫浴与装配式厨卫—铜合金五金/陶瓷—海外家居及国内存量焕新链",
+        "rating": "偏弱",
+        "strength": 43.0,
+        "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=002084.SZ",
+        "generatedAt": "2026-09-07T10:11:40.847476+00:00",
+        "sourceCount": 6
+      },
+      "indices": [],
+      "technicalState": "高波动",
+      "aiScore": 36.0,
+      "aiRank": 133,
+      "aiGrade": "D",
+      "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
+      "aiScoreBreakdown": {
+        "valuation": 0.0,
+        "themeStrength": 54.0,
+        "stability": 30.5,
+        "momentum": 83.9,
+        "scaleLiquidity": 58.9,
+        "financialScore": 34.0,
+        "industryChainStrength": 43.0
+      },
+      "dataCompleteness": 100.0,
+      "riskLevel": "高",
+      "riskFlags": [
+        "市盈率非正",
+        "振幅偏高",
+        "20日波动较大"
+      ],
+      "turnoverRate": 25.37,
+      "volumeRatio": 1.36,
+      "amplitude": 12.25,
+      "periodReturns": {
+        "day5": 13.64,
+        "day20": 103.08,
+        "day60": 114.5
+      },
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     },
@@ -14043,7 +14267,7 @@
       ],
       "technicalState": "震荡",
       "aiScore": 35.7,
-      "aiRank": 132,
+      "aiRank": 134,
       "aiGrade": "D",
       "aiScoreSource": "公开行情与Codex题材、财报及产业链研究可解释多因子模型 v4",
       "aiScoreBreakdown": {
@@ -14068,44 +14292,44 @@
         "day20": -1.1,
         "day60": -0.55
       },
-      "asOf": "2026-09-07T16:41:33.301772+08:00",
+      "asOf": "2026-09-07T18:39:48.248734+08:00",
       "source": "AKShare · 腾讯免费批量快照",
       "points": []
     }
   ],
   "summary": {
-    "constituentCount": 132,
+    "constituentCount": 134,
     "trackedIndices": 2,
     "indexConstituentCounts": {
       "H30269": 50,
       "000922": 100
     },
-    "industryCoveredCount": 132,
-    "themeResearchCount": 132,
-    "financialResearchCount": 132,
-    "industryChainResearchCount": 15,
-    "aiScoredCount": 132,
-    "technicalCoveredCount": 132
+    "industryCoveredCount": 134,
+    "themeResearchCount": 134,
+    "financialResearchCount": 134,
+    "industryChainResearchCount": 17,
+    "aiScoredCount": 134,
+    "technicalCoveredCount": 134
   },
   "sourceHealth": {
-    "liveCount": 136,
-    "expectedLiveCount": 136,
+    "liveCount": 138,
+    "expectedLiveCount": 138,
     "errors": [],
-    "fetchedAt": "2026-09-07T16:41:33.301772+08:00",
+    "fetchedAt": "2026-09-07T18:39:48.248734+08:00",
     "constituentCounts": {
       "H30269": 50,
       "000922": 100
     },
     "constituentsAsOf": "2026-09-07",
-    "industryCount": 132,
-    "expectedIndustryCount": 132,
-    "themeResearchCount": 132,
-    "expectedThemeResearchCount": 132,
-    "financialResearchCount": 132,
-    "expectedFinancialResearchCount": 132,
-    "industryChainResearchCount": 15,
-    "expectedIndustryChainResearchCount": 15,
-    "aiScoreCount": 132,
-    "expectedAiScoreCount": 132
+    "industryCount": 134,
+    "expectedIndustryCount": 134,
+    "themeResearchCount": 134,
+    "expectedThemeResearchCount": 134,
+    "financialResearchCount": 134,
+    "expectedFinancialResearchCount": 134,
+    "industryChainResearchCount": 17,
+    "expectedIndustryChainResearchCount": 17,
+    "aiScoreCount": 134,
+    "expectedAiScoreCount": 134
   }
 }
