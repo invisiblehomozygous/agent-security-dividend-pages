@@ -97,11 +97,11 @@
       .chain {
         margin-top: 18px;
         display: grid;
-        grid-template-columns: minmax(0, 1fr) 120px minmax(0, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 16px;
         align-items: stretch;
       }
-      .chain-column, .company-node, section {
+      .chain-column, section {
         border: 1px solid #dfe5e0;
         border-radius: 16px;
         background: #fff;
@@ -140,23 +140,6 @@
       .futures-kline-sources { margin: 23px 0 0; display: flex; flex-wrap: wrap; gap: 5px 10px; }
       .futures-kline-sources a { color: #47745e; font-size: 10px; text-decoration: none; }
       .futures-kline-sources a:hover { text-decoration: underline; }
-      .company-node {
-        display: grid;
-        place-items: center;
-        align-content: center;
-        padding: 16px 10px;
-        border-color: #b9cdbf;
-        background: linear-gradient(145deg, #eff6f1, #fffdf7);
-        color: #244b39;
-        text-align: center;
-      }
-      .company-node::before, .company-node::after {
-        content: "→";
-        color: #8ca296;
-        font-size: 22px;
-      }
-      .company-node strong { margin: 8px 0 3px; font-size: 14px; }
-      .company-node span { color: #72817a; font-size: 11px; }
       .grid {
         margin-top: 18px;
         display: grid;
@@ -187,9 +170,6 @@
         main { padding-top: 28px; }
         .hero, section, .chain-column { padding: 20px; }
         .chain, .grid { grid-template-columns: 1fr; }
-        .company-node { min-height: 96px; }
-        .company-node::before { content: "↓"; }
-        .company-node::after { content: "↓"; }
         section.wide { grid-column: auto; }
       }
     </style>
@@ -219,10 +199,6 @@
             <p class="chain-summary" id="upstream-summary"></p>
             <div class="node-list" id="upstream"></div>
           </section>
-          <div class="company-node">
-            <strong id="company"></strong>
-            <span>成本、产能与议价传导</span>
-          </div>
           <section class="chain-column">
             <h2>下游承接 / 消费</h2>
             <p class="chain-summary" id="downstream-summary"></p>
@@ -266,6 +242,10 @@
       }
 
       function appendFuturesKline(target, futures) {
+        if (!futures || futures.availability !== "available" || !Array.isArray(futures.bars) || futures.bars.length !== 26) {
+          return;
+        }
+
         const panel = document.createElement("div");
         panel.className = "futures-kline";
         const head = document.createElement("div");
@@ -274,15 +254,6 @@
         title.textContent = "对应产业期货 · 最近6个月周K（约26周）";
         head.append(title);
         panel.append(head);
-
-        if (!futures || futures.availability !== "available" || !Array.isArray(futures.bars) || futures.bars.length !== 26) {
-          const empty = document.createElement("p");
-          empty.className = "futures-kline-empty";
-          empty.textContent = futures?.unavailableReason || "当前缓存未提供合格的期货周K数据，请重新同步产业链分析。";
-          panel.append(empty);
-          target.append(panel);
-          return;
-        }
 
         const meta = document.createElement("p");
         meta.className = "futures-kline-meta";
@@ -397,7 +368,6 @@
         document.querySelector("#score").textContent = Number(item.strength).toFixed(0);
         document.querySelector("#summary").textContent = item.summary;
         document.querySelector("#position").textContent = item.companyPosition;
-        document.querySelector("#company").textContent = item.name;
         document.querySelector("#upstream-summary").textContent = item.upstreamSupply;
         document.querySelector("#downstream-summary").textContent = item.downstreamDemand;
         appendChainNodes(document.querySelector("#upstream"), item.upstream, "upstream");
