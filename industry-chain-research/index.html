@@ -121,6 +121,25 @@
       .node-head span { color: #85671f; font-size: 12px; }
       .node p { margin: 7px 0 0; color: #5a6b63; font-size: 12px; line-height: 1.65; }
       .node .evidence { color: #7c8983; }
+      .node-insights { margin-top: 10px; padding-top: 9px; border-top: 1px dashed #dce5de; }
+      .node-insights p { margin: 4px 0 0; }
+      .node-insights strong { color: #315c49; }
+      .futures-kline { margin-top: 12px; padding: 11px; border-radius: 10px; background: #f3f7f4; overflow-x: auto; }
+      .futures-kline-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+      .futures-kline-head strong { color: #315c49; font-size: 12px; }
+      .futures-kline-meta { margin: 4px 0 8px; color: #7a8981; font-size: 11px; line-height: 1.5; }
+      .futures-kline-empty { margin: 7px 0 0; color: #7a6b48; font-size: 11px; line-height: 1.6; }
+      .kline-chart { min-width: 520px; height: 112px; display: flex; align-items: stretch; gap: 1px; padding: 5px 2px 0; border-bottom: 1px solid #cbd9cf; }
+      .kline-column { position: relative; flex: 1; min-width: 0; height: 100%; }
+      .kline-wick, .kline-body { position: absolute; left: 50%; transform: translateX(-50%); display: block; }
+      .kline-wick { width: 1px; background: #4b8068; }
+      .kline-body { width: min(14px, 58%); min-height: 3px; border: 1px solid #4b8068; background: #e8f1eb; }
+      .kline-column.down .kline-wick { background: #b35e53; }
+      .kline-column.down .kline-body { border-color: #b35e53; background: #f9e9e6; }
+      .kline-label { position: absolute; left: 50%; bottom: -19px; transform: translateX(-50%); color: #89958f; font-size: 8px; white-space: nowrap; }
+      .futures-kline-sources { margin: 23px 0 0; display: flex; flex-wrap: wrap; gap: 5px 10px; }
+      .futures-kline-sources a { color: #47745e; font-size: 10px; text-decoration: none; }
+      .futures-kline-sources a:hover { text-decoration: underline; }
       .company-node {
         display: grid;
         place-items: center;
@@ -246,7 +265,81 @@
         }
       }
 
-      function appendChainNodes(target, values) {
+      function appendFuturesKline(target, futures) {
+        const panel = document.createElement("div");
+        panel.className = "futures-kline";
+        const head = document.createElement("div");
+        head.className = "futures-kline-head";
+        const title = document.createElement("strong");
+        title.textContent = "对应产业期货 · 最近6个月周K（约26周）";
+        head.append(title);
+        panel.append(head);
+
+        if (!futures || futures.availability !== "available" || !Array.isArray(futures.bars) || futures.bars.length !== 26) {
+          const empty = document.createElement("p");
+          empty.className = "futures-kline-empty";
+          empty.textContent = futures?.unavailableReason || "当前缓存未提供合格的期货周K数据，请重新同步产业链分析。";
+          panel.append(empty);
+          target.append(panel);
+          return;
+        }
+
+        const meta = document.createElement("p");
+        meta.className = "futures-kline-meta";
+        meta.textContent = [
+          futures.commodity,
+          futures.contract,
+          futures.exchange,
+          futures.priceUnit,
+        ].filter(Boolean).join(" · ");
+        panel.append(meta);
+
+        const values = futures.bars.flatMap((bar) => [Number(bar.low), Number(bar.high)]);
+        const low = Math.min(...values);
+        const high = Math.max(...values);
+        const range = high - low || 1;
+        const y = (value) => ((high - value) / range) * 100;
+        const chart = document.createElement("div");
+        chart.className = "kline-chart";
+        chart.setAttribute("aria-label", "最近六个月期货周K线（约26周）");
+        for (const bar of futures.bars) {
+          const open = Number(bar.open);
+          const close = Number(bar.close);
+          const barHigh = Number(bar.high);
+          const barLow = Number(bar.low);
+          const column = document.createElement("div");
+          column.className = `kline-column ${close < open ? "down" : "up"}`;
+          column.title = `${bar.week} 开${open} 高${barHigh} 低${barLow} 收${close}`;
+          const wick = document.createElement("span");
+          wick.className = "kline-wick";
+          wick.style.top = `${y(barHigh)}%`;
+          wick.style.height = `${Math.max(2, y(barLow) - y(barHigh))}%`;
+          const body = document.createElement("span");
+          body.className = "kline-body";
+          body.style.top = `${y(Math.max(open, close))}%`;
+          body.style.height = `${Math.max(3, y(Math.min(open, close)) - y(Math.max(open, close)))}%`;
+          const label = document.createElement("span");
+          label.className = "kline-label";
+          label.textContent = String(bar.week).replace(/^\d{4}-W/, "W");
+          column.append(wick, body, label);
+          chart.append(column);
+        }
+        panel.append(chart);
+        const sources = document.createElement("div");
+        sources.className = "futures-kline-sources";
+        for (const source of futures.sources || []) {
+          const link = document.createElement("a");
+          link.href = source.url;
+          link.target = "_blank";
+          link.rel = "noreferrer";
+          link.textContent = `${source.title} · ${source.trustLevel || "已筛选"}`;
+          sources.append(link);
+        }
+        panel.append(sources);
+        target.append(panel);
+      }
+
+      function appendChainNodes(target, values, side) {
         for (const value of values || []) {
           const node = document.createElement("article");
           node.className = "node";
@@ -262,7 +355,20 @@
           const evidence = document.createElement("p");
           evidence.className = "evidence";
           evidence.textContent = `依据：${value.evidence}`;
-          node.append(head, relationship, evidence);
+          const insights = document.createElement("div");
+          insights.className = "node-insights";
+          const capability = document.createElement("p");
+          const capabilityLabel = side === "upstream" ? "自主供应能力" : "下游议价权";
+          const capabilityStrong = document.createElement("strong");
+          capabilityStrong.textContent = capabilityLabel;
+          capability.append(capabilityStrong, document.createTextNode(` ${side === "upstream" ? value.selfSupplyCapability || "未提供" : value.pricingPower || "未提供"}`));
+          const priceTrend = document.createElement("p");
+          const priceStrong = document.createElement("strong");
+          priceStrong.textContent = "价格波动趋势";
+          priceTrend.append(priceStrong, document.createTextNode(` ${value.priceTrend || "未提供"}`));
+          insights.append(capability, priceTrend);
+          node.append(head, relationship, evidence, insights);
+          appendFuturesKline(node, value.futuresKline);
           target.append(node);
         }
       }
@@ -294,8 +400,8 @@
         document.querySelector("#company").textContent = item.name;
         document.querySelector("#upstream-summary").textContent = item.upstreamSupply;
         document.querySelector("#downstream-summary").textContent = item.downstreamDemand;
-        appendChainNodes(document.querySelector("#upstream"), item.upstream);
-        appendChainNodes(document.querySelector("#downstream"), item.downstream);
+        appendChainNodes(document.querySelector("#upstream"), item.upstream, "upstream");
+        appendChainNodes(document.querySelector("#downstream"), item.downstream, "downstream");
         document.querySelector("#transmission").textContent = item.transmissionLogic;
         document.querySelector("#outlook").textContent = item.outlook;
         appendTextList(document.querySelector("#indicators"), item.keyIndicators);
