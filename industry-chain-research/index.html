@@ -140,15 +140,14 @@
       .kline-chart-wrap { position: relative; min-width: 0; }
       .kline-gridlines { position: absolute; inset: 5px 0 0; pointer-events: none; }
       .kline-gridline { position: absolute; left: 0; right: 0; border-top: 1px dashed #d5e0d8; }
-      .kline-chart { position: relative; z-index: 1; width: 100%; min-width: 0; height: 112px; display: flex; align-items: stretch; gap: 1px; padding: 5px 2px 0; border-bottom: 1px solid #cbd9cf; }
+      .kline-chart { position: relative; z-index: 1; width: 100%; min-width: 0; height: 112px; display: flex; align-items: stretch; gap: 1px; padding: 5px 2px 0; }
       .kline-column { position: relative; flex: 1; min-width: 0; height: 100%; }
       .kline-wick, .kline-body { position: absolute; left: 50%; transform: translateX(-50%); display: block; }
       .kline-wick { width: 1px; background: #4b8068; }
       .kline-body { width: min(14px, 58%); min-height: 3px; border: 1px solid #4b8068; background: #e8f1eb; }
       .kline-column.down .kline-wick { background: #b35e53; }
       .kline-column.down .kline-body { border-color: #b35e53; background: #f9e9e6; }
-      .kline-label { position: absolute; left: 50%; bottom: -19px; transform: translateX(-50%); color: #89958f; font-size: 8px; white-space: nowrap; }
-      .futures-kline-sources { margin: 23px 0 0; display: flex; flex-wrap: wrap; gap: 5px 10px; }
+      .futures-kline-sources { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 5px 10px; }
       .futures-kline-sources a { color: #47745e; font-size: 10px; text-decoration: none; }
       .futures-kline-sources a:hover { text-decoration: underline; }
       .grid {
@@ -182,7 +181,6 @@
         .hero, section, .chain-column { padding: 20px; }
         .chain, .grid { grid-template-columns: 1fr; }
         .node-head { grid-template-columns: 1fr; gap: 4px; }
-        .kline-column:nth-child(even) .kline-label { display: none; }
         section.wide { grid-column: auto; }
       }
     </style>
@@ -302,10 +300,7 @@
           body.className = "kline-body";
           body.style.top = `${y(Math.max(open, close))}%`;
           body.style.height = `${Math.max(3, y(Math.min(open, close)) - y(Math.max(open, close)))}%`;
-          const label = document.createElement("span");
-          label.className = "kline-label";
-          label.textContent = String(bar.week).replace(/^\d{4}-W/, "W");
-          column.append(wick, body, label);
+          column.append(wick, body);
           chart.append(column);
         }
         const plot = document.createElement("div");
@@ -355,8 +350,21 @@
         });
       }
 
+      function nodeWeight(value) {
+        const explicitWeight = Number(value?.weight);
+        if (Number.isFinite(explicitWeight)) return explicitWeight;
+        return value?.futuresKline?.availability === "available" ? 1 : 0;
+      }
+
       function appendChainNodes(target, values, side) {
-        for (const value of values || []) {
+        const orderedValues = (values || [])
+          .map((value, index) => ({ value, index }))
+          .sort(
+            (left, right) =>
+              nodeWeight(right.value) - nodeWeight(left.value) || left.index - right.index,
+          )
+          .map(({ value }) => value);
+        for (const value of orderedValues) {
           const node = document.createElement("article");
           node.className = "node";
           const head = document.createElement("div");
