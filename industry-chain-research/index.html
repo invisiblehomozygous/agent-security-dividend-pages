@@ -134,7 +134,13 @@
       .futures-kline-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
       .futures-kline-head strong { color: #315c49; font-size: 12px; }
       .futures-kline-meta { margin: 4px 0 8px; color: #7a8981; font-size: 11px; line-height: 1.5; }
-      .kline-chart { width: 100%; min-width: 0; height: 112px; display: flex; align-items: stretch; gap: 1px; padding: 5px 2px 0; border-bottom: 1px solid #cbd9cf; }
+      .kline-plot { min-width: 0; display: grid; grid-template-columns: 42px minmax(0, 1fr); gap: 7px; }
+      .kline-y-axis { height: 112px; display: flex; flex-direction: column; justify-content: space-between; padding: 3px 0 2px; color: #89958f; font-size: 9px; line-height: 1; text-align: right; }
+      .kline-axis-label { white-space: nowrap; }
+      .kline-chart-wrap { position: relative; min-width: 0; }
+      .kline-gridlines { position: absolute; inset: 5px 0 0; pointer-events: none; }
+      .kline-gridline { position: absolute; left: 0; right: 0; border-top: 1px dashed #d5e0d8; }
+      .kline-chart { position: relative; z-index: 1; width: 100%; min-width: 0; height: 112px; display: flex; align-items: stretch; gap: 1px; padding: 5px 2px 0; border-bottom: 1px solid #cbd9cf; }
       .kline-column { position: relative; flex: 1; min-width: 0; height: 100%; }
       .kline-wick, .kline-body { position: absolute; left: 50%; transform: translateX(-50%); display: block; }
       .kline-wick { width: 1px; background: #4b8068; }
@@ -302,7 +308,32 @@
           column.append(wick, body, label);
           chart.append(column);
         }
-        panel.append(chart);
+        const plot = document.createElement("div");
+        plot.className = "kline-plot";
+        const axis = document.createElement("div");
+        axis.className = "kline-y-axis";
+        axis.setAttribute("aria-label", `${futures.priceUnit || "价格"}纵轴`);
+        const tickCount = 5;
+        for (let index = 0; index < tickCount; index += 1) {
+          const tick = document.createElement("span");
+          tick.className = "kline-axis-label";
+          const value = high - (range * index) / (tickCount - 1);
+          tick.textContent = formatAxisValue(value);
+          axis.append(tick);
+        }
+        const chartWrap = document.createElement("div");
+        chartWrap.className = "kline-chart-wrap";
+        const gridlines = document.createElement("div");
+        gridlines.className = "kline-gridlines";
+        for (let index = 0; index < tickCount; index += 1) {
+          const line = document.createElement("span");
+          line.className = "kline-gridline";
+          line.style.top = `${(index / (tickCount - 1)) * 100}%`;
+          gridlines.append(line);
+        }
+        chartWrap.append(gridlines, chart);
+        plot.append(axis, chartWrap);
+        panel.append(plot);
         const sources = document.createElement("div");
         sources.className = "futures-kline-sources";
         for (const source of futures.sources || []) {
@@ -315,6 +346,13 @@
         }
         panel.append(sources);
         target.append(panel);
+      }
+
+      function formatAxisValue(value) {
+        if (!Number.isFinite(value)) return "-";
+        return value.toLocaleString("zh-CN", {
+          maximumFractionDigits: Math.abs(value) >= 1000 ? 0 : 2,
+        });
       }
 
       function appendChainNodes(target, values, side) {
@@ -340,11 +378,7 @@
           const capabilityStrong = document.createElement("strong");
           capabilityStrong.textContent = capabilityLabel;
           capability.append(capabilityStrong, document.createTextNode(` ${side === "upstream" ? value.selfSupplyCapability || "未提供" : value.pricingPower || "未提供"}`));
-          const priceTrend = document.createElement("p");
-          const priceStrong = document.createElement("strong");
-          priceStrong.textContent = "价格波动趋势";
-          priceTrend.append(priceStrong, document.createTextNode(` ${value.priceTrend || "未提供"}`));
-          insights.append(capability, priceTrend);
+          insights.append(capability);
           node.append(head, relationship, evidence, insights);
           appendFuturesKline(node, value.futuresKline);
           target.append(node);
