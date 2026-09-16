@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-16T01:34:16.663319+00:00",
+  "generatedAt": "2026-09-16T02:15:50.056854+00:00",
   "marketAsOf": "2026-09-16T09:33:46.713738+08:00",
   "dataMode": "live_snapshot",
-  "disclaimer": "指数与股票行情来自AKShare聚合的免费快照；11只自选股票产业链分析于2026-09-16依据公司公告及最新官方统计重新核验，其余产业链、题材及财报分析沿用各自标注日期的已发布研究。AI评分为可解释多因子排序，不构成投资建议。",
+  "disclaimer": "股票与指数行情沿用各自asOf标注的2026-09-16行情快照；11只自选股产业链于2026-09-16重新完整核验，期货周线由截至2026-09-15日线按自然周聚合，当周未完结。其余6只产业链及题材、财报研究保留原日期。强度分值衡量经营产业链，不代表股价预测。",
   "aiScoreMethod": "可解释多因子模型 v4：综合估值、Codex题材强度、稳定性、动量、规模流动性、财报评分与产业链强度。研究评分来自公开信息，不构成投资建议。",
   "factorWeights": [
     {
@@ -157,11 +157,11 @@
         "sourceCount": 3
       },
       "industryChainInfo": {
-        "chainName": "铝土矿—氧化铝—绿色电解铝—铝加工",
+        "chainName": "铝土矿—氧化铝与绿电—电解铝—合金及终端用铝",
         "rating": "较强",
         "strength": 75.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000807.SZ",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
         "sourceCount": 4
       },
       "indices": [],
@@ -1117,11 +1117,11 @@
         "sourceCount": 4
       },
       "industryChainInfo": {
-        "chainName": "盐湖资源—钾肥与锂盐—农业及电池材料",
+        "chainName": "盐湖卤水—钾肥与锂盐提取—农业及电池材料",
         "rating": "较强",
         "strength": 74.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000792.SZ",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
         "sourceCount": 3
       },
       "indices": [],
@@ -1649,11 +1649,11 @@
         "sourceCount": 4
       },
       "industryChainInfo": {
-        "chainName": "全球家电零部件—多品牌整机—本土化零售与服务",
+        "chainName": "全球材料与部件—多品牌家电制造—区域零售及暖通服务",
         "rating": "较强",
         "strength": 65.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=600690.SH",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
         "sourceCount": 3
       },
       "indices": [],
@@ -2597,12 +2597,12 @@
         "sourceCount": 4
       },
       "industryChainInfo": {
-        "chainName": "研发投入—CRDMO平台—创新药临床与商业化生产",
+        "chainName": "人才、仪器与原料—CRDMO研发生产—全球药企及创新药项目",
         "rating": "较强",
         "strength": 75.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=603259.SH",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
-        "sourceCount": 2
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
+        "sourceCount": 3
       },
       "indices": [],
       "technicalState": "震荡",
@@ -2707,12 +2707,12 @@
         "sourceCount": 5
       },
       "industryChainInfo": {
-        "chainName": "建材及工程装备—综合工程承包—基建与城市更新",
+        "chainName": "钢材建材与施工能力—工程建造装备—铁路城轨及城市海外项目",
         "rating": "中性",
         "strength": 59.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=601390.SH",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
-        "sourceCount": 3
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
+        "sourceCount": 4
       },
       "indices": [],
       "technicalState": "震荡",
@@ -2922,11 +2922,11 @@
         "sourceCount": 4
       },
       "industryChainInfo": {
-        "chainName": "铜铝零部件—空调与消费电器—内外销渠道",
+        "chainName": "金属与制冷部件—空调整机—渠道零售、出口及商用暖通",
         "rating": "中性",
         "strength": 63.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000651.SZ",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
         "sourceCount": 3
       },
       "indices": [
@@ -3141,12 +3141,12 @@
         "sourceCount": 4
       },
       "industryChainInfo": {
-        "chainName": "煤炭及机组—煤电与新能源—电力交易和终端负荷",
+        "chainName": "燃煤与高效机组—发电和调节—电力交易及区域负荷",
         "rating": "中性",
         "strength": 61.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000543.SZ",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
-        "sourceCount": 3
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
+        "sourceCount": 4
       },
       "indices": [],
       "technicalState": "震荡",
@@ -5568,11 +5568,11 @@
         "sourceCount": 2
       },
       "industryChainInfo": {
-        "chainName": "铜矿—冶炼及副产品—铜材铜箔",
+        "chainName": "铜矿与再生铜—冶炼及副产品—铜材铜箔—电气电子终端",
         "rating": "较强",
         "strength": 69.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000630.SZ",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
         "sourceCount": 4
       },
       "indices": [],
@@ -5678,11 +5678,11 @@
         "sourceCount": 4
       },
       "industryChainInfo": {
-        "chainName": "输变电装备与电缆—电网工程，兼具硅料及能源业务",
+        "chainName": "铜铝硅钢与能源—输变电、硅料煤电及铝材料—电网和工业需求",
         "rating": "较强",
         "strength": 69.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=600089.SH",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
         "sourceCount": 4
       },
       "indices": [],
@@ -9169,12 +9169,12 @@
         "sourceCount": 3
       },
       "industryChainInfo": {
-        "chainName": "煤炭、能源与电解铝—铝箔",
+        "chainName": "煤炭与能源—氧化铝和炭素—电解铝—铝箔及终端",
         "rating": "较强",
         "strength": 76.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=000933.SZ",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
-        "sourceCount": 3
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
+        "sourceCount": 4
       },
       "indices": [
         "000922"
@@ -14245,11 +14245,11 @@
         "sourceCount": 3
       },
       "industryChainInfo": {
-        "chainName": "铜锌卫浴零部件—整装及智能家居—海外品牌和住宅需求",
+        "chainName": "铜锌与制造配套—卫浴五金及智能水暖—品牌渠道与住宅改造",
         "rating": "偏弱",
         "strength": 42.0,
         "url": "https://invisiblehomozygous.github.io/agent-security-dividend-pages/industry-chain-research/?symbol=002084.SZ",
-        "generatedAt": "2026-09-16T01:34:16.663319+00:00",
+        "generatedAt": "2026-09-16T02:15:50.056854+00:00",
         "sourceCount": 3
       },
       "indices": [],
